@@ -1,6 +1,5 @@
 import { MongoClient, ServerApiVersion } from "mongodb";
 
-// const uri = "your_mongodb_connection_string_here"; // 🔹 Replace this line later
 const uri = "mongodb+srv://usmanbanka:banka786@cluster0.0htgqhh.mongodb.net/?appName=Cluster0";
 let client;
 
