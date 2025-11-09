@@ -1,7 +1,7 @@
 import express from "express";
 import mongoose from "mongoose";
 import dotenv from "dotenv";
-import productRoutes from "../routes/productRoutes.js";
+import productRoutes from "./routes/productRoutes.js";
 
 /*Sir's Style of Using Middleware ... 
 
