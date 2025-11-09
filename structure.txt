@@ -1,2641 +1,2641 @@
 Folder PATH listing
 Volume serial number is 6AE7-0C90
 D:.
-¦   .env
-¦   .gitignore
-¦   app.js
-¦   npm
-¦   package-lock.json
-¦   package.json
-¦   structure.txt
-¦   
+ï¿½   .env
+ï¿½   .gitignore
+ï¿½   app.js
+ï¿½   npm
+ï¿½   package-lock.json
+ï¿½   package.json
+ï¿½   structure.txt
+ï¿½   
 +---config
-¦       db.js
-¦       
+ï¿½       db.js
+ï¿½       
 +---controllers
-¦       productController.js
-¦       
+ï¿½       productController.js
+ï¿½       
 +---models
-¦       productModel.js
-¦       
+ï¿½       productModel.js
+ï¿½       
 +---node_modules
-¦   ¦   .package-lock.json
-¦   ¦   
-¦   +---@mongodb-js
-¦   ¦   +---saslprep
-¦   ¦       ¦   LICENSE
-¦   ¦       ¦   package.json
-¦   ¦       ¦   readme.md
-¦   ¦       ¦   
-¦   ¦       +---dist
-¦   ¦               .esm-wrapper.mjs
-¦   ¦               browser.d.ts
-¦   ¦               browser.d.ts.map
-¦   ¦               browser.js
-¦   ¦               browser.js.map
-¦   ¦               code-points-data-browser.d.ts
-¦   ¦               code-points-data-browser.d.ts.map
-¦   ¦               code-points-data-browser.js
-¦   ¦               code-points-data-browser.js.map
-¦   ¦               code-points-data.d.ts
-¦   ¦               code-points-data.d.ts.map
-¦   ¦               code-points-data.js
-¦   ¦               code-points-data.js.map
-¦   ¦               code-points-src.d.ts
-¦   ¦               code-points-src.d.ts.map
-¦   ¦               code-points-src.js
-¦   ¦               code-points-src.js.map
-¦   ¦               generate-code-points.d.ts
-¦   ¦               generate-code-points.d.ts.map
-¦   ¦               generate-code-points.js
-¦   ¦               generate-code-points.js.map
-¦   ¦               index.d.ts
-¦   ¦               index.d.ts.map
-¦   ¦               index.js
-¦   ¦               index.js.map
-¦   ¦               memory-code-points.d.ts
-¦   ¦               memory-code-points.d.ts.map
-¦   ¦               memory-code-points.js
-¦   ¦               memory-code-points.js.map
-¦   ¦               node.d.ts
-¦   ¦               node.d.ts.map
-¦   ¦               node.js
-¦   ¦               node.js.map
-¦   ¦               util.d.ts
-¦   ¦               util.d.ts.map
-¦   ¦               util.js
-¦   ¦               util.js.map
-¦   ¦               
-¦   +---@types
-¦   ¦   +---webidl-conversions
-¦   ¦   ¦       index.d.ts
-¦   ¦   ¦       LICENSE
-¦   ¦   ¦       package.json
-¦   ¦   ¦       README.md
-¦   ¦   ¦       
-¦   ¦   +---whatwg-url
-¦   ¦       ¦   index.d.ts
-¦   ¦       ¦   LICENSE
-¦   ¦       ¦   package.json
-¦   ¦       ¦   README.md
-¦   ¦       ¦   webidl2js-wrapper.d.ts
-¦   ¦       ¦   
-¦   ¦       +---lib
-¦   ¦               URL-impl.d.ts
-¦   ¦               URL.d.ts
-¦   ¦               URLSearchParams-impl.d.ts
-¦   ¦               URLSearchParams.d.ts
-¦   ¦               
-¦   +---accepts
-¦   ¦       HISTORY.md
-¦   ¦       index.js
-¦   ¦       LICENSE
-¦   ¦       package.json
-¦   ¦       README.md
-¦   ¦       
-¦   +---body-parser
-¦   ¦   ¦   HISTORY.md
-¦   ¦   ¦   index.js
-¦   ¦   ¦   LICENSE
-¦   ¦   ¦   package.json
-¦   ¦   ¦   README.md
-¦   ¦   ¦   
-¦   ¦   +---lib
-¦   ¦       ¦   read.js
-¦   ¦       ¦   utils.js
-¦   ¦       ¦   
-¦   ¦       +---types
-¦   ¦               json.js
-¦   ¦               raw.js
-¦   ¦               text.js
-¦   ¦               urlencoded.js
-¦   ¦               
-¦   +---bson
-¦   ¦   ¦   bson.d.ts
-¦   ¦   ¦   LICENSE.md
-¦   ¦   ¦   package.json
-¦   ¦   ¦   README.md
-¦   ¦   ¦   
-¦   ¦   +---etc
-¦   ¦   ¦       prepare.js
-¦   ¦   ¦       
-¦   ¦   +---lib
-¦   ¦   ¦       bson.bundle.js
-¦   ¦   ¦       bson.bundle.js.map
-¦   ¦   ¦       bson.cjs
-¦   ¦   ¦       bson.cjs.map
-¦   ¦   ¦       bson.mjs
-¦   ¦   ¦       bson.mjs.map
-¦   ¦   ¦       bson.node.mjs
-¦   ¦   ¦       bson.node.mjs.map
-¦   ¦   ¦       bson.rn.cjs
-¦   ¦   ¦       bson.rn.cjs.map
-¦   ¦   ¦       
-¦   ¦   +---src
-¦   ¦       ¦   binary.ts
-¦   ¦       ¦   bson.ts
-¦   ¦       ¦   bson_value.ts
-¦   ¦       ¦   code.ts
-¦   ¦       ¦   constants.ts
-¦   ¦       ¦   db_ref.ts
-¦   ¦       ¦   decimal128.ts
-¦   ¦       ¦   double.ts
-¦   ¦       ¦   error.ts
-¦   ¦       ¦   extended_json.ts
-¦   ¦       ¦   index.ts
-¦   ¦       ¦   int_32.ts
-¦   ¦       ¦   long.ts
-¦   ¦       ¦   max_key.ts
-¦   ¦       ¦   min_key.ts
-¦   ¦       ¦   objectid.ts
-¦   ¦       ¦   parse_utf8.ts
-¦   ¦       ¦   regexp.ts
-¦   ¦       ¦   symbol.ts
-¦   ¦       ¦   timestamp.ts
-¦   ¦       ¦   
-¦   ¦       +---parser
-¦   ¦       ¦   ¦   calculate_size.ts
-¦   ¦       ¦   ¦   deserializer.ts
-¦   ¦       ¦   ¦   serializer.ts
-¦   ¦       ¦   ¦   utils.ts
-¦   ¦       ¦   ¦   
-¦   ¦       ¦   +---on_demand
-¦   ¦       ¦           index.ts
-¦   ¦       ¦           parse_to_elements.ts
-¦   ¦       ¦           
-¦   ¦       +---utils
-¦   ¦               byte_utils.ts
-¦   ¦               latin.ts
-¦   ¦               node_byte_utils.ts
-¦   ¦               number_utils.ts
-¦   ¦               string_utils.ts
-¦   ¦               web_byte_utils.ts
-¦   ¦               
-¦   +---bytes
-¦   ¦       History.md
-¦   ¦       index.js
-¦   ¦       LICENSE
-¦   ¦       package.json
-¦   ¦       Readme.md
-¦   ¦       
-¦   +---call-bind-apply-helpers
-¦   ¦   ¦   .eslintrc
-¦   ¦   ¦   .nycrc
-¦   ¦   ¦   actualApply.d.ts
-¦   ¦   ¦   actualApply.js
-¦   ¦   ¦   applyBind.d.ts
-¦   ¦   ¦   applyBind.js
-¦   ¦   ¦   CHANGELOG.md
-¦   ¦   ¦   functionApply.d.ts
-¦   ¦   ¦   functionApply.js
-¦   ¦   ¦   functionCall.d.ts
-¦   ¦   ¦   functionCall.js
-¦   ¦   ¦   index.d.ts
-¦   ¦   ¦   index.js
-¦   ¦   ¦   LICENSE
-¦   ¦   ¦   package.json
-¦   ¦   ¦   README.md
-¦   ¦   ¦   reflectApply.d.ts
-¦   ¦   ¦   reflectApply.js
-¦   ¦   ¦   tsconfig.json
-¦   ¦   ¦   
-¦   ¦   +---.github
-¦   ¦   ¦       FUNDING.yml
-¦   ¦   ¦       
-¦   ¦   +---test
-¦   ¦           index.js
-¦   ¦           
-¦   +---call-bound
-¦   ¦   ¦   .eslintrc
-¦   ¦   ¦   .nycrc
-¦   ¦   ¦   CHANGELOG.md
-¦   ¦   ¦   index.d.ts
-¦   ¦   ¦   index.js
-¦   ¦   ¦   LICENSE
-¦   ¦   ¦   package.json
-¦   ¦   ¦   README.md
-¦   ¦   ¦   tsconfig.json
-¦   ¦   ¦   
-¦   ¦   +---.github
-¦   ¦   ¦       FUNDING.yml
-¦   ¦   ¦       
-¦   ¦   +---test
-¦   ¦           index.js
-¦   ¦           
-¦   +---content-disposition
-¦   ¦       HISTORY.md
-¦   ¦       index.js
-¦   ¦       LICENSE
-¦   ¦       package.json
-¦   ¦       README.md
-¦   ¦       
-¦   +---content-type
-¦   ¦       HISTORY.md
-¦   ¦       index.js
-¦   ¦       LICENSE
-¦   ¦       package.json
-¦   ¦       README.md
-¦   ¦       
-¦   +---cookie
-¦   ¦       index.js
-¦   ¦       LICENSE
-¦   ¦       package.json
-¦   ¦       README.md
-¦   ¦       SECURITY.md
-¦   ¦       
-¦   +---cookie-signature
-¦   ¦       History.md
-¦   ¦       index.js
-¦   ¦       LICENSE
-¦   ¦       package.json
-¦   ¦       Readme.md
-¦   ¦       
-¦   +---debug
-¦   ¦   ¦   LICENSE
-¦   ¦   ¦   package.json
-¦   ¦   ¦   README.md
-¦   ¦   ¦   
-¦   ¦   +---src
-¦   ¦           browser.js
-¦   ¦           common.js
-¦   ¦           index.js
-¦   ¦           node.js
-¦   ¦           
-¦   +---depd
-¦   ¦   ¦   History.md
-¦   ¦   ¦   index.js
-¦   ¦   ¦   LICENSE
-¦   ¦   ¦   package.json
-¦   ¦   ¦   Readme.md
-¦   ¦   ¦   
-¦   ¦   +---lib
-¦   ¦       +---browser
-¦   ¦               index.js
-¦   ¦               
-¦   +---dotenv
-¦   ¦   ¦   CHANGELOG.md
-¦   ¦   ¦   config.d.ts
-¦   ¦   ¦   config.js
-¦   ¦   ¦   LICENSE
-¦   ¦   ¦   package.json
-¦   ¦   ¦   README-es.md
-¦   ¦   ¦   README.md
-¦   ¦   ¦   SECURITY.md
-¦   ¦   ¦   
-¦   ¦   +---lib
-¦   ¦           cli-options.js
-¦   ¦           env-options.js
-¦   ¦           main.d.ts
-¦   ¦           main.js
-¦   ¦           
-¦   +---dunder-proto
-¦   ¦   ¦   .eslintrc
-¦   ¦   ¦   .nycrc
-¦   ¦   ¦   CHANGELOG.md
-¦   ¦   ¦   get.d.ts
-¦   ¦   ¦   get.js
-¦   ¦   ¦   LICENSE
-¦   ¦   ¦   package.json
-¦   ¦   ¦   README.md
-¦   ¦   ¦   set.d.ts
-¦   ¦   ¦   set.js
-¦   ¦   ¦   tsconfig.json
-¦   ¦   ¦   
-¦   ¦   +---.github
-¦   ¦   ¦       FUNDING.yml
-¦   ¦   ¦       
-¦   ¦   +---test
-¦   ¦           get.js
-¦   ¦           index.js
-¦   ¦           set.js
-¦   ¦           
-¦   +---ee-first
-¦   ¦       index.js
-¦   ¦       LICENSE
-¦   ¦       package.json
-¦   ¦       README.md
-¦   ¦       
-¦   +---encodeurl
-¦   ¦       index.js
-¦   ¦       LICENSE
-¦   ¦       package.json
-¦   ¦       README.md
-¦   ¦       
-¦   +---es-define-property
-¦   ¦   ¦   .eslintrc
-¦   ¦   ¦   .nycrc
-¦   ¦   ¦   CHANGELOG.md
-¦   ¦   ¦   index.d.ts
-¦   ¦   ¦   index.js
-¦   ¦   ¦   LICENSE
-¦   ¦   ¦   package.json
-¦   ¦   ¦   README.md
-¦   ¦   ¦   tsconfig.json
-¦   ¦   ¦   
-¦   ¦   +---.github
-¦   ¦   ¦       FUNDING.yml
-¦   ¦   ¦       
-¦   ¦   +---test
-¦   ¦           index.js
-¦   ¦           
-¦   +---es-errors
-¦   ¦   ¦   .eslintrc
-¦   ¦   ¦   CHANGELOG.md
-¦   ¦   ¦   eval.d.ts
-¦   ¦   ¦   eval.js
-¦   ¦   ¦   index.d.ts
-¦   ¦   ¦   index.js
-¦   ¦   ¦   LICENSE
-¦   ¦   ¦   package.json
-¦   ¦   ¦   range.d.ts
-¦   ¦   ¦   range.js
-¦   ¦   ¦   README.md
-¦   ¦   ¦   ref.d.ts
-¦   ¦   ¦   ref.js
-¦   ¦   ¦   syntax.d.ts
-¦   ¦   ¦   syntax.js
-¦   ¦   ¦   tsconfig.json
-¦   ¦   ¦   type.d.ts
-¦   ¦   ¦   type.js
-¦   ¦   ¦   uri.d.ts
-¦   ¦   ¦   uri.js
-¦   ¦   ¦   
-¦   ¦   +---.github
-¦   ¦   ¦       FUNDING.yml
-¦   ¦   ¦       
-¦   ¦   +---test
-¦   ¦           index.js
-¦   ¦           
-¦   +---es-object-atoms
-¦   ¦   ¦   .eslintrc
-¦   ¦   ¦   CHANGELOG.md
-¦   ¦   ¦   index.d.ts
-¦   ¦   ¦   index.js
-¦   ¦   ¦   isObject.d.ts
-¦   ¦   ¦   isObject.js
-¦   ¦   ¦   LICENSE
-¦   ¦   ¦   package.json
-¦   ¦   ¦   README.md
-¦   ¦   ¦   RequireObjectCoercible.d.ts
-¦   ¦   ¦   RequireObjectCoercible.js
-¦   ¦   ¦   ToObject.d.ts
-¦   ¦   ¦   ToObject.js
-¦   ¦   ¦   tsconfig.json
-¦   ¦   ¦   
-¦   ¦   +---.github
-¦   ¦   ¦       FUNDING.yml
-¦   ¦   ¦       
-¦   ¦   +---test
-¦   ¦           index.js
-¦   ¦           
-¦   +---escape-html
-¦   ¦       index.js
-¦   ¦       LICENSE
-¦   ¦       package.json
-¦   ¦       Readme.md
-¦   ¦       
-¦   +---etag
-¦   ¦       HISTORY.md
-¦   ¦       index.js
-¦   ¦       LICENSE
-¦   ¦       package.json
-¦   ¦       README.md
-¦   ¦       
-¦   +---express
-¦   ¦   ¦   History.md
-¦   ¦   ¦   index.js
-¦   ¦   ¦   LICENSE
-¦   ¦   ¦   package.json
-¦   ¦   ¦   Readme.md
-¦   ¦   ¦   
-¦   ¦   +---lib
-¦   ¦           application.js
-¦   ¦           express.js
-¦   ¦           request.js
-¦   ¦           response.js
-¦   ¦           utils.js
-¦   ¦           view.js
-¦   ¦           
-¦   +---finalhandler
-¦   ¦       HISTORY.md
-¦   ¦       index.js
-¦   ¦       LICENSE
-¦   ¦       package.json
-¦   ¦       README.md
-¦   ¦       
-¦   +---forwarded
-¦   ¦       HISTORY.md
-¦   ¦       index.js
-¦   ¦       LICENSE
-¦   ¦       package.json
-¦   ¦       README.md
-¦   ¦       
-¦   +---fresh
-¦   ¦       HISTORY.md
-¦   ¦       index.js
-¦   ¦       LICENSE
-¦   ¦       package.json
-¦   ¦       README.md
-¦   ¦       
-¦   +---function-bind
-¦   ¦   ¦   .eslintrc
-¦   ¦   ¦   .nycrc
-¦   ¦   ¦   CHANGELOG.md
-¦   ¦   ¦   implementation.js
-¦   ¦   ¦   index.js
-¦   ¦   ¦   LICENSE
-¦   ¦   ¦   package.json
-¦   ¦   ¦   README.md
-¦   ¦   ¦   
-¦   ¦   +---.github
-¦   ¦   ¦       FUNDING.yml
-¦   ¦   ¦       SECURITY.md
-¦   ¦   ¦       
-¦   ¦   +---test
-¦   ¦           .eslintrc
-¦   ¦           index.js
-¦   ¦           
-¦   +---get-intrinsic
-¦   ¦   ¦   .eslintrc
-¦   ¦   ¦   .nycrc
-¦   ¦   ¦   CHANGELOG.md
-¦   ¦   ¦   index.js
-¦   ¦   ¦   LICENSE
-¦   ¦   ¦   package.json
-¦   ¦   ¦   README.md
-¦   ¦   ¦   
-¦   ¦   +---.github
-¦   ¦   ¦       FUNDING.yml
-¦   ¦   ¦       
-¦   ¦   +---test
-¦   ¦           GetIntrinsic.js
-¦   ¦           
-¦   +---get-proto
-¦   ¦   ¦   .eslintrc
-¦   ¦   ¦   .nycrc
-¦   ¦   ¦   CHANGELOG.md
-¦   ¦   ¦   index.d.ts
-¦   ¦   ¦   index.js
-¦   ¦   ¦   LICENSE
-¦   ¦   ¦   Object.getPrototypeOf.d.ts
-¦   ¦   ¦   Object.getPrototypeOf.js
-¦   ¦   ¦   package.json
-¦   ¦   ¦   README.md
-¦   ¦   ¦   Reflect.getPrototypeOf.d.ts
-¦   ¦   ¦   Reflect.getPrototypeOf.js
-¦   ¦   ¦   tsconfig.json
-¦   ¦   ¦   
-¦   ¦   +---.github
-¦   ¦   ¦       FUNDING.yml
-¦   ¦   ¦       
-¦   ¦   +---test
-¦   ¦           index.js
-¦   ¦           
-¦   +---gopd
-¦   ¦   ¦   .eslintrc
-¦   ¦   ¦   CHANGELOG.md
-¦   ¦   ¦   gOPD.d.ts
-¦   ¦   ¦   gOPD.js
-¦   ¦   ¦   index.d.ts
-¦   ¦   ¦   index.js
-¦   ¦   ¦   LICENSE
-¦   ¦   ¦   package.json
-¦   ¦   ¦   README.md
-¦   ¦   ¦   tsconfig.json
-¦   ¦   ¦   
-¦   ¦   +---.github
-¦   ¦   ¦       FUNDING.yml
-¦   ¦   ¦       
-¦   ¦   +---test
-¦   ¦           index.js
-¦   ¦           
-¦   +---has-symbols
-¦   ¦   ¦   .eslintrc
-¦   ¦   ¦   .nycrc
-¦   ¦   ¦   CHANGELOG.md
-¦   ¦   ¦   index.d.ts
-¦   ¦   ¦   index.js
-¦   ¦   ¦   LICENSE
-¦   ¦   ¦   package.json
-¦   ¦   ¦   README.md
-¦   ¦   ¦   shams.d.ts
-¦   ¦   ¦   shams.js
-¦   ¦   ¦   tsconfig.json
-¦   ¦   ¦   
-¦   ¦   +---.github
-¦   ¦   ¦       FUNDING.yml
-¦   ¦   ¦       
-¦   ¦   +---test
-¦   ¦       ¦   index.js
-¦   ¦       ¦   tests.js
-¦   ¦       ¦   
-¦   ¦       +---shams
-¦   ¦               core-js.js
-¦   ¦               get-own-property-symbols.js
-¦   ¦               
-¦   +---hasown
-¦   ¦   ¦   .eslintrc
-¦   ¦   ¦   .nycrc
-¦   ¦   ¦   CHANGELOG.md
-¦   ¦   ¦   index.d.ts
-¦   ¦   ¦   index.js
-¦   ¦   ¦   LICENSE
-¦   ¦   ¦   package.json
-¦   ¦   ¦   README.md
-¦   ¦   ¦   tsconfig.json
-¦   ¦   ¦   
-¦   ¦   +---.github
-¦   ¦           FUNDING.yml
-¦   ¦           
-¦   +---http-errors
-¦   ¦   ¦   HISTORY.md
-¦   ¦   ¦   index.js
-¦   ¦   ¦   LICENSE
-¦   ¦   ¦   package.json
-¦   ¦   ¦   README.md
-¦   ¦   ¦   
-¦   ¦   +---node_modules
-¦   ¦       +---statuses
-¦   ¦               codes.json
-¦   ¦               HISTORY.md
-¦   ¦               index.js
-¦   ¦               LICENSE
-¦   ¦               package.json
-¦   ¦               README.md
-¦   ¦               
-¦   +---iconv-lite
-¦   ¦   ¦   Changelog.md
-¦   ¦   ¦   LICENSE
-¦   ¦   ¦   package.json
-¦   ¦   ¦   README.md
-¦   ¦   ¦   
-¦   ¦   +---.github
-¦   ¦   ¦       dependabot.yml
-¦   ¦   ¦       
-¦   ¦   +---.idea
-¦   ¦   ¦   ¦   iconv-lite.iml
-¦   ¦   ¦   ¦   modules.xml
-¦   ¦   ¦   ¦   vcs.xml
-¦   ¦   ¦   ¦   
-¦   ¦   ¦   +---codeStyles
-¦   ¦   ¦   ¦       codeStyleConfig.xml
-¦   ¦   ¦   ¦       Project.xml
-¦   ¦   ¦   ¦       
-¦   ¦   ¦   +---inspectionProfiles
-¦   ¦   ¦           Project_Default.xml
-¦   ¦   ¦           
-¦   ¦   +---encodings
-¦   ¦   ¦   ¦   dbcs-codec.js
-¦   ¦   ¦   ¦   dbcs-data.js
-¦   ¦   ¦   ¦   index.js
-¦   ¦   ¦   ¦   internal.js
-¦   ¦   ¦   ¦   sbcs-codec.js
-¦   ¦   ¦   ¦   sbcs-data-generated.js
-¦   ¦   ¦   ¦   sbcs-data.js
-¦   ¦   ¦   ¦   utf16.js
-¦   ¦   ¦   ¦   utf32.js
-¦   ¦   ¦   ¦   utf7.js
-¦   ¦   ¦   ¦   
-¦   ¦   ¦   +---tables
-¦   ¦   ¦           big5-added.json
-¦   ¦   ¦           cp936.json
-¦   ¦   ¦           cp949.json
-¦   ¦   ¦           cp950.json
-¦   ¦   ¦           eucjp.json
-¦   ¦   ¦           gb18030-ranges.json
-¦   ¦   ¦           gbk-added.json
-¦   ¦   ¦           shiftjis.json
-¦   ¦   ¦           
-¦   ¦   +---lib
-¦   ¦           bom-handling.js
-¦   ¦           index.d.ts
-¦   ¦           index.js
-¦   ¦           streams.js
-¦   ¦           
-¦   +---inherits
-¦   ¦       inherits.js
-¦   ¦       inherits_browser.js
-¦   ¦       LICENSE
-¦   ¦       package.json
-¦   ¦       README.md
-¦   ¦       
-¦   +---ipaddr.js
-¦   ¦   ¦   ipaddr.min.js
-¦   ¦   ¦   LICENSE
-¦   ¦   ¦   package.json
-¦   ¦   ¦   README.md
-¦   ¦   ¦   
-¦   ¦   +---lib
-¦   ¦           ipaddr.js
-¦   ¦           ipaddr.js.d.ts
-¦   ¦           
-¦   +---is-promise
-¦   ¦       index.d.ts
-¦   ¦       index.js
-¦   ¦       index.mjs
-¦   ¦       LICENSE
-¦   ¦       package.json
-¦   ¦       readme.md
-¦   ¦       
-¦   +---kareem
-¦   ¦       CHANGELOG.md
-¦   ¦       index.d.ts
-¦   ¦       index.js
-¦   ¦       LICENSE
-¦   ¦       package.json
-¦   ¦       README.md
-¦   ¦       SECURITY.md
-¦   ¦       
-¦   +---math-intrinsics
-¦   ¦   ¦   .eslintrc
-¦   ¦   ¦   abs.d.ts
-¦   ¦   ¦   abs.js
-¦   ¦   ¦   CHANGELOG.md
-¦   ¦   ¦   floor.d.ts
-¦   ¦   ¦   floor.js
-¦   ¦   ¦   isFinite.d.ts
-¦   ¦   ¦   isFinite.js
-¦   ¦   ¦   isInteger.d.ts
-¦   ¦   ¦   isInteger.js
-¦   ¦   ¦   isNaN.d.ts
-¦   ¦   ¦   isNaN.js
-¦   ¦   ¦   isNegativeZero.d.ts
-¦   ¦   ¦   isNegativeZero.js
-¦   ¦   ¦   LICENSE
-¦   ¦   ¦   max.d.ts
-¦   ¦   ¦   max.js
-¦   ¦   ¦   min.d.ts
-¦   ¦   ¦   min.js
-¦   ¦   ¦   mod.d.ts
-¦   ¦   ¦   mod.js
-¦   ¦   ¦   package.json
-¦   ¦   ¦   pow.d.ts
-¦   ¦   ¦   pow.js
-¦   ¦   ¦   README.md
-¦   ¦   ¦   round.d.ts
-¦   ¦   ¦   round.js
-¦   ¦   ¦   sign.d.ts
-¦   ¦   ¦   sign.js
-¦   ¦   ¦   tsconfig.json
-¦   ¦   ¦   
-¦   ¦   +---.github
-¦   ¦   ¦       FUNDING.yml
-¦   ¦   ¦       
-¦   ¦   +---constants
-¦   ¦   ¦       maxArrayLength.d.ts
-¦   ¦   ¦       maxArrayLength.js
-¦   ¦   ¦       maxSafeInteger.d.ts
-¦   ¦   ¦       maxSafeInteger.js
-¦   ¦   ¦       maxValue.d.ts
-¦   ¦   ¦       maxValue.js
-¦   ¦   ¦       
-¦   ¦   +---test
-¦   ¦           index.js
-¦   ¦           
-¦   +---media-typer
-¦   ¦       HISTORY.md
-¦   ¦       index.js
-¦   ¦       LICENSE
-¦   ¦       package.json
-¦   ¦       README.md
-¦   ¦       
-¦   +---memory-pager
-¦   ¦       .travis.yml
-¦   ¦       index.js
-¦   ¦       LICENSE
-¦   ¦       package.json
-¦   ¦       README.md
-¦   ¦       test.js
-¦   ¦       
-¦   +---merge-descriptors
-¦   ¦       index.d.ts
-¦   ¦       index.js
-¦   ¦       license
-¦   ¦       package.json
-¦   ¦       readme.md
-¦   ¦       
-¦   +---mime-db
-¦   ¦       db.json
-¦   ¦       HISTORY.md
-¦   ¦       index.js
-¦   ¦       LICENSE
-¦   ¦       package.json
-¦   ¦       README.md
-¦   ¦       
-¦   +---mime-types
-¦   ¦       HISTORY.md
-¦   ¦       index.js
-¦   ¦       LICENSE
-¦   ¦       mimeScore.js
-¦   ¦       package.json
-¦   ¦       README.md
-¦   ¦       
-¦   +---mongodb
-¦   ¦   ¦   LICENSE.md
-¦   ¦   ¦   mongodb.d.ts
-¦   ¦   ¦   package.json
-¦   ¦   ¦   README.md
-¦   ¦   ¦   tsconfig.json
-¦   ¦   ¦   
-¦   ¦   +---etc
-¦   ¦   ¦       prepare.js
-¦   ¦   ¦       
-¦   ¦   +---lib
-¦   ¦   ¦   ¦   admin.js
-¦   ¦   ¦   ¦   admin.js.map
-¦   ¦   ¦   ¦   bson.js
-¦   ¦   ¦   ¦   bson.js.map
-¦   ¦   ¦   ¦   change_stream.js
-¦   ¦   ¦   ¦   change_stream.js.map
-¦   ¦   ¦   ¦   collection.js
-¦   ¦   ¦   ¦   collection.js.map
-¦   ¦   ¦   ¦   connection_string.js
-¦   ¦   ¦   ¦   connection_string.js.map
-¦   ¦   ¦   ¦   constants.js
-¦   ¦   ¦   ¦   constants.js.map
-¦   ¦   ¦   ¦   db.js
-¦   ¦   ¦   ¦   db.js.map
-¦   ¦   ¦   ¦   deps.js
-¦   ¦   ¦   ¦   deps.js.map
-¦   ¦   ¦   ¦   encrypter.js
-¦   ¦   ¦   ¦   encrypter.js.map
-¦   ¦   ¦   ¦   error.js
-¦   ¦   ¦   ¦   error.js.map
-¦   ¦   ¦   ¦   explain.js
-¦   ¦   ¦   ¦   explain.js.map
-¦   ¦   ¦   ¦   index.js
-¦   ¦   ¦   ¦   index.js.map
-¦   ¦   ¦   ¦   mongo_client.js
-¦   ¦   ¦   ¦   mongo_client.js.map
-¦   ¦   ¦   ¦   mongo_client_auth_providers.js
-¦   ¦   ¦   ¦   mongo_client_auth_providers.js.map
-¦   ¦   ¦   ¦   mongo_logger.js
-¦   ¦   ¦   ¦   mongo_logger.js.map
-¦   ¦   ¦   ¦   mongo_types.js
-¦   ¦   ¦   ¦   mongo_types.js.map
-¦   ¦   ¦   ¦   read_concern.js
-¦   ¦   ¦   ¦   read_concern.js.map
-¦   ¦   ¦   ¦   read_preference.js
-¦   ¦   ¦   ¦   read_preference.js.map
-¦   ¦   ¦   ¦   sessions.js
-¦   ¦   ¦   ¦   sessions.js.map
-¦   ¦   ¦   ¦   sort.js
-¦   ¦   ¦   ¦   sort.js.map
-¦   ¦   ¦   ¦   timeout.js
-¦   ¦   ¦   ¦   timeout.js.map
-¦   ¦   ¦   ¦   transactions.js
-¦   ¦   ¦   ¦   transactions.js.map
-¦   ¦   ¦   ¦   utils.js
-¦   ¦   ¦   ¦   utils.js.map
-¦   ¦   ¦   ¦   write_concern.js
-¦   ¦   ¦   ¦   write_concern.js.map
-¦   ¦   ¦   ¦   
-¦   ¦   ¦   +---bulk
-¦   ¦   ¦   ¦       common.js
-¦   ¦   ¦   ¦       common.js.map
-¦   ¦   ¦   ¦       ordered.js
-¦   ¦   ¦   ¦       ordered.js.map
-¦   ¦   ¦   ¦       unordered.js
-¦   ¦   ¦   ¦       unordered.js.map
-¦   ¦   ¦   ¦       
-¦   ¦   ¦   +---client-side-encryption
-¦   ¦   ¦   ¦   ¦   auto_encrypter.js
-¦   ¦   ¦   ¦   ¦   auto_encrypter.js.map
-¦   ¦   ¦   ¦   ¦   client_encryption.js
-¦   ¦   ¦   ¦   ¦   client_encryption.js.map
-¦   ¦   ¦   ¦   ¦   errors.js
-¦   ¦   ¦   ¦   ¦   errors.js.map
-¦   ¦   ¦   ¦   ¦   mongocryptd_manager.js
-¦   ¦   ¦   ¦   ¦   mongocryptd_manager.js.map
-¦   ¦   ¦   ¦   ¦   state_machine.js
-¦   ¦   ¦   ¦   ¦   state_machine.js.map
-¦   ¦   ¦   ¦   ¦   
-¦   ¦   ¦   ¦   +---providers
-¦   ¦   ¦   ¦           aws.js
-¦   ¦   ¦   ¦           aws.js.map
-¦   ¦   ¦   ¦           azure.js
-¦   ¦   ¦   ¦           azure.js.map
-¦   ¦   ¦   ¦           gcp.js
-¦   ¦   ¦   ¦           gcp.js.map
-¦   ¦   ¦   ¦           index.js
-¦   ¦   ¦   ¦           index.js.map
-¦   ¦   ¦   ¦           
-¦   ¦   ¦   +---cmap
-¦   ¦   ¦   ¦   ¦   commands.js
-¦   ¦   ¦   ¦   ¦   commands.js.map
-¦   ¦   ¦   ¦   ¦   command_monitoring_events.js
-¦   ¦   ¦   ¦   ¦   command_monitoring_events.js.map
-¦   ¦   ¦   ¦   ¦   connect.js
-¦   ¦   ¦   ¦   ¦   connect.js.map
-¦   ¦   ¦   ¦   ¦   connection.js
-¦   ¦   ¦   ¦   ¦   connection.js.map
-¦   ¦   ¦   ¦   ¦   connection_pool.js
-¦   ¦   ¦   ¦   ¦   connection_pool.js.map
-¦   ¦   ¦   ¦   ¦   connection_pool_events.js
-¦   ¦   ¦   ¦   ¦   connection_pool_events.js.map
-¦   ¦   ¦   ¦   ¦   errors.js
-¦   ¦   ¦   ¦   ¦   errors.js.map
-¦   ¦   ¦   ¦   ¦   metrics.js
-¦   ¦   ¦   ¦   ¦   metrics.js.map
-¦   ¦   ¦   ¦   ¦   stream_description.js
-¦   ¦   ¦   ¦   ¦   stream_description.js.map
-¦   ¦   ¦   ¦   ¦   
-¦   ¦   ¦   ¦   +---auth
-¦   ¦   ¦   ¦   ¦   ¦   auth_provider.js
-¦   ¦   ¦   ¦   ¦   ¦   auth_provider.js.map
-¦   ¦   ¦   ¦   ¦   ¦   aws_temporary_credentials.js
-¦   ¦   ¦   ¦   ¦   ¦   aws_temporary_credentials.js.map
-¦   ¦   ¦   ¦   ¦   ¦   gssapi.js
-¦   ¦   ¦   ¦   ¦   ¦   gssapi.js.map
-¦   ¦   ¦   ¦   ¦   ¦   mongodb_aws.js
-¦   ¦   ¦   ¦   ¦   ¦   mongodb_aws.js.map
-¦   ¦   ¦   ¦   ¦   ¦   mongodb_oidc.js
-¦   ¦   ¦   ¦   ¦   ¦   mongodb_oidc.js.map
-¦   ¦   ¦   ¦   ¦   ¦   mongo_credentials.js
-¦   ¦   ¦   ¦   ¦   ¦   mongo_credentials.js.map
-¦   ¦   ¦   ¦   ¦   ¦   plain.js
-¦   ¦   ¦   ¦   ¦   ¦   plain.js.map
-¦   ¦   ¦   ¦   ¦   ¦   providers.js
-¦   ¦   ¦   ¦   ¦   ¦   providers.js.map
-¦   ¦   ¦   ¦   ¦   ¦   scram.js
-¦   ¦   ¦   ¦   ¦   ¦   scram.js.map
-¦   ¦   ¦   ¦   ¦   ¦   x509.js
-¦   ¦   ¦   ¦   ¦   ¦   x509.js.map
-¦   ¦   ¦   ¦   ¦   ¦   
-¦   ¦   ¦   ¦   ¦   +---mongodb_oidc
-¦   ¦   ¦   ¦   ¦           automated_callback_workflow.js
-¦   ¦   ¦   ¦   ¦           automated_callback_workflow.js.map
-¦   ¦   ¦   ¦   ¦           azure_machine_workflow.js
-¦   ¦   ¦   ¦   ¦           azure_machine_workflow.js.map
-¦   ¦   ¦   ¦   ¦           callback_workflow.js
-¦   ¦   ¦   ¦   ¦           callback_workflow.js.map
-¦   ¦   ¦   ¦   ¦           command_builders.js
-¦   ¦   ¦   ¦   ¦           command_builders.js.map
-¦   ¦   ¦   ¦   ¦           gcp_machine_workflow.js
-¦   ¦   ¦   ¦   ¦           gcp_machine_workflow.js.map
-¦   ¦   ¦   ¦   ¦           human_callback_workflow.js
-¦   ¦   ¦   ¦   ¦           human_callback_workflow.js.map
-¦   ¦   ¦   ¦   ¦           k8s_machine_workflow.js
-¦   ¦   ¦   ¦   ¦           k8s_machine_workflow.js.map
-¦   ¦   ¦   ¦   ¦           token_cache.js
-¦   ¦   ¦   ¦   ¦           token_cache.js.map
-¦   ¦   ¦   ¦   ¦           token_machine_workflow.js
-¦   ¦   ¦   ¦   ¦           token_machine_workflow.js.map
-¦   ¦   ¦   ¦   ¦           
-¦   ¦   ¦   ¦   +---handshake
-¦   ¦   ¦   ¦   ¦       client_metadata.js
-¦   ¦   ¦   ¦   ¦       client_metadata.js.map
-¦   ¦   ¦   ¦   ¦       
-¦   ¦   ¦   ¦   +---wire_protocol
-¦   ¦   ¦   ¦       ¦   compression.js
-¦   ¦   ¦   ¦       ¦   compression.js.map
-¦   ¦   ¦   ¦       ¦   constants.js
-¦   ¦   ¦   ¦       ¦   constants.js.map
-¦   ¦   ¦   ¦       ¦   on_data.js
-¦   ¦   ¦   ¦       ¦   on_data.js.map
-¦   ¦   ¦   ¦       ¦   responses.js
-¦   ¦   ¦   ¦       ¦   responses.js.map
-¦   ¦   ¦   ¦       ¦   shared.js
-¦   ¦   ¦   ¦       ¦   shared.js.map
-¦   ¦   ¦   ¦       ¦   
-¦   ¦   ¦   ¦       +---on_demand
-¦   ¦   ¦   ¦               document.js
-¦   ¦   ¦   ¦               document.js.map
-¦   ¦   ¦   ¦               
-¦   ¦   ¦   +---cursor
-¦   ¦   ¦   ¦       abstract_cursor.js
-¦   ¦   ¦   ¦       abstract_cursor.js.map
-¦   ¦   ¦   ¦       aggregation_cursor.js
-¦   ¦   ¦   ¦       aggregation_cursor.js.map
-¦   ¦   ¦   ¦       change_stream_cursor.js
-¦   ¦   ¦   ¦       change_stream_cursor.js.map
-¦   ¦   ¦   ¦       client_bulk_write_cursor.js
-¦   ¦   ¦   ¦       client_bulk_write_cursor.js.map
-¦   ¦   ¦   ¦       explainable_cursor.js
-¦   ¦   ¦   ¦       explainable_cursor.js.map
-¦   ¦   ¦   ¦       find_cursor.js
-¦   ¦   ¦   ¦       find_cursor.js.map
-¦   ¦   ¦   ¦       list_collections_cursor.js
-¦   ¦   ¦   ¦       list_collections_cursor.js.map
-¦   ¦   ¦   ¦       list_indexes_cursor.js
-¦   ¦   ¦   ¦       list_indexes_cursor.js.map
-¦   ¦   ¦   ¦       list_search_indexes_cursor.js
-¦   ¦   ¦   ¦       list_search_indexes_cursor.js.map
-¦   ¦   ¦   ¦       run_command_cursor.js
-¦   ¦   ¦   ¦       run_command_cursor.js.map
-¦   ¦   ¦   ¦       
-¦   ¦   ¦   +---gridfs
-¦   ¦   ¦   ¦       download.js
-¦   ¦   ¦   ¦       download.js.map
-¦   ¦   ¦   ¦       index.js
-¦   ¦   ¦   ¦       index.js.map
-¦   ¦   ¦   ¦       upload.js
-¦   ¦   ¦   ¦       upload.js.map
-¦   ¦   ¦   ¦       
-¦   ¦   ¦   +---operations
-¦   ¦   ¦   ¦   ¦   aggregate.js
-¦   ¦   ¦   ¦   ¦   aggregate.js.map
-¦   ¦   ¦   ¦   ¦   command.js
-¦   ¦   ¦   ¦   ¦   command.js.map
-¦   ¦   ¦   ¦   ¦   count.js
-¦   ¦   ¦   ¦   ¦   count.js.map
-¦   ¦   ¦   ¦   ¦   create_collection.js
-¦   ¦   ¦   ¦   ¦   create_collection.js.map
-¦   ¦   ¦   ¦   ¦   delete.js
-¦   ¦   ¦   ¦   ¦   delete.js.map
-¦   ¦   ¦   ¦   ¦   distinct.js
-¦   ¦   ¦   ¦   ¦   distinct.js.map
-¦   ¦   ¦   ¦   ¦   drop.js
-¦   ¦   ¦   ¦   ¦   drop.js.map
-¦   ¦   ¦   ¦   ¦   end_sessions.js
-¦   ¦   ¦   ¦   ¦   end_sessions.js.map
-¦   ¦   ¦   ¦   ¦   estimated_document_count.js
-¦   ¦   ¦   ¦   ¦   estimated_document_count.js.map
-¦   ¦   ¦   ¦   ¦   execute_operation.js
-¦   ¦   ¦   ¦   ¦   execute_operation.js.map
-¦   ¦   ¦   ¦   ¦   find.js
-¦   ¦   ¦   ¦   ¦   find.js.map
-¦   ¦   ¦   ¦   ¦   find_and_modify.js
-¦   ¦   ¦   ¦   ¦   find_and_modify.js.map
-¦   ¦   ¦   ¦   ¦   get_more.js
-¦   ¦   ¦   ¦   ¦   get_more.js.map
-¦   ¦   ¦   ¦   ¦   indexes.js
-¦   ¦   ¦   ¦   ¦   indexes.js.map
-¦   ¦   ¦   ¦   ¦   insert.js
-¦   ¦   ¦   ¦   ¦   insert.js.map
-¦   ¦   ¦   ¦   ¦   kill_cursors.js
-¦   ¦   ¦   ¦   ¦   kill_cursors.js.map
-¦   ¦   ¦   ¦   ¦   list_collections.js
-¦   ¦   ¦   ¦   ¦   list_collections.js.map
-¦   ¦   ¦   ¦   ¦   list_databases.js
-¦   ¦   ¦   ¦   ¦   list_databases.js.map
-¦   ¦   ¦   ¦   ¦   operation.js
-¦   ¦   ¦   ¦   ¦   operation.js.map
-¦   ¦   ¦   ¦   ¦   profiling_level.js
-¦   ¦   ¦   ¦   ¦   profiling_level.js.map
-¦   ¦   ¦   ¦   ¦   remove_user.js
-¦   ¦   ¦   ¦   ¦   remove_user.js.map
-¦   ¦   ¦   ¦   ¦   rename.js
-¦   ¦   ¦   ¦   ¦   rename.js.map
-¦   ¦   ¦   ¦   ¦   run_command.js
-¦   ¦   ¦   ¦   ¦   run_command.js.map
-¦   ¦   ¦   ¦   ¦   set_profiling_level.js
-¦   ¦   ¦   ¦   ¦   set_profiling_level.js.map
-¦   ¦   ¦   ¦   ¦   stats.js
-¦   ¦   ¦   ¦   ¦   stats.js.map
-¦   ¦   ¦   ¦   ¦   update.js
-¦   ¦   ¦   ¦   ¦   update.js.map
-¦   ¦   ¦   ¦   ¦   validate_collection.js
-¦   ¦   ¦   ¦   ¦   validate_collection.js.map
-¦   ¦   ¦   ¦   ¦   
-¦   ¦   ¦   ¦   +---client_bulk_write
-¦   ¦   ¦   ¦   ¦       client_bulk_write.js
-¦   ¦   ¦   ¦   ¦       client_bulk_write.js.map
-¦   ¦   ¦   ¦   ¦       command_builder.js
-¦   ¦   ¦   ¦   ¦       command_builder.js.map
-¦   ¦   ¦   ¦   ¦       common.js
-¦   ¦   ¦   ¦   ¦       common.js.map
-¦   ¦   ¦   ¦   ¦       executor.js
-¦   ¦   ¦   ¦   ¦       executor.js.map
-¦   ¦   ¦   ¦   ¦       results_merger.js
-¦   ¦   ¦   ¦   ¦       results_merger.js.map
-¦   ¦   ¦   ¦   ¦       
-¦   ¦   ¦   ¦   +---search_indexes
-¦   ¦   ¦   ¦           create.js
-¦   ¦   ¦   ¦           create.js.map
-¦   ¦   ¦   ¦           drop.js
-¦   ¦   ¦   ¦           drop.js.map
-¦   ¦   ¦   ¦           update.js
-¦   ¦   ¦   ¦           update.js.map
-¦   ¦   ¦   ¦           
-¦   ¦   ¦   +---sdam
-¦   ¦   ¦           common.js
-¦   ¦   ¦           common.js.map
-¦   ¦   ¦           events.js
-¦   ¦   ¦           events.js.map
-¦   ¦   ¦           monitor.js
-¦   ¦   ¦           monitor.js.map
-¦   ¦   ¦           server.js
-¦   ¦   ¦           server.js.map
-¦   ¦   ¦           server_description.js
-¦   ¦   ¦           server_description.js.map
-¦   ¦   ¦           server_selection.js
-¦   ¦   ¦           server_selection.js.map
-¦   ¦   ¦           server_selection_events.js
-¦   ¦   ¦           server_selection_events.js.map
-¦   ¦   ¦           srv_polling.js
-¦   ¦   ¦           srv_polling.js.map
-¦   ¦   ¦           topology.js
-¦   ¦   ¦           topology.js.map
-¦   ¦   ¦           topology_description.js
-¦   ¦   ¦           topology_description.js.map
-¦   ¦   ¦           
-¦   ¦   +---src
-¦   ¦       ¦   admin.ts
-¦   ¦       ¦   bson.ts
-¦   ¦       ¦   change_stream.ts
-¦   ¦       ¦   collection.ts
-¦   ¦       ¦   connection_string.ts
-¦   ¦       ¦   constants.ts
-¦   ¦       ¦   db.ts
-¦   ¦       ¦   deps.ts
-¦   ¦       ¦   encrypter.ts
-¦   ¦       ¦   error.ts
-¦   ¦       ¦   explain.ts
-¦   ¦       ¦   index.ts
-¦   ¦       ¦   mongo_client.ts
-¦   ¦       ¦   mongo_client_auth_providers.ts
-¦   ¦       ¦   mongo_logger.ts
-¦   ¦       ¦   mongo_types.ts
-¦   ¦       ¦   read_concern.ts
-¦   ¦       ¦   read_preference.ts
-¦   ¦       ¦   sessions.ts
-¦   ¦       ¦   sort.ts
-¦   ¦       ¦   timeout.ts
-¦   ¦       ¦   transactions.ts
-¦   ¦       ¦   utils.ts
-¦   ¦       ¦   write_concern.ts
-¦   ¦       ¦   
-¦   ¦       +---bulk
-¦   ¦       ¦       common.ts
-¦   ¦       ¦       ordered.ts
-¦   ¦       ¦       unordered.ts
-¦   ¦       ¦       
-¦   ¦       +---client-side-encryption
-¦   ¦       ¦   ¦   auto_encrypter.ts
-¦   ¦       ¦   ¦   client_encryption.ts
-¦   ¦       ¦   ¦   errors.ts
-¦   ¦       ¦   ¦   mongocryptd_manager.ts
-¦   ¦       ¦   ¦   state_machine.ts
-¦   ¦       ¦   ¦   
-¦   ¦       ¦   +---providers
-¦   ¦       ¦           aws.ts
-¦   ¦       ¦           azure.ts
-¦   ¦       ¦           gcp.ts
-¦   ¦       ¦           index.ts
-¦   ¦       ¦           
-¦   ¦       +---cmap
-¦   ¦       ¦   ¦   commands.ts
-¦   ¦       ¦   ¦   command_monitoring_events.ts
-¦   ¦       ¦   ¦   connect.ts
-¦   ¦       ¦   ¦   connection.ts
-¦   ¦       ¦   ¦   connection_pool.ts
-¦   ¦       ¦   ¦   connection_pool_events.ts
-¦   ¦       ¦   ¦   errors.ts
-¦   ¦       ¦   ¦   metrics.ts
-¦   ¦       ¦   ¦   stream_description.ts
-¦   ¦       ¦   ¦   
-¦   ¦       ¦   +---auth
-¦   ¦       ¦   ¦   ¦   auth_provider.ts
-¦   ¦       ¦   ¦   ¦   aws_temporary_credentials.ts
-¦   ¦       ¦   ¦   ¦   gssapi.ts
-¦   ¦       ¦   ¦   ¦   mongodb_aws.ts
-¦   ¦       ¦   ¦   ¦   mongodb_oidc.ts
-¦   ¦       ¦   ¦   ¦   mongo_credentials.ts
-¦   ¦       ¦   ¦   ¦   plain.ts
-¦   ¦       ¦   ¦   ¦   providers.ts
-¦   ¦       ¦   ¦   ¦   scram.ts
-¦   ¦       ¦   ¦   ¦   x509.ts
-¦   ¦       ¦   ¦   ¦   
-¦   ¦       ¦   ¦   +---mongodb_oidc
-¦   ¦       ¦   ¦           automated_callback_workflow.ts
-¦   ¦       ¦   ¦           azure_machine_workflow.ts
-¦   ¦       ¦   ¦           callback_workflow.ts
-¦   ¦       ¦   ¦           command_builders.ts
-¦   ¦       ¦   ¦           gcp_machine_workflow.ts
-¦   ¦       ¦   ¦           human_callback_workflow.ts
-¦   ¦       ¦   ¦           k8s_machine_workflow.ts
-¦   ¦       ¦   ¦           token_cache.ts
-¦   ¦       ¦   ¦           token_machine_workflow.ts
-¦   ¦       ¦   ¦           
-¦   ¦       ¦   +---handshake
-¦   ¦       ¦   ¦       client_metadata.ts
-¦   ¦       ¦   ¦       
-¦   ¦       ¦   +---wire_protocol
-¦   ¦       ¦       ¦   compression.ts
-¦   ¦       ¦       ¦   constants.ts
-¦   ¦       ¦       ¦   on_data.ts
-¦   ¦       ¦       ¦   responses.ts
-¦   ¦       ¦       ¦   shared.ts
-¦   ¦       ¦       ¦   
-¦   ¦       ¦       +---on_demand
-¦   ¦       ¦               document.ts
-¦   ¦       ¦               
-¦   ¦       +---cursor
-¦   ¦       ¦       abstract_cursor.ts
-¦   ¦       ¦       aggregation_cursor.ts
-¦   ¦       ¦       change_stream_cursor.ts
-¦   ¦       ¦       client_bulk_write_cursor.ts
-¦   ¦       ¦       explainable_cursor.ts
-¦   ¦       ¦       find_cursor.ts
-¦   ¦       ¦       list_collections_cursor.ts
-¦   ¦       ¦       list_indexes_cursor.ts
-¦   ¦       ¦       list_search_indexes_cursor.ts
-¦   ¦       ¦       run_command_cursor.ts
-¦   ¦       ¦       
-¦   ¦       +---gridfs
-¦   ¦       ¦       download.ts
-¦   ¦       ¦       index.ts
-¦   ¦       ¦       upload.ts
-¦   ¦       ¦       
-¦   ¦       +---operations
-¦   ¦       ¦   ¦   aggregate.ts
-¦   ¦       ¦   ¦   command.ts
-¦   ¦       ¦   ¦   count.ts
-¦   ¦       ¦   ¦   create_collection.ts
-¦   ¦       ¦   ¦   delete.ts
-¦   ¦       ¦   ¦   distinct.ts
-¦   ¦       ¦   ¦   drop.ts
-¦   ¦       ¦   ¦   end_sessions.ts
-¦   ¦       ¦   ¦   estimated_document_count.ts
-¦   ¦       ¦   ¦   execute_operation.ts
-¦   ¦       ¦   ¦   find.ts
-¦   ¦       ¦   ¦   find_and_modify.ts
-¦   ¦       ¦   ¦   get_more.ts
-¦   ¦       ¦   ¦   indexes.ts
-¦   ¦       ¦   ¦   insert.ts
-¦   ¦       ¦   ¦   kill_cursors.ts
-¦   ¦       ¦   ¦   list_collections.ts
-¦   ¦       ¦   ¦   list_databases.ts
-¦   ¦       ¦   ¦   operation.ts
-¦   ¦       ¦   ¦   profiling_level.ts
-¦   ¦       ¦   ¦   remove_user.ts
-¦   ¦       ¦   ¦   rename.ts
-¦   ¦       ¦   ¦   run_command.ts
-¦   ¦       ¦   ¦   set_profiling_level.ts
-¦   ¦       ¦   ¦   stats.ts
-¦   ¦       ¦   ¦   update.ts
-¦   ¦       ¦   ¦   validate_collection.ts
-¦   ¦       ¦   ¦   
-¦   ¦       ¦   +---client_bulk_write
-¦   ¦       ¦   ¦       client_bulk_write.ts
-¦   ¦       ¦   ¦       command_builder.ts
-¦   ¦       ¦   ¦       common.ts
-¦   ¦       ¦   ¦       executor.ts
-¦   ¦       ¦   ¦       results_merger.ts
-¦   ¦       ¦   ¦       
-¦   ¦       ¦   +---search_indexes
-¦   ¦       ¦           create.ts
-¦   ¦       ¦           drop.ts
-¦   ¦       ¦           update.ts
-¦   ¦       ¦           
-¦   ¦       +---sdam
-¦   ¦               common.ts
-¦   ¦               events.ts
-¦   ¦               monitor.ts
-¦   ¦               server.ts
-¦   ¦               server_description.ts
-¦   ¦               server_selection.ts
-¦   ¦               server_selection_events.ts
-¦   ¦               srv_polling.ts
-¦   ¦               topology.ts
-¦   ¦               topology_description.ts
-¦   ¦               
-¦   +---mongodb-connection-string-url
-¦   ¦   ¦   .esm-wrapper.mjs
-¦   ¦   ¦   LICENSE
-¦   ¦   ¦   package.json
-¦   ¦   ¦   README.md
-¦   ¦   ¦   
-¦   ¦   +---lib
-¦   ¦           index.d.ts
-¦   ¦           index.js
-¦   ¦           index.js.map
-¦   ¦           redact.d.ts
-¦   ¦           redact.js
-¦   ¦           redact.js.map
-¦   ¦           
-¦   +---mongoose
-¦   ¦   ¦   browser.js
-¦   ¦   ¦   index.js
-¦   ¦   ¦   LICENSE.md
-¦   ¦   ¦   package.json
-¦   ¦   ¦   README.md
-¦   ¦   ¦   SECURITY.md
-¦   ¦   ¦   
-¦   ¦   +---dist
-¦   ¦   ¦       browser.umd.js
-¦   ¦   ¦       
-¦   ¦   +---lib
-¦   ¦   ¦   ¦   aggregate.js
-¦   ¦   ¦   ¦   browser.js
-¦   ¦   ¦   ¦   browserDocument.js
-¦   ¦   ¦   ¦   cast.js
-¦   ¦   ¦   ¦   collection.js
-¦   ¦   ¦   ¦   connection.js
-¦   ¦   ¦   ¦   connectionState.js
-¦   ¦   ¦   ¦   constants.js
-¦   ¦   ¦   ¦   document.js
-¦   ¦   ¦   ¦   documentProvider.js
-¦   ¦   ¦   ¦   driver.js
-¦   ¦   ¦   ¦   index.js
-¦   ¦   ¦   ¦   internal.js
-¦   ¦   ¦   ¦   model.js
-¦   ¦   ¦   ¦   modifiedPathsSnapshot.js
-¦   ¦   ¦   ¦   mongoose.js
-¦   ¦   ¦   ¦   options.js
-¦   ¦   ¦   ¦   query.js
-¦   ¦   ¦   ¦   queryHelpers.js
-¦   ¦   ¦   ¦   schema.js
-¦   ¦   ¦   ¦   schemaType.js
-¦   ¦   ¦   ¦   stateMachine.js
-¦   ¦   ¦   ¦   utils.js
-¦   ¦   ¦   ¦   validOptions.js
-¦   ¦   ¦   ¦   virtualType.js
-¦   ¦   ¦   ¦   
-¦   ¦   ¦   +---cast
-¦   ¦   ¦   ¦       bigint.js
-¦   ¦   ¦   ¦       boolean.js
-¦   ¦   ¦   ¦       date.js
-¦   ¦   ¦   ¦       decimal128.js
-¦   ¦   ¦   ¦       double.js
-¦   ¦   ¦   ¦       int32.js
-¦   ¦   ¦   ¦       number.js
-¦   ¦   ¦   ¦       objectid.js
-¦   ¦   ¦   ¦       string.js
-¦   ¦   ¦   ¦       uuid.js
-¦   ¦   ¦   ¦       
-¦   ¦   ¦   +---cursor
-¦   ¦   ¦   ¦       aggregationCursor.js
-¦   ¦   ¦   ¦       changeStream.js
-¦   ¦   ¦   ¦       queryCursor.js
-¦   ¦   ¦   ¦       
-¦   ¦   ¦   +---drivers
-¦   ¦   ¦   ¦   ¦   SPEC.md
-¦   ¦   ¦   ¦   ¦   
-¦   ¦   ¦   ¦   +---browser
-¦   ¦   ¦   ¦   ¦       binary.js
-¦   ¦   ¦   ¦   ¦       decimal128.js
-¦   ¦   ¦   ¦   ¦       index.js
-¦   ¦   ¦   ¦   ¦       objectid.js
-¦   ¦   ¦   ¦   ¦       
-¦   ¦   ¦   ¦   +---node-mongodb-native
-¦   ¦   ¦   ¦           bulkWriteResult.js
-¦   ¦   ¦   ¦           collection.js
-¦   ¦   ¦   ¦           connection.js
-¦   ¦   ¦   ¦           index.js
-¦   ¦   ¦   ¦           
-¦   ¦   ¦   +---error
-¦   ¦   ¦   ¦       browserMissingSchema.js
-¦   ¦   ¦   ¦       bulkSaveIncompleteError.js
-¦   ¦   ¦   ¦       bulkWriteError.js
-¦   ¦   ¦   ¦       cast.js
-¦   ¦   ¦   ¦       createCollectionsError.js
-¦   ¦   ¦   ¦       divergentArray.js
-¦   ¦   ¦   ¦       eachAsyncMultiError.js
-¦   ¦   ¦   ¦       index.js
-¦   ¦   ¦   ¦       invalidSchemaOption.js
-¦   ¦   ¦   ¦       messages.js
-¦   ¦   ¦   ¦       missingSchema.js
-¦   ¦   ¦   ¦       mongooseError.js
-¦   ¦   ¦   ¦       notFound.js
-¦   ¦   ¦   ¦       objectExpected.js
-¦   ¦   ¦   ¦       objectParameter.js
-¦   ¦   ¦   ¦       overwriteModel.js
-¦   ¦   ¦   ¦       parallelSave.js
-¦   ¦   ¦   ¦       parallelValidate.js
-¦   ¦   ¦   ¦       serverSelection.js
-¦   ¦   ¦   ¦       setOptionError.js
-¦   ¦   ¦   ¦       strict.js
-¦   ¦   ¦   ¦       strictPopulate.js
-¦   ¦   ¦   ¦       syncIndexes.js
-¦   ¦   ¦   ¦       validation.js
-¦   ¦   ¦   ¦       validator.js
-¦   ¦   ¦   ¦       version.js
-¦   ¦   ¦   ¦       
-¦   ¦   ¦   +---helpers
-¦   ¦   ¦   ¦   ¦   arrayDepth.js
-¦   ¦   ¦   ¦   ¦   clone.js
-¦   ¦   ¦   ¦   ¦   common.js
-¦   ¦   ¦   ¦   ¦   createJSONSchemaTypeDefinition.js
-¦   ¦   ¦   ¦   ¦   each.js
-¦   ¦   ¦   ¦   ¦   firstKey.js
-¦   ¦   ¦   ¦   ¦   get.js
-¦   ¦   ¦   ¦   ¦   getConstructorName.js
-¦   ¦   ¦   ¦   ¦   getDefaultBulkwriteResult.js
-¦   ¦   ¦   ¦   ¦   getFunctionName.js
-¦   ¦   ¦   ¦   ¦   immediate.js
-¦   ¦   ¦   ¦   ¦   isAsyncFunction.js
-¦   ¦   ¦   ¦   ¦   isBsonType.js
-¦   ¦   ¦   ¦   ¦   isMongooseObject.js
-¦   ¦   ¦   ¦   ¦   isObject.js
-¦   ¦   ¦   ¦   ¦   isPOJO.js
-¦   ¦   ¦   ¦   ¦   isPromise.js
-¦   ¦   ¦   ¦   ¦   isSimpleValidator.js
-¦   ¦   ¦   ¦   ¦   minimize.js
-¦   ¦   ¦   ¦   ¦   omitUndefined.js
-¦   ¦   ¦   ¦   ¦   once.js
-¦   ¦   ¦   ¦   ¦   parallelLimit.js
-¦   ¦   ¦   ¦   ¦   pluralize.js
-¦   ¦   ¦   ¦   ¦   printJestWarning.js
-¦   ¦   ¦   ¦   ¦   processConnectionOptions.js
-¦   ¦   ¦   ¦   ¦   promiseOrCallback.js
-¦   ¦   ¦   ¦   ¦   setDefaultsOnInsert.js
-¦   ¦   ¦   ¦   ¦   specialProperties.js
-¦   ¦   ¦   ¦   ¦   symbols.js
-¦   ¦   ¦   ¦   ¦   timers.js
-¦   ¦   ¦   ¦   ¦   updateValidators.js
-¦   ¦   ¦   ¦   ¦   
-¦   ¦   ¦   ¦   +---aggregate
-¦   ¦   ¦   ¦   ¦       prepareDiscriminatorPipeline.js
-¦   ¦   ¦   ¦   ¦       stringifyFunctionOperators.js
-¦   ¦   ¦   ¦   ¦       
-¦   ¦   ¦   ¦   +---cursor
-¦   ¦   ¦   ¦   ¦       eachAsync.js
-¦   ¦   ¦   ¦   ¦       
-¦   ¦   ¦   ¦   +---discriminator
-¦   ¦   ¦   ¦   ¦       applyEmbeddedDiscriminators.js
-¦   ¦   ¦   ¦   ¦       areDiscriminatorValuesEqual.js
-¦   ¦   ¦   ¦   ¦       checkEmbeddedDiscriminatorKeyProjection.js
-¦   ¦   ¦   ¦   ¦       getConstructor.js
-¦   ¦   ¦   ¦   ¦       getDiscriminatorByValue.js
-¦   ¦   ¦   ¦   ¦       getSchemaDiscriminatorByValue.js
-¦   ¦   ¦   ¦   ¦       mergeDiscriminatorSchema.js
-¦   ¦   ¦   ¦   ¦       
-¦   ¦   ¦   ¦   +---document
-¦   ¦   ¦   ¦   ¦       applyDefaults.js
-¦   ¦   ¦   ¦   ¦       applyTimestamps.js
-¦   ¦   ¦   ¦   ¦       applyVirtuals.js
-¦   ¦   ¦   ¦   ¦       cleanModifiedSubpaths.js
-¦   ¦   ¦   ¦   ¦       compile.js
-¦   ¦   ¦   ¦   ¦       getDeepestSubdocumentForPath.js
-¦   ¦   ¦   ¦   ¦       getEmbeddedDiscriminatorPath.js
-¦   ¦   ¦   ¦   ¦       handleSpreadDoc.js
-¦   ¦   ¦   ¦   ¦       
-¦   ¦   ¦   ¦   +---error
-¦   ¦   ¦   ¦   ¦       combinePathErrors.js
-¦   ¦   ¦   ¦   ¦       
-¦   ¦   ¦   ¦   +---indexes
-¦   ¦   ¦   ¦   ¦       applySchemaCollation.js
-¦   ¦   ¦   ¦   ¦       decorateDiscriminatorIndexOptions.js
-¦   ¦   ¦   ¦   ¦       getRelatedIndexes.js
-¦   ¦   ¦   ¦   ¦       isDefaultIdIndex.js
-¦   ¦   ¦   ¦   ¦       isIndexEqual.js
-¦   ¦   ¦   ¦   ¦       isIndexSpecEqual.js
-¦   ¦   ¦   ¦   ¦       isTextIndex.js
-¦   ¦   ¦   ¦   ¦       isTimeseriesIndex.js
-¦   ¦   ¦   ¦   ¦       
-¦   ¦   ¦   ¦   +---model
-¦   ¦   ¦   ¦   ¦       applyDefaultsToPOJO.js
-¦   ¦   ¦   ¦   ¦       applyHooks.js
-¦   ¦   ¦   ¦   ¦       applyMethods.js
-¦   ¦   ¦   ¦   ¦       applyStaticHooks.js
-¦   ¦   ¦   ¦   ¦       applyStatics.js
-¦   ¦   ¦   ¦   ¦       castBulkWrite.js
-¦   ¦   ¦   ¦   ¦       decorateBulkWriteResult.js
-¦   ¦   ¦   ¦   ¦       discriminator.js
-¦   ¦   ¦   ¦   ¦       pushNestedArrayPaths.js
-¦   ¦   ¦   ¦   ¦       
-¦   ¦   ¦   ¦   +---path
-¦   ¦   ¦   ¦   ¦       parentPaths.js
-¦   ¦   ¦   ¦   ¦       setDottedPath.js
-¦   ¦   ¦   ¦   ¦       
-¦   ¦   ¦   ¦   +---populate
-¦   ¦   ¦   ¦   ¦       assignRawDocsToIdStructure.js
-¦   ¦   ¦   ¦   ¦       assignVals.js
-¦   ¦   ¦   ¦   ¦       createPopulateQueryFilter.js
-¦   ¦   ¦   ¦   ¦       getModelsMapForPopulate.js
-¦   ¦   ¦   ¦   ¦       getSchemaTypes.js
-¦   ¦   ¦   ¦   ¦       getVirtual.js
-¦   ¦   ¦   ¦   ¦       leanPopulateMap.js
-¦   ¦   ¦   ¦   ¦       lookupLocalFields.js
-¦   ¦   ¦   ¦   ¦       markArraySubdocsPopulated.js
-¦   ¦   ¦   ¦   ¦       modelNamesFromRefPath.js
-¦   ¦   ¦   ¦   ¦       removeDeselectedForeignField.js
-¦   ¦   ¦   ¦   ¦       setPopulatedVirtualValue.js
-¦   ¦   ¦   ¦   ¦       skipPopulateValue.js
-¦   ¦   ¦   ¦   ¦       validateRef.js
-¦   ¦   ¦   ¦   ¦       
-¦   ¦   ¦   ¦   +---projection
-¦   ¦   ¦   ¦   ¦       applyProjection.js
-¦   ¦   ¦   ¦   ¦       hasIncludedChildren.js
-¦   ¦   ¦   ¦   ¦       isDefiningProjection.js
-¦   ¦   ¦   ¦   ¦       isExclusive.js
-¦   ¦   ¦   ¦   ¦       isInclusive.js
-¦   ¦   ¦   ¦   ¦       isNestedProjection.js
-¦   ¦   ¦   ¦   ¦       isPathExcluded.js
-¦   ¦   ¦   ¦   ¦       isPathSelectedInclusive.js
-¦   ¦   ¦   ¦   ¦       isSubpath.js
-¦   ¦   ¦   ¦   ¦       parseProjection.js
-¦   ¦   ¦   ¦   ¦       
-¦   ¦   ¦   ¦   +---query
-¦   ¦   ¦   ¦   ¦       applyGlobalOption.js
-¦   ¦   ¦   ¦   ¦       cast$expr.js
-¦   ¦   ¦   ¦   ¦       castFilterPath.js
-¦   ¦   ¦   ¦   ¦       castUpdate.js
-¦   ¦   ¦   ¦   ¦       getEmbeddedDiscriminatorPath.js
-¦   ¦   ¦   ¦   ¦       handleImmutable.js
-¦   ¦   ¦   ¦   ¦       handleReadPreferenceAliases.js
-¦   ¦   ¦   ¦   ¦       hasDollarKeys.js
-¦   ¦   ¦   ¦   ¦       isOperator.js
-¦   ¦   ¦   ¦   ¦       sanitizeFilter.js
-¦   ¦   ¦   ¦   ¦       sanitizeProjection.js
-¦   ¦   ¦   ¦   ¦       selectPopulatedFields.js
-¦   ¦   ¦   ¦   ¦       trusted.js
-¦   ¦   ¦   ¦   ¦       validOps.js
-¦   ¦   ¦   ¦   ¦       
-¦   ¦   ¦   ¦   +---schema
-¦   ¦   ¦   ¦   ¦       addAutoId.js
-¦   ¦   ¦   ¦   ¦       applyBuiltinPlugins.js
-¦   ¦   ¦   ¦   ¦       applyPlugins.js
-¦   ¦   ¦   ¦   ¦       applyReadConcern.js
-¦   ¦   ¦   ¦   ¦       applyWriteConcern.js
-¦   ¦   ¦   ¦   ¦       cleanPositionalOperators.js
-¦   ¦   ¦   ¦   ¦       getIndexes.js
-¦   ¦   ¦   ¦   ¦       getKeysInSchemaOrder.js
-¦   ¦   ¦   ¦   ¦       getPath.js
-¦   ¦   ¦   ¦   ¦       getSubdocumentStrictValue.js
-¦   ¦   ¦   ¦   ¦       handleIdOption.js
-¦   ¦   ¦   ¦   ¦       handleTimestampOption.js
-¦   ¦   ¦   ¦   ¦       idGetter.js
-¦   ¦   ¦   ¦   ¦       merge.js
-¦   ¦   ¦   ¦   ¦       
-¦   ¦   ¦   ¦   +---schematype
-¦   ¦   ¦   ¦   ¦       handleImmutable.js
-¦   ¦   ¦   ¦   ¦       
-¦   ¦   ¦   ¦   +---timestamps
-¦   ¦   ¦   ¦   ¦       setDocumentTimestamps.js
-¦   ¦   ¦   ¦   ¦       setupTimestamps.js
-¦   ¦   ¦   ¦   ¦       
-¦   ¦   ¦   ¦   +---topology
-¦   ¦   ¦   ¦   ¦       allServersUnknown.js
-¦   ¦   ¦   ¦   ¦       isAtlas.js
-¦   ¦   ¦   ¦   ¦       isSSLError.js
-¦   ¦   ¦   ¦   ¦       
-¦   ¦   ¦   ¦   +---update
-¦   ¦   ¦   ¦           applyTimestampsToChildren.js
-¦   ¦   ¦   ¦           applyTimestampsToUpdate.js
-¦   ¦   ¦   ¦           castArrayFilters.js
-¦   ¦   ¦   ¦           decorateUpdateWithVersionKey.js
-¦   ¦   ¦   ¦           modifiedPaths.js
-¦   ¦   ¦   ¦           moveImmutableProperties.js
-¦   ¦   ¦   ¦           removeUnusedArrayFilters.js
-¦   ¦   ¦   ¦           updatedPathsByArrayFilter.js
-¦   ¦   ¦   ¦           
-¦   ¦   ¦   +---options
-¦   ¦   ¦   ¦       populateOptions.js
-¦   ¦   ¦   ¦       propertyOptions.js
-¦   ¦   ¦   ¦       saveOptions.js
-¦   ¦   ¦   ¦       schemaArrayOptions.js
-¦   ¦   ¦   ¦       schemaBufferOptions.js
-¦   ¦   ¦   ¦       schemaDateOptions.js
-¦   ¦   ¦   ¦       schemaDocumentArrayOptions.js
-¦   ¦   ¦   ¦       schemaMapOptions.js
-¦   ¦   ¦   ¦       schemaNumberOptions.js
-¦   ¦   ¦   ¦       schemaObjectIdOptions.js
-¦   ¦   ¦   ¦       schemaStringOptions.js
-¦   ¦   ¦   ¦       schemaSubdocumentOptions.js
-¦   ¦   ¦   ¦       schemaTypeOptions.js
-¦   ¦   ¦   ¦       schemaUnionOptions.js
-¦   ¦   ¦   ¦       virtualOptions.js
-¦   ¦   ¦   ¦       
-¦   ¦   ¦   +---plugins
-¦   ¦   ¦   ¦       index.js
-¦   ¦   ¦   ¦       saveSubdocs.js
-¦   ¦   ¦   ¦       sharding.js
-¦   ¦   ¦   ¦       trackTransaction.js
-¦   ¦   ¦   ¦       validateBeforeSave.js
-¦   ¦   ¦   ¦       
-¦   ¦   ¦   +---schema
-¦   ¦   ¦   ¦   ¦   array.js
-¦   ¦   ¦   ¦   ¦   bigint.js
-¦   ¦   ¦   ¦   ¦   boolean.js
-¦   ¦   ¦   ¦   ¦   buffer.js
-¦   ¦   ¦   ¦   ¦   date.js
-¦   ¦   ¦   ¦   ¦   decimal128.js
-¦   ¦   ¦   ¦   ¦   documentArray.js
-¦   ¦   ¦   ¦   ¦   documentArrayElement.js
-¦   ¦   ¦   ¦   ¦   double.js
-¦   ¦   ¦   ¦   ¦   index.js
-¦   ¦   ¦   ¦   ¦   int32.js
-¦   ¦   ¦   ¦   ¦   map.js
-¦   ¦   ¦   ¦   ¦   mixed.js
-¦   ¦   ¦   ¦   ¦   number.js
-¦   ¦   ¦   ¦   ¦   objectId.js
-¦   ¦   ¦   ¦   ¦   string.js
-¦   ¦   ¦   ¦   ¦   subdocument.js
-¦   ¦   ¦   ¦   ¦   symbols.js
-¦   ¦   ¦   ¦   ¦   union.js
-¦   ¦   ¦   ¦   ¦   uuid.js
-¦   ¦   ¦   ¦   ¦   
-¦   ¦   ¦   ¦   +---operators
-¦   ¦   ¦   ¦           bitwise.js
-¦   ¦   ¦   ¦           exists.js
-¦   ¦   ¦   ¦           geospatial.js
-¦   ¦   ¦   ¦           helpers.js
-¦   ¦   ¦   ¦           text.js
-¦   ¦   ¦   ¦           type.js
-¦   ¦   ¦   ¦           
-¦   ¦   ¦   +---types
-¦   ¦   ¦       ¦   arraySubdocument.js
-¦   ¦   ¦       ¦   buffer.js
-¦   ¦   ¦       ¦   decimal128.js
-¦   ¦   ¦       ¦   double.js
-¦   ¦   ¦       ¦   index.js
-¦   ¦   ¦       ¦   map.js
-¦   ¦   ¦       ¦   objectid.js
-¦   ¦   ¦       ¦   subdocument.js
-¦   ¦   ¦       ¦   uuid.js
-¦   ¦   ¦       ¦   
-¦   ¦   ¦       +---array
-¦   ¦   ¦       ¦   ¦   index.js
-¦   ¦   ¦       ¦   ¦   isMongooseArray.js
-¦   ¦   ¦       ¦   ¦   
-¦   ¦   ¦       ¦   +---methods
-¦   ¦   ¦       ¦           index.js
-¦   ¦   ¦       ¦           
-¦   ¦   ¦       +---documentArray
-¦   ¦   ¦           ¦   index.js
-¦   ¦   ¦           ¦   isMongooseDocumentArray.js
-¦   ¦   ¦           ¦   
-¦   ¦   ¦           +---methods
-¦   ¦   ¦                   index.js
-¦   ¦   ¦                   
-¦   ¦   +---node_modules
-¦   ¦   ¦   +---@types
-¦   ¦   ¦   ¦   +---whatwg-url
-¦   ¦   ¦   ¦       ¦   index.d.ts
-¦   ¦   ¦   ¦       ¦   LICENSE
-¦   ¦   ¦   ¦       ¦   package.json
-¦   ¦   ¦   ¦       ¦   README.md
-¦   ¦   ¦   ¦       ¦   webidl2js-wrapper.d.ts
-¦   ¦   ¦   ¦       ¦   
-¦   ¦   ¦   ¦       +---lib
-¦   ¦   ¦   ¦               URL-impl.d.ts
-¦   ¦   ¦   ¦               URL.d.ts
-¦   ¦   ¦   ¦               URLSearchParams-impl.d.ts
-¦   ¦   ¦   ¦               URLSearchParams.d.ts
-¦   ¦   ¦   ¦               
-¦   ¦   ¦   +---bson
-¦   ¦   ¦   ¦   ¦   bson.d.ts
-¦   ¦   ¦   ¦   ¦   LICENSE.md
-¦   ¦   ¦   ¦   ¦   package.json
-¦   ¦   ¦   ¦   ¦   README.md
-¦   ¦   ¦   ¦   ¦   
-¦   ¦   ¦   ¦   +---etc
-¦   ¦   ¦   ¦   ¦       prepare.js
-¦   ¦   ¦   ¦   ¦       
-¦   ¦   ¦   ¦   +---lib
-¦   ¦   ¦   ¦   ¦       bson.bundle.js
-¦   ¦   ¦   ¦   ¦       bson.bundle.js.map
-¦   ¦   ¦   ¦   ¦       bson.cjs
-¦   ¦   ¦   ¦   ¦       bson.cjs.map
-¦   ¦   ¦   ¦   ¦       bson.mjs
-¦   ¦   ¦   ¦   ¦       bson.mjs.map
-¦   ¦   ¦   ¦   ¦       bson.node.mjs
-¦   ¦   ¦   ¦   ¦       bson.node.mjs.map
-¦   ¦   ¦   ¦   ¦       bson.rn.cjs
-¦   ¦   ¦   ¦   ¦       bson.rn.cjs.map
-¦   ¦   ¦   ¦   ¦       
-¦   ¦   ¦   ¦   +---src
-¦   ¦   ¦   ¦   ¦   ¦   binary.ts
-¦   ¦   ¦   ¦   ¦   ¦   bson.ts
-¦   ¦   ¦   ¦   ¦   ¦   bson_value.ts
-¦   ¦   ¦   ¦   ¦   ¦   code.ts
-¦   ¦   ¦   ¦   ¦   ¦   constants.ts
-¦   ¦   ¦   ¦   ¦   ¦   db_ref.ts
-¦   ¦   ¦   ¦   ¦   ¦   decimal128.ts
-¦   ¦   ¦   ¦   ¦   ¦   double.ts
-¦   ¦   ¦   ¦   ¦   ¦   error.ts
-¦   ¦   ¦   ¦   ¦   ¦   extended_json.ts
-¦   ¦   ¦   ¦   ¦   ¦   index.ts
-¦   ¦   ¦   ¦   ¦   ¦   int_32.ts
-¦   ¦   ¦   ¦   ¦   ¦   long.ts
-¦   ¦   ¦   ¦   ¦   ¦   max_key.ts
-¦   ¦   ¦   ¦   ¦   ¦   min_key.ts
-¦   ¦   ¦   ¦   ¦   ¦   objectid.ts
-¦   ¦   ¦   ¦   ¦   ¦   parse_utf8.ts
-¦   ¦   ¦   ¦   ¦   ¦   regexp.ts
-¦   ¦   ¦   ¦   ¦   ¦   symbol.ts
-¦   ¦   ¦   ¦   ¦   ¦   timestamp.ts
-¦   ¦   ¦   ¦   ¦   ¦   
-¦   ¦   ¦   ¦   ¦   +---parser
-¦   ¦   ¦   ¦   ¦   ¦   ¦   calculate_size.ts
-¦   ¦   ¦   ¦   ¦   ¦   ¦   deserializer.ts
-¦   ¦   ¦   ¦   ¦   ¦   ¦   serializer.ts
-¦   ¦   ¦   ¦   ¦   ¦   ¦   utils.ts
-¦   ¦   ¦   ¦   ¦   ¦   ¦   
-¦   ¦   ¦   ¦   ¦   ¦   +---on_demand
-¦   ¦   ¦   ¦   ¦   ¦           index.ts
-¦   ¦   ¦   ¦   ¦   ¦           parse_to_elements.ts
-¦   ¦   ¦   ¦   ¦   ¦           
-¦   ¦   ¦   ¦   ¦   +---utils
-¦   ¦   ¦   ¦   ¦           byte_utils.ts
-¦   ¦   ¦   ¦   ¦           latin.ts
-¦   ¦   ¦   ¦   ¦           node_byte_utils.ts
-¦   ¦   ¦   ¦   ¦           number_utils.ts
-¦   ¦   ¦   ¦   ¦           string_utils.ts
-¦   ¦   ¦   ¦   ¦           web_byte_utils.ts
-¦   ¦   ¦   ¦   ¦           
-¦   ¦   ¦   ¦   +---vendor
-¦   ¦   ¦   ¦       +---base64
-¦   ¦   ¦   ¦       ¦       base64.js
-¦   ¦   ¦   ¦       ¦       LICENSE-MIT.txt
-¦   ¦   ¦   ¦       ¦       package.json
-¦   ¦   ¦   ¦       ¦       README.md
-¦   ¦   ¦   ¦       ¦       
-¦   ¦   ¦   ¦       +---text-encoding
-¦   ¦   ¦   ¦           ¦   index.js
-¦   ¦   ¦   ¦           ¦   LICENSE.md
-¦   ¦   ¦   ¦           ¦   package.json
-¦   ¦   ¦   ¦           ¦   README.md
-¦   ¦   ¦   ¦           ¦   
-¦   ¦   ¦   ¦           +---lib
-¦   ¦   ¦   ¦                   encoding-indexes.js
-¦   ¦   ¦   ¦                   encoding.js
-¦   ¦   ¦   ¦                   
-¦   ¦   ¦   +---mongodb
-¦   ¦   ¦   ¦   ¦   LICENSE.md
-¦   ¦   ¦   ¦   ¦   mongodb.d.ts
-¦   ¦   ¦   ¦   ¦   package.json
-¦   ¦   ¦   ¦   ¦   README.md
-¦   ¦   ¦   ¦   ¦   tsconfig.json
-¦   ¦   ¦   ¦   ¦   
-¦   ¦   ¦   ¦   +---etc
-¦   ¦   ¦   ¦   ¦       prepare.js
-¦   ¦   ¦   ¦   ¦       
-¦   ¦   ¦   ¦   +---lib
-¦   ¦   ¦   ¦   ¦   ¦   admin.js
-¦   ¦   ¦   ¦   ¦   ¦   admin.js.map
-¦   ¦   ¦   ¦   ¦   ¦   beta.d.ts
-¦   ¦   ¦   ¦   ¦   ¦   beta.js
-¦   ¦   ¦   ¦   ¦   ¦   beta.js.map
-¦   ¦   ¦   ¦   ¦   ¦   bson.js
-¦   ¦   ¦   ¦   ¦   ¦   bson.js.map
-¦   ¦   ¦   ¦   ¦   ¦   change_stream.js
-¦   ¦   ¦   ¦   ¦   ¦   change_stream.js.map
-¦   ¦   ¦   ¦   ¦   ¦   collection.js
-¦   ¦   ¦   ¦   ¦   ¦   collection.js.map
-¦   ¦   ¦   ¦   ¦   ¦   connection_string.js
-¦   ¦   ¦   ¦   ¦   ¦   connection_string.js.map
-¦   ¦   ¦   ¦   ¦   ¦   constants.js
-¦   ¦   ¦   ¦   ¦   ¦   constants.js.map
-¦   ¦   ¦   ¦   ¦   ¦   db.js
-¦   ¦   ¦   ¦   ¦   ¦   db.js.map
-¦   ¦   ¦   ¦   ¦   ¦   deps.js
-¦   ¦   ¦   ¦   ¦   ¦   deps.js.map
-¦   ¦   ¦   ¦   ¦   ¦   encrypter.js
-¦   ¦   ¦   ¦   ¦   ¦   encrypter.js.map
-¦   ¦   ¦   ¦   ¦   ¦   error.js
-¦   ¦   ¦   ¦   ¦   ¦   error.js.map
-¦   ¦   ¦   ¦   ¦   ¦   explain.js
-¦   ¦   ¦   ¦   ¦   ¦   explain.js.map
-¦   ¦   ¦   ¦   ¦   ¦   index.js
-¦   ¦   ¦   ¦   ¦   ¦   index.js.map
-¦   ¦   ¦   ¦   ¦   ¦   mongo_client.js
-¦   ¦   ¦   ¦   ¦   ¦   mongo_client.js.map
-¦   ¦   ¦   ¦   ¦   ¦   mongo_client_auth_providers.js
-¦   ¦   ¦   ¦   ¦   ¦   mongo_client_auth_providers.js.map
-¦   ¦   ¦   ¦   ¦   ¦   mongo_logger.js
-¦   ¦   ¦   ¦   ¦   ¦   mongo_logger.js.map
-¦   ¦   ¦   ¦   ¦   ¦   mongo_types.js
-¦   ¦   ¦   ¦   ¦   ¦   mongo_types.js.map
-¦   ¦   ¦   ¦   ¦   ¦   read_concern.js
-¦   ¦   ¦   ¦   ¦   ¦   read_concern.js.map
-¦   ¦   ¦   ¦   ¦   ¦   read_preference.js
-¦   ¦   ¦   ¦   ¦   ¦   read_preference.js.map
-¦   ¦   ¦   ¦   ¦   ¦   resource_management.js
-¦   ¦   ¦   ¦   ¦   ¦   resource_management.js.map
-¦   ¦   ¦   ¦   ¦   ¦   sessions.js
-¦   ¦   ¦   ¦   ¦   ¦   sessions.js.map
-¦   ¦   ¦   ¦   ¦   ¦   sort.js
-¦   ¦   ¦   ¦   ¦   ¦   sort.js.map
-¦   ¦   ¦   ¦   ¦   ¦   timeout.js
-¦   ¦   ¦   ¦   ¦   ¦   timeout.js.map
-¦   ¦   ¦   ¦   ¦   ¦   transactions.js
-¦   ¦   ¦   ¦   ¦   ¦   transactions.js.map
-¦   ¦   ¦   ¦   ¦   ¦   utils.js
-¦   ¦   ¦   ¦   ¦   ¦   utils.js.map
-¦   ¦   ¦   ¦   ¦   ¦   write_concern.js
-¦   ¦   ¦   ¦   ¦   ¦   write_concern.js.map
-¦   ¦   ¦   ¦   ¦   ¦   
-¦   ¦   ¦   ¦   ¦   +---bulk
-¦   ¦   ¦   ¦   ¦   ¦       common.js
-¦   ¦   ¦   ¦   ¦   ¦       common.js.map
-¦   ¦   ¦   ¦   ¦   ¦       ordered.js
-¦   ¦   ¦   ¦   ¦   ¦       ordered.js.map
-¦   ¦   ¦   ¦   ¦   ¦       unordered.js
-¦   ¦   ¦   ¦   ¦   ¦       unordered.js.map
-¦   ¦   ¦   ¦   ¦   ¦       
-¦   ¦   ¦   ¦   ¦   +---client-side-encryption
-¦   ¦   ¦   ¦   ¦   ¦   ¦   auto_encrypter.js
-¦   ¦   ¦   ¦   ¦   ¦   ¦   auto_encrypter.js.map
-¦   ¦   ¦   ¦   ¦   ¦   ¦   client_encryption.js
-¦   ¦   ¦   ¦   ¦   ¦   ¦   client_encryption.js.map
-¦   ¦   ¦   ¦   ¦   ¦   ¦   crypto_callbacks.js
-¦   ¦   ¦   ¦   ¦   ¦   ¦   crypto_callbacks.js.map
-¦   ¦   ¦   ¦   ¦   ¦   ¦   errors.js
-¦   ¦   ¦   ¦   ¦   ¦   ¦   errors.js.map
-¦   ¦   ¦   ¦   ¦   ¦   ¦   mongocryptd_manager.js
-¦   ¦   ¦   ¦   ¦   ¦   ¦   mongocryptd_manager.js.map
-¦   ¦   ¦   ¦   ¦   ¦   ¦   state_machine.js
-¦   ¦   ¦   ¦   ¦   ¦   ¦   state_machine.js.map
-¦   ¦   ¦   ¦   ¦   ¦   ¦   
-¦   ¦   ¦   ¦   ¦   ¦   +---providers
-¦   ¦   ¦   ¦   ¦   ¦           aws.js
-¦   ¦   ¦   ¦   ¦   ¦           aws.js.map
-¦   ¦   ¦   ¦   ¦   ¦           azure.js
-¦   ¦   ¦   ¦   ¦   ¦           azure.js.map
-¦   ¦   ¦   ¦   ¦   ¦           gcp.js
-¦   ¦   ¦   ¦   ¦   ¦           gcp.js.map
-¦   ¦   ¦   ¦   ¦   ¦           index.js
-¦   ¦   ¦   ¦   ¦   ¦           index.js.map
-¦   ¦   ¦   ¦   ¦   ¦           
-¦   ¦   ¦   ¦   ¦   +---cmap
-¦   ¦   ¦   ¦   ¦   ¦   ¦   commands.js
-¦   ¦   ¦   ¦   ¦   ¦   ¦   commands.js.map
-¦   ¦   ¦   ¦   ¦   ¦   ¦   command_monitoring_events.js
-¦   ¦   ¦   ¦   ¦   ¦   ¦   command_monitoring_events.js.map
-¦   ¦   ¦   ¦   ¦   ¦   ¦   connect.js
-¦   ¦   ¦   ¦   ¦   ¦   ¦   connect.js.map
-¦   ¦   ¦   ¦   ¦   ¦   ¦   connection.js
-¦   ¦   ¦   ¦   ¦   ¦   ¦   connection.js.map
-¦   ¦   ¦   ¦   ¦   ¦   ¦   connection_pool.js
-¦   ¦   ¦   ¦   ¦   ¦   ¦   connection_pool.js.map
-¦   ¦   ¦   ¦   ¦   ¦   ¦   connection_pool_events.js
-¦   ¦   ¦   ¦   ¦   ¦   ¦   connection_pool_events.js.map
-¦   ¦   ¦   ¦   ¦   ¦   ¦   errors.js
-¦   ¦   ¦   ¦   ¦   ¦   ¦   errors.js.map
-¦   ¦   ¦   ¦   ¦   ¦   ¦   metrics.js
-¦   ¦   ¦   ¦   ¦   ¦   ¦   metrics.js.map
-¦   ¦   ¦   ¦   ¦   ¦   ¦   stream_description.js
-¦   ¦   ¦   ¦   ¦   ¦   ¦   stream_description.js.map
-¦   ¦   ¦   ¦   ¦   ¦   ¦   
-¦   ¦   ¦   ¦   ¦   ¦   +---auth
-¦   ¦   ¦   ¦   ¦   ¦   ¦   ¦   auth_provider.js
-¦   ¦   ¦   ¦   ¦   ¦   ¦   ¦   auth_provider.js.map
-¦   ¦   ¦   ¦   ¦   ¦   ¦   ¦   aws_temporary_credentials.js
-¦   ¦   ¦   ¦   ¦   ¦   ¦   ¦   aws_temporary_credentials.js.map
-¦   ¦   ¦   ¦   ¦   ¦   ¦   ¦   gssapi.js
-¦   ¦   ¦   ¦   ¦   ¦   ¦   ¦   gssapi.js.map
-¦   ¦   ¦   ¦   ¦   ¦   ¦   ¦   mongodb_aws.js
-¦   ¦   ¦   ¦   ¦   ¦   ¦   ¦   mongodb_aws.js.map
-¦   ¦   ¦   ¦   ¦   ¦   ¦   ¦   mongodb_oidc.js
-¦   ¦   ¦   ¦   ¦   ¦   ¦   ¦   mongodb_oidc.js.map
-¦   ¦   ¦   ¦   ¦   ¦   ¦   ¦   mongo_credentials.js
-¦   ¦   ¦   ¦   ¦   ¦   ¦   ¦   mongo_credentials.js.map
-¦   ¦   ¦   ¦   ¦   ¦   ¦   ¦   plain.js
-¦   ¦   ¦   ¦   ¦   ¦   ¦   ¦   plain.js.map
-¦   ¦   ¦   ¦   ¦   ¦   ¦   ¦   providers.js
-¦   ¦   ¦   ¦   ¦   ¦   ¦   ¦   providers.js.map
-¦   ¦   ¦   ¦   ¦   ¦   ¦   ¦   scram.js
-¦   ¦   ¦   ¦   ¦   ¦   ¦   ¦   scram.js.map
-¦   ¦   ¦   ¦   ¦   ¦   ¦   ¦   x509.js
-¦   ¦   ¦   ¦   ¦   ¦   ¦   ¦   x509.js.map
-¦   ¦   ¦   ¦   ¦   ¦   ¦   ¦   
-¦   ¦   ¦   ¦   ¦   ¦   ¦   +---mongodb_oidc
-¦   ¦   ¦   ¦   ¦   ¦   ¦           automated_callback_workflow.js
-¦   ¦   ¦   ¦   ¦   ¦   ¦           automated_callback_workflow.js.map
-¦   ¦   ¦   ¦   ¦   ¦   ¦           azure_machine_workflow.js
-¦   ¦   ¦   ¦   ¦   ¦   ¦           azure_machine_workflow.js.map
-¦   ¦   ¦   ¦   ¦   ¦   ¦           callback_workflow.js
-¦   ¦   ¦   ¦   ¦   ¦   ¦           callback_workflow.js.map
-¦   ¦   ¦   ¦   ¦   ¦   ¦           command_builders.js
-¦   ¦   ¦   ¦   ¦   ¦   ¦           command_builders.js.map
-¦   ¦   ¦   ¦   ¦   ¦   ¦           gcp_machine_workflow.js
-¦   ¦   ¦   ¦   ¦   ¦   ¦           gcp_machine_workflow.js.map
-¦   ¦   ¦   ¦   ¦   ¦   ¦           human_callback_workflow.js
-¦   ¦   ¦   ¦   ¦   ¦   ¦           human_callback_workflow.js.map
-¦   ¦   ¦   ¦   ¦   ¦   ¦           k8s_machine_workflow.js
-¦   ¦   ¦   ¦   ¦   ¦   ¦           k8s_machine_workflow.js.map
-¦   ¦   ¦   ¦   ¦   ¦   ¦           token_cache.js
-¦   ¦   ¦   ¦   ¦   ¦   ¦           token_cache.js.map
-¦   ¦   ¦   ¦   ¦   ¦   ¦           token_machine_workflow.js
-¦   ¦   ¦   ¦   ¦   ¦   ¦           token_machine_workflow.js.map
-¦   ¦   ¦   ¦   ¦   ¦   ¦           
-¦   ¦   ¦   ¦   ¦   ¦   +---handshake
-¦   ¦   ¦   ¦   ¦   ¦   ¦       client_metadata.js
-¦   ¦   ¦   ¦   ¦   ¦   ¦       client_metadata.js.map
-¦   ¦   ¦   ¦   ¦   ¦   ¦       
-¦   ¦   ¦   ¦   ¦   ¦   +---wire_protocol
-¦   ¦   ¦   ¦   ¦   ¦       ¦   compression.js
-¦   ¦   ¦   ¦   ¦   ¦       ¦   compression.js.map
-¦   ¦   ¦   ¦   ¦   ¦       ¦   constants.js
-¦   ¦   ¦   ¦   ¦   ¦       ¦   constants.js.map
-¦   ¦   ¦   ¦   ¦   ¦       ¦   on_data.js
-¦   ¦   ¦   ¦   ¦   ¦       ¦   on_data.js.map
-¦   ¦   ¦   ¦   ¦   ¦       ¦   responses.js
-¦   ¦   ¦   ¦   ¦   ¦       ¦   responses.js.map
-¦   ¦   ¦   ¦   ¦   ¦       ¦   shared.js
-¦   ¦   ¦   ¦   ¦   ¦       ¦   shared.js.map
-¦   ¦   ¦   ¦   ¦   ¦       ¦   
-¦   ¦   ¦   ¦   ¦   ¦       +---on_demand
-¦   ¦   ¦   ¦   ¦   ¦               document.js
-¦   ¦   ¦   ¦   ¦   ¦               document.js.map
-¦   ¦   ¦   ¦   ¦   ¦               
-¦   ¦   ¦   ¦   ¦   +---cursor
-¦   ¦   ¦   ¦   ¦   ¦       abstract_cursor.js
-¦   ¦   ¦   ¦   ¦   ¦       abstract_cursor.js.map
-¦   ¦   ¦   ¦   ¦   ¦       aggregation_cursor.js
-¦   ¦   ¦   ¦   ¦   ¦       aggregation_cursor.js.map
-¦   ¦   ¦   ¦   ¦   ¦       change_stream_cursor.js
-¦   ¦   ¦   ¦   ¦   ¦       change_stream_cursor.js.map
-¦   ¦   ¦   ¦   ¦   ¦       client_bulk_write_cursor.js
-¦   ¦   ¦   ¦   ¦   ¦       client_bulk_write_cursor.js.map
-¦   ¦   ¦   ¦   ¦   ¦       explainable_cursor.js
-¦   ¦   ¦   ¦   ¦   ¦       explainable_cursor.js.map
-¦   ¦   ¦   ¦   ¦   ¦       find_cursor.js
-¦   ¦   ¦   ¦   ¦   ¦       find_cursor.js.map
-¦   ¦   ¦   ¦   ¦   ¦       list_collections_cursor.js
-¦   ¦   ¦   ¦   ¦   ¦       list_collections_cursor.js.map
-¦   ¦   ¦   ¦   ¦   ¦       list_indexes_cursor.js
-¦   ¦   ¦   ¦   ¦   ¦       list_indexes_cursor.js.map
-¦   ¦   ¦   ¦   ¦   ¦       list_search_indexes_cursor.js
-¦   ¦   ¦   ¦   ¦   ¦       list_search_indexes_cursor.js.map
-¦   ¦   ¦   ¦   ¦   ¦       run_command_cursor.js
-¦   ¦   ¦   ¦   ¦   ¦       run_command_cursor.js.map
-¦   ¦   ¦   ¦   ¦   ¦       
-¦   ¦   ¦   ¦   ¦   +---gridfs
-¦   ¦   ¦   ¦   ¦   ¦       download.js
-¦   ¦   ¦   ¦   ¦   ¦       download.js.map
-¦   ¦   ¦   ¦   ¦   ¦       index.js
-¦   ¦   ¦   ¦   ¦   ¦       index.js.map
-¦   ¦   ¦   ¦   ¦   ¦       upload.js
-¦   ¦   ¦   ¦   ¦   ¦       upload.js.map
-¦   ¦   ¦   ¦   ¦   ¦       
-¦   ¦   ¦   ¦   ¦   +---operations
-¦   ¦   ¦   ¦   ¦   ¦   ¦   aggregate.js
-¦   ¦   ¦   ¦   ¦   ¦   ¦   aggregate.js.map
-¦   ¦   ¦   ¦   ¦   ¦   ¦   command.js
-¦   ¦   ¦   ¦   ¦   ¦   ¦   command.js.map
-¦   ¦   ¦   ¦   ¦   ¦   ¦   count.js
-¦   ¦   ¦   ¦   ¦   ¦   ¦   count.js.map
-¦   ¦   ¦   ¦   ¦   ¦   ¦   create_collection.js
-¦   ¦   ¦   ¦   ¦   ¦   ¦   create_collection.js.map
-¦   ¦   ¦   ¦   ¦   ¦   ¦   delete.js
-¦   ¦   ¦   ¦   ¦   ¦   ¦   delete.js.map
-¦   ¦   ¦   ¦   ¦   ¦   ¦   distinct.js
-¦   ¦   ¦   ¦   ¦   ¦   ¦   distinct.js.map
-¦   ¦   ¦   ¦   ¦   ¦   ¦   drop.js
-¦   ¦   ¦   ¦   ¦   ¦   ¦   drop.js.map
-¦   ¦   ¦   ¦   ¦   ¦   ¦   estimated_document_count.js
-¦   ¦   ¦   ¦   ¦   ¦   ¦   estimated_document_count.js.map
-¦   ¦   ¦   ¦   ¦   ¦   ¦   execute_operation.js
-¦   ¦   ¦   ¦   ¦   ¦   ¦   execute_operation.js.map
-¦   ¦   ¦   ¦   ¦   ¦   ¦   find.js
-¦   ¦   ¦   ¦   ¦   ¦   ¦   find.js.map
-¦   ¦   ¦   ¦   ¦   ¦   ¦   find_and_modify.js
-¦   ¦   ¦   ¦   ¦   ¦   ¦   find_and_modify.js.map
-¦   ¦   ¦   ¦   ¦   ¦   ¦   get_more.js
-¦   ¦   ¦   ¦   ¦   ¦   ¦   get_more.js.map
-¦   ¦   ¦   ¦   ¦   ¦   ¦   indexes.js
-¦   ¦   ¦   ¦   ¦   ¦   ¦   indexes.js.map
-¦   ¦   ¦   ¦   ¦   ¦   ¦   insert.js
-¦   ¦   ¦   ¦   ¦   ¦   ¦   insert.js.map
-¦   ¦   ¦   ¦   ¦   ¦   ¦   kill_cursors.js
-¦   ¦   ¦   ¦   ¦   ¦   ¦   kill_cursors.js.map
-¦   ¦   ¦   ¦   ¦   ¦   ¦   list_collections.js
-¦   ¦   ¦   ¦   ¦   ¦   ¦   list_collections.js.map
-¦   ¦   ¦   ¦   ¦   ¦   ¦   list_databases.js
-¦   ¦   ¦   ¦   ¦   ¦   ¦   list_databases.js.map
-¦   ¦   ¦   ¦   ¦   ¦   ¦   operation.js
-¦   ¦   ¦   ¦   ¦   ¦   ¦   operation.js.map
-¦   ¦   ¦   ¦   ¦   ¦   ¦   profiling_level.js
-¦   ¦   ¦   ¦   ¦   ¦   ¦   profiling_level.js.map
-¦   ¦   ¦   ¦   ¦   ¦   ¦   remove_user.js
-¦   ¦   ¦   ¦   ¦   ¦   ¦   remove_user.js.map
-¦   ¦   ¦   ¦   ¦   ¦   ¦   rename.js
-¦   ¦   ¦   ¦   ¦   ¦   ¦   rename.js.map
-¦   ¦   ¦   ¦   ¦   ¦   ¦   run_command.js
-¦   ¦   ¦   ¦   ¦   ¦   ¦   run_command.js.map
-¦   ¦   ¦   ¦   ¦   ¦   ¦   set_profiling_level.js
-¦   ¦   ¦   ¦   ¦   ¦   ¦   set_profiling_level.js.map
-¦   ¦   ¦   ¦   ¦   ¦   ¦   stats.js
-¦   ¦   ¦   ¦   ¦   ¦   ¦   stats.js.map
-¦   ¦   ¦   ¦   ¦   ¦   ¦   update.js
-¦   ¦   ¦   ¦   ¦   ¦   ¦   update.js.map
-¦   ¦   ¦   ¦   ¦   ¦   ¦   validate_collection.js
-¦   ¦   ¦   ¦   ¦   ¦   ¦   validate_collection.js.map
-¦   ¦   ¦   ¦   ¦   ¦   ¦   
-¦   ¦   ¦   ¦   ¦   ¦   +---client_bulk_write
-¦   ¦   ¦   ¦   ¦   ¦   ¦       client_bulk_write.js
-¦   ¦   ¦   ¦   ¦   ¦   ¦       client_bulk_write.js.map
-¦   ¦   ¦   ¦   ¦   ¦   ¦       command_builder.js
-¦   ¦   ¦   ¦   ¦   ¦   ¦       command_builder.js.map
-¦   ¦   ¦   ¦   ¦   ¦   ¦       common.js
-¦   ¦   ¦   ¦   ¦   ¦   ¦       common.js.map
-¦   ¦   ¦   ¦   ¦   ¦   ¦       executor.js
-¦   ¦   ¦   ¦   ¦   ¦   ¦       executor.js.map
-¦   ¦   ¦   ¦   ¦   ¦   ¦       results_merger.js
-¦   ¦   ¦   ¦   ¦   ¦   ¦       results_merger.js.map
-¦   ¦   ¦   ¦   ¦   ¦   ¦       
-¦   ¦   ¦   ¦   ¦   ¦   +---search_indexes
-¦   ¦   ¦   ¦   ¦   ¦           create.js
-¦   ¦   ¦   ¦   ¦   ¦           create.js.map
-¦   ¦   ¦   ¦   ¦   ¦           drop.js
-¦   ¦   ¦   ¦   ¦   ¦           drop.js.map
-¦   ¦   ¦   ¦   ¦   ¦           update.js
-¦   ¦   ¦   ¦   ¦   ¦           update.js.map
-¦   ¦   ¦   ¦   ¦   ¦           
-¦   ¦   ¦   ¦   ¦   +---sdam
-¦   ¦   ¦   ¦   ¦           common.js
-¦   ¦   ¦   ¦   ¦           common.js.map
-¦   ¦   ¦   ¦   ¦           events.js
-¦   ¦   ¦   ¦   ¦           events.js.map
-¦   ¦   ¦   ¦   ¦           monitor.js
-¦   ¦   ¦   ¦   ¦           monitor.js.map
-¦   ¦   ¦   ¦   ¦           server.js
-¦   ¦   ¦   ¦   ¦           server.js.map
-¦   ¦   ¦   ¦   ¦           server_description.js
-¦   ¦   ¦   ¦   ¦           server_description.js.map
-¦   ¦   ¦   ¦   ¦           server_selection.js
-¦   ¦   ¦   ¦   ¦           server_selection.js.map
-¦   ¦   ¦   ¦   ¦           server_selection_events.js
-¦   ¦   ¦   ¦   ¦           server_selection_events.js.map
-¦   ¦   ¦   ¦   ¦           srv_polling.js
-¦   ¦   ¦   ¦   ¦           srv_polling.js.map
-¦   ¦   ¦   ¦   ¦           topology.js
-¦   ¦   ¦   ¦   ¦           topology.js.map
-¦   ¦   ¦   ¦   ¦           topology_description.js
-¦   ¦   ¦   ¦   ¦           topology_description.js.map
-¦   ¦   ¦   ¦   ¦           
-¦   ¦   ¦   ¦   +---src
-¦   ¦   ¦   ¦       ¦   admin.ts
-¦   ¦   ¦   ¦       ¦   beta.ts
-¦   ¦   ¦   ¦       ¦   bson.ts
-¦   ¦   ¦   ¦       ¦   change_stream.ts
-¦   ¦   ¦   ¦       ¦   collection.ts
-¦   ¦   ¦   ¦       ¦   connection_string.ts
-¦   ¦   ¦   ¦       ¦   constants.ts
-¦   ¦   ¦   ¦       ¦   db.ts
-¦   ¦   ¦   ¦       ¦   deps.ts
-¦   ¦   ¦   ¦       ¦   encrypter.ts
-¦   ¦   ¦   ¦       ¦   error.ts
-¦   ¦   ¦   ¦       ¦   explain.ts
-¦   ¦   ¦   ¦       ¦   index.ts
-¦   ¦   ¦   ¦       ¦   mongo_client.ts
-¦   ¦   ¦   ¦       ¦   mongo_client_auth_providers.ts
-¦   ¦   ¦   ¦       ¦   mongo_logger.ts
-¦   ¦   ¦   ¦       ¦   mongo_types.ts
-¦   ¦   ¦   ¦       ¦   read_concern.ts
-¦   ¦   ¦   ¦       ¦   read_preference.ts
-¦   ¦   ¦   ¦       ¦   resource_management.ts
-¦   ¦   ¦   ¦       ¦   sessions.ts
-¦   ¦   ¦   ¦       ¦   sort.ts
-¦   ¦   ¦   ¦       ¦   timeout.ts
-¦   ¦   ¦   ¦       ¦   transactions.ts
-¦   ¦   ¦   ¦       ¦   utils.ts
-¦   ¦   ¦   ¦       ¦   write_concern.ts
-¦   ¦   ¦   ¦       ¦   
-¦   ¦   ¦   ¦       +---bulk
-¦   ¦   ¦   ¦       ¦       common.ts
-¦   ¦   ¦   ¦       ¦       ordered.ts
-¦   ¦   ¦   ¦       ¦       unordered.ts
-¦   ¦   ¦   ¦       ¦       
-¦   ¦   ¦   ¦       +---client-side-encryption
-¦   ¦   ¦   ¦       ¦   ¦   auto_encrypter.ts
-¦   ¦   ¦   ¦       ¦   ¦   client_encryption.ts
-¦   ¦   ¦   ¦       ¦   ¦   crypto_callbacks.ts
-¦   ¦   ¦   ¦       ¦   ¦   errors.ts
-¦   ¦   ¦   ¦       ¦   ¦   mongocryptd_manager.ts
-¦   ¦   ¦   ¦       ¦   ¦   state_machine.ts
-¦   ¦   ¦   ¦       ¦   ¦   
-¦   ¦   ¦   ¦       ¦   +---providers
-¦   ¦   ¦   ¦       ¦           aws.ts
-¦   ¦   ¦   ¦       ¦           azure.ts
-¦   ¦   ¦   ¦       ¦           gcp.ts
-¦   ¦   ¦   ¦       ¦           index.ts
-¦   ¦   ¦   ¦       ¦           
-¦   ¦   ¦   ¦       +---cmap
-¦   ¦   ¦   ¦       ¦   ¦   commands.ts
-¦   ¦   ¦   ¦       ¦   ¦   command_monitoring_events.ts
-¦   ¦   ¦   ¦       ¦   ¦   connect.ts
-¦   ¦   ¦   ¦       ¦   ¦   connection.ts
-¦   ¦   ¦   ¦       ¦   ¦   connection_pool.ts
-¦   ¦   ¦   ¦       ¦   ¦   connection_pool_events.ts
-¦   ¦   ¦   ¦       ¦   ¦   errors.ts
-¦   ¦   ¦   ¦       ¦   ¦   metrics.ts
-¦   ¦   ¦   ¦       ¦   ¦   stream_description.ts
-¦   ¦   ¦   ¦       ¦   ¦   
-¦   ¦   ¦   ¦       ¦   +---auth
-¦   ¦   ¦   ¦       ¦   ¦   ¦   auth_provider.ts
-¦   ¦   ¦   ¦       ¦   ¦   ¦   aws_temporary_credentials.ts
-¦   ¦   ¦   ¦       ¦   ¦   ¦   gssapi.ts
-¦   ¦   ¦   ¦       ¦   ¦   ¦   mongodb_aws.ts
-¦   ¦   ¦   ¦       ¦   ¦   ¦   mongodb_oidc.ts
-¦   ¦   ¦   ¦       ¦   ¦   ¦   mongo_credentials.ts
-¦   ¦   ¦   ¦       ¦   ¦   ¦   plain.ts
-¦   ¦   ¦   ¦       ¦   ¦   ¦   providers.ts
-¦   ¦   ¦   ¦       ¦   ¦   ¦   scram.ts
-¦   ¦   ¦   ¦       ¦   ¦   ¦   x509.ts
-¦   ¦   ¦   ¦       ¦   ¦   ¦   
-¦   ¦   ¦   ¦       ¦   ¦   +---mongodb_oidc
-¦   ¦   ¦   ¦       ¦   ¦           automated_callback_workflow.ts
-¦   ¦   ¦   ¦       ¦   ¦           azure_machine_workflow.ts
-¦   ¦   ¦   ¦       ¦   ¦           callback_workflow.ts
-¦   ¦   ¦   ¦       ¦   ¦           command_builders.ts
-¦   ¦   ¦   ¦       ¦   ¦           gcp_machine_workflow.ts
-¦   ¦   ¦   ¦       ¦   ¦           human_callback_workflow.ts
-¦   ¦   ¦   ¦       ¦   ¦           k8s_machine_workflow.ts
-¦   ¦   ¦   ¦       ¦   ¦           token_cache.ts
-¦   ¦   ¦   ¦       ¦   ¦           token_machine_workflow.ts
-¦   ¦   ¦   ¦       ¦   ¦           
-¦   ¦   ¦   ¦       ¦   +---handshake
-¦   ¦   ¦   ¦       ¦   ¦       client_metadata.ts
-¦   ¦   ¦   ¦       ¦   ¦       
-¦   ¦   ¦   ¦       ¦   +---wire_protocol
-¦   ¦   ¦   ¦       ¦       ¦   compression.ts
-¦   ¦   ¦   ¦       ¦       ¦   constants.ts
-¦   ¦   ¦   ¦       ¦       ¦   on_data.ts
-¦   ¦   ¦   ¦       ¦       ¦   responses.ts
-¦   ¦   ¦   ¦       ¦       ¦   shared.ts
-¦   ¦   ¦   ¦       ¦       ¦   
-¦   ¦   ¦   ¦       ¦       +---on_demand
-¦   ¦   ¦   ¦       ¦               document.ts
-¦   ¦   ¦   ¦       ¦               
-¦   ¦   ¦   ¦       +---cursor
-¦   ¦   ¦   ¦       ¦       abstract_cursor.ts
-¦   ¦   ¦   ¦       ¦       aggregation_cursor.ts
-¦   ¦   ¦   ¦       ¦       change_stream_cursor.ts
-¦   ¦   ¦   ¦       ¦       client_bulk_write_cursor.ts
-¦   ¦   ¦   ¦       ¦       explainable_cursor.ts
-¦   ¦   ¦   ¦       ¦       find_cursor.ts
-¦   ¦   ¦   ¦       ¦       list_collections_cursor.ts
-¦   ¦   ¦   ¦       ¦       list_indexes_cursor.ts
-¦   ¦   ¦   ¦       ¦       list_search_indexes_cursor.ts
-¦   ¦   ¦   ¦       ¦       run_command_cursor.ts
-¦   ¦   ¦   ¦       ¦       
-¦   ¦   ¦   ¦       +---gridfs
-¦   ¦   ¦   ¦       ¦       download.ts
-¦   ¦   ¦   ¦       ¦       index.ts
-¦   ¦   ¦   ¦       ¦       upload.ts
-¦   ¦   ¦   ¦       ¦       
-¦   ¦   ¦   ¦       +---operations
-¦   ¦   ¦   ¦       ¦   ¦   aggregate.ts
-¦   ¦   ¦   ¦       ¦   ¦   command.ts
-¦   ¦   ¦   ¦       ¦   ¦   count.ts
-¦   ¦   ¦   ¦       ¦   ¦   create_collection.ts
-¦   ¦   ¦   ¦       ¦   ¦   delete.ts
-¦   ¦   ¦   ¦       ¦   ¦   distinct.ts
-¦   ¦   ¦   ¦       ¦   ¦   drop.ts
-¦   ¦   ¦   ¦       ¦   ¦   estimated_document_count.ts
-¦   ¦   ¦   ¦       ¦   ¦   execute_operation.ts
-¦   ¦   ¦   ¦       ¦   ¦   find.ts
-¦   ¦   ¦   ¦       ¦   ¦   find_and_modify.ts
-¦   ¦   ¦   ¦       ¦   ¦   get_more.ts
-¦   ¦   ¦   ¦       ¦   ¦   indexes.ts
-¦   ¦   ¦   ¦       ¦   ¦   insert.ts
-¦   ¦   ¦   ¦       ¦   ¦   kill_cursors.ts
-¦   ¦   ¦   ¦       ¦   ¦   list_collections.ts
-¦   ¦   ¦   ¦       ¦   ¦   list_databases.ts
-¦   ¦   ¦   ¦       ¦   ¦   operation.ts
-¦   ¦   ¦   ¦       ¦   ¦   profiling_level.ts
-¦   ¦   ¦   ¦       ¦   ¦   remove_user.ts
-¦   ¦   ¦   ¦       ¦   ¦   rename.ts
-¦   ¦   ¦   ¦       ¦   ¦   run_command.ts
-¦   ¦   ¦   ¦       ¦   ¦   set_profiling_level.ts
-¦   ¦   ¦   ¦       ¦   ¦   stats.ts
-¦   ¦   ¦   ¦       ¦   ¦   update.ts
-¦   ¦   ¦   ¦       ¦   ¦   validate_collection.ts
-¦   ¦   ¦   ¦       ¦   ¦   
-¦   ¦   ¦   ¦       ¦   +---client_bulk_write
-¦   ¦   ¦   ¦       ¦   ¦       client_bulk_write.ts
-¦   ¦   ¦   ¦       ¦   ¦       command_builder.ts
-¦   ¦   ¦   ¦       ¦   ¦       common.ts
-¦   ¦   ¦   ¦       ¦   ¦       executor.ts
-¦   ¦   ¦   ¦       ¦   ¦       results_merger.ts
-¦   ¦   ¦   ¦       ¦   ¦       
-¦   ¦   ¦   ¦       ¦   +---search_indexes
-¦   ¦   ¦   ¦       ¦           create.ts
-¦   ¦   ¦   ¦       ¦           drop.ts
-¦   ¦   ¦   ¦       ¦           update.ts
-¦   ¦   ¦   ¦       ¦           
-¦   ¦   ¦   ¦       +---sdam
-¦   ¦   ¦   ¦               common.ts
-¦   ¦   ¦   ¦               events.ts
-¦   ¦   ¦   ¦               monitor.ts
-¦   ¦   ¦   ¦               server.ts
-¦   ¦   ¦   ¦               server_description.ts
-¦   ¦   ¦   ¦               server_selection.ts
-¦   ¦   ¦   ¦               server_selection_events.ts
-¦   ¦   ¦   ¦               srv_polling.ts
-¦   ¦   ¦   ¦               topology.ts
-¦   ¦   ¦   ¦               topology_description.ts
-¦   ¦   ¦   ¦               
-¦   ¦   ¦   +---mongodb-connection-string-url
-¦   ¦   ¦       ¦   .esm-wrapper.mjs
-¦   ¦   ¦       ¦   LICENSE
-¦   ¦   ¦       ¦   package.json
-¦   ¦   ¦       ¦   README.md
-¦   ¦   ¦       ¦   
-¦   ¦   ¦       +---lib
-¦   ¦   ¦               index.d.ts
-¦   ¦   ¦               index.js
-¦   ¦   ¦               index.js.map
-¦   ¦   ¦               redact.d.ts
-¦   ¦   ¦               redact.js
-¦   ¦   ¦               redact.js.map
-¦   ¦   ¦               
-¦   ¦   +---types
-¦   ¦           aggregate.d.ts
-¦   ¦           augmentations.d.ts
-¦   ¦           callback.d.ts
-¦   ¦           collection.d.ts
-¦   ¦           connection.d.ts
-¦   ¦           cursor.d.ts
-¦   ¦           document.d.ts
-¦   ¦           error.d.ts
-¦   ¦           expressions.d.ts
-¦   ¦           helpers.d.ts
-¦   ¦           index.d.ts
-¦   ¦           indexes.d.ts
-¦   ¦           inferrawdoctype.d.ts
-¦   ¦           inferschematype.d.ts
-¦   ¦           middlewares.d.ts
-¦   ¦           models.d.ts
-¦   ¦           mongooseoptions.d.ts
-¦   ¦           pipelinestage.d.ts
-¦   ¦           populate.d.ts
-¦   ¦           query.d.ts
-¦   ¦           schemaoptions.d.ts
-¦   ¦           schematypes.d.ts
-¦   ¦           session.d.ts
-¦   ¦           types.d.ts
-¦   ¦           utility.d.ts
-¦   ¦           validation.d.ts
-¦   ¦           virtuals.d.ts
-¦   ¦           
-¦   +---mpath
-¦   ¦   ¦   .travis.yml
-¦   ¦   ¦   History.md
-¦   ¦   ¦   index.js
-¦   ¦   ¦   LICENSE
-¦   ¦   ¦   package.json
-¦   ¦   ¦   README.md
-¦   ¦   ¦   SECURITY.md
-¦   ¦   ¦   
-¦   ¦   +---lib
-¦   ¦   ¦       index.js
-¦   ¦   ¦       stringToParts.js
-¦   ¦   ¦       
-¦   ¦   +---test
-¦   ¦           .eslintrc.yml
-¦   ¦           index.js
-¦   ¦           stringToParts.js
-¦   ¦           
-¦   +---mquery
-¦   ¦   ¦   History.md
-¦   ¦   ¦   LICENSE
-¦   ¦   ¦   package.json
-¦   ¦   ¦   README.md
-¦   ¦   ¦   SECURITY.md
-¦   ¦   ¦   
-¦   ¦   +---.github
-¦   ¦   ¦       ISSUE_TEMPLATE.md
-¦   ¦   ¦       PULL_REQUEST_TEMPLATE.md
-¦   ¦   ¦       
-¦   ¦   +---lib
-¦   ¦       ¦   env.js
-¦   ¦       ¦   mquery.js
-¦   ¦       ¦   permissions.js
-¦   ¦       ¦   utils.js
-¦   ¦       ¦   
-¦   ¦       +---collection
-¦   ¦               collection.js
-¦   ¦               index.js
-¦   ¦               node.js
-¦   ¦               
-¦   +---ms
-¦   ¦       index.js
-¦   ¦       license.md
-¦   ¦       package.json
-¦   ¦       readme.md
-¦   ¦       
-¦   +---negotiator
-¦   ¦   ¦   HISTORY.md
-¦   ¦   ¦   index.js
-¦   ¦   ¦   LICENSE
-¦   ¦   ¦   package.json
-¦   ¦   ¦   README.md
-¦   ¦   ¦   
-¦   ¦   +---lib
-¦   ¦           charset.js
-¦   ¦           encoding.js
-¦   ¦           language.js
-¦   ¦           mediaType.js
-¦   ¦           
-¦   +---object-inspect
-¦   ¦   ¦   .eslintrc
-¦   ¦   ¦   .nycrc
-¦   ¦   ¦   CHANGELOG.md
-¦   ¦   ¦   index.js
-¦   ¦   ¦   LICENSE
-¦   ¦   ¦   package-support.json
-¦   ¦   ¦   package.json
-¦   ¦   ¦   readme.markdown
-¦   ¦   ¦   test-core-js.js
-¦   ¦   ¦   util.inspect.js
-¦   ¦   ¦   
-¦   ¦   +---.github
-¦   ¦   ¦       FUNDING.yml
-¦   ¦   ¦       
-¦   ¦   +---example
-¦   ¦   ¦       all.js
-¦   ¦   ¦       circular.js
-¦   ¦   ¦       fn.js
-¦   ¦   ¦       inspect.js
-¦   ¦   ¦       
-¦   ¦   +---test
-¦   ¦       ¦   bigint.js
-¦   ¦       ¦   circular.js
-¦   ¦       ¦   deep.js
-¦   ¦       ¦   element.js
-¦   ¦       ¦   err.js
-¦   ¦       ¦   fakes.js
-¦   ¦       ¦   fn.js
-¦   ¦       ¦   global.js
-¦   ¦       ¦   has.js
-¦   ¦       ¦   holes.js
-¦   ¦       ¦   indent-option.js
-¦   ¦       ¦   inspect.js
-¦   ¦       ¦   lowbyte.js
-¦   ¦       ¦   number.js
-¦   ¦       ¦   quoteStyle.js
-¦   ¦       ¦   toStringTag.js
-¦   ¦       ¦   undef.js
-¦   ¦       ¦   values.js
-¦   ¦       ¦   
-¦   ¦       +---browser
-¦   ¦               dom.js
-¦   ¦               
-¦   +---on-finished
-¦   ¦       HISTORY.md
-¦   ¦       index.js
-¦   ¦       LICENSE
-¦   ¦       package.json
-¦   ¦       README.md
-¦   ¦       
-¦   +---once
-¦   ¦       LICENSE
-¦   ¦       once.js
-¦   ¦       package.json
-¦   ¦       README.md
-¦   ¦       
-¦   +---parseurl
-¦   ¦       HISTORY.md
-¦   ¦       index.js
-¦   ¦       LICENSE
-¦   ¦       package.json
-¦   ¦       README.md
-¦   ¦       
-¦   +---path-to-regexp
-¦   ¦   ¦   LICENSE
-¦   ¦   ¦   package.json
-¦   ¦   ¦   Readme.md
-¦   ¦   ¦   
-¦   ¦   +---dist
-¦   ¦           index.d.ts
-¦   ¦           index.js
-¦   ¦           index.js.map
-¦   ¦           
-¦   +---proxy-addr
-¦   ¦       HISTORY.md
-¦   ¦       index.js
-¦   ¦       LICENSE
-¦   ¦       package.json
-¦   ¦       README.md
-¦   ¦       
-¦   +---punycode
-¦   ¦       LICENSE-MIT.txt
-¦   ¦       package.json
-¦   ¦       punycode.es6.js
-¦   ¦       punycode.js
-¦   ¦       README.md
-¦   ¦       
-¦   +---qs
-¦   ¦   ¦   .editorconfig
-¦   ¦   ¦   .eslintrc
-¦   ¦   ¦   .nycrc
-¦   ¦   ¦   CHANGELOG.md
-¦   ¦   ¦   LICENSE.md
-¦   ¦   ¦   package.json
-¦   ¦   ¦   README.md
-¦   ¦   ¦   
-¦   ¦   +---.github
-¦   ¦   ¦       FUNDING.yml
-¦   ¦   ¦       
-¦   ¦   +---dist
-¦   ¦   ¦       qs.js
-¦   ¦   ¦       
-¦   ¦   +---lib
-¦   ¦   ¦       formats.js
-¦   ¦   ¦       index.js
-¦   ¦   ¦       parse.js
-¦   ¦   ¦       stringify.js
-¦   ¦   ¦       utils.js
-¦   ¦   ¦       
-¦   ¦   +---test
-¦   ¦           empty-keys-cases.js
-¦   ¦           parse.js
-¦   ¦           stringify.js
-¦   ¦           utils.js
-¦   ¦           
-¦   +---range-parser
-¦   ¦       HISTORY.md
-¦   ¦       index.js
-¦   ¦       LICENSE
-¦   ¦       package.json
-¦   ¦       README.md
-¦   ¦       
-¦   +---raw-body
-¦   ¦   ¦   HISTORY.md
-¦   ¦   ¦   index.d.ts
-¦   ¦   ¦   index.js
-¦   ¦   ¦   LICENSE
-¦   ¦   ¦   package.json
-¦   ¦   ¦   README.md
-¦   ¦   ¦   SECURITY.md
-¦   ¦   ¦   
-¦   ¦   +---node_modules
-¦   ¦       +---iconv-lite
-¦   ¦           ¦   Changelog.md
-¦   ¦           ¦   LICENSE
-¦   ¦           ¦   package.json
-¦   ¦           ¦   README.md
-¦   ¦           ¦   
-¦   ¦           +---encodings
-¦   ¦           ¦   ¦   dbcs-codec.js
-¦   ¦           ¦   ¦   dbcs-data.js
-¦   ¦           ¦   ¦   index.js
-¦   ¦           ¦   ¦   internal.js
-¦   ¦           ¦   ¦   sbcs-codec.js
-¦   ¦           ¦   ¦   sbcs-data-generated.js
-¦   ¦           ¦   ¦   sbcs-data.js
-¦   ¦           ¦   ¦   utf16.js
-¦   ¦           ¦   ¦   utf32.js
-¦   ¦           ¦   ¦   utf7.js
-¦   ¦           ¦   ¦   
-¦   ¦           ¦   +---tables
-¦   ¦           ¦           big5-added.json
-¦   ¦           ¦           cp936.json
-¦   ¦           ¦           cp949.json
-¦   ¦           ¦           cp950.json
-¦   ¦           ¦           eucjp.json
-¦   ¦           ¦           gb18030-ranges.json
-¦   ¦           ¦           gbk-added.json
-¦   ¦           ¦           shiftjis.json
-¦   ¦           ¦           
-¦   ¦           +---lib
-¦   ¦               ¦   bom-handling.js
-¦   ¦               ¦   index.d.ts
-¦   ¦               ¦   index.js
-¦   ¦               ¦   streams.js
-¦   ¦               ¦   
-¦   ¦               +---helpers
-¦   ¦                       merge-exports.js
-¦   ¦                       
-¦   +---router
-¦   ¦   ¦   HISTORY.md
-¦   ¦   ¦   index.js
-¦   ¦   ¦   LICENSE
-¦   ¦   ¦   package.json
-¦   ¦   ¦   README.md
-¦   ¦   ¦   
-¦   ¦   +---lib
-¦   ¦           layer.js
-¦   ¦           route.js
-¦   ¦           
-¦   +---safe-buffer
-¦   ¦       index.d.ts
-¦   ¦       index.js
-¦   ¦       LICENSE
-¦   ¦       package.json
-¦   ¦       README.md
-¦   ¦       
-¦   +---safer-buffer
-¦   ¦       dangerous.js
-¦   ¦       LICENSE
-¦   ¦       package.json
-¦   ¦       Porting-Buffer.md
-¦   ¦       Readme.md
-¦   ¦       safer.js
-¦   ¦       tests.js
-¦   ¦       
-¦   +---send
-¦   ¦       HISTORY.md
-¦   ¦       index.js
-¦   ¦       LICENSE
-¦   ¦       package.json
-¦   ¦       README.md
-¦   ¦       
-¦   +---serve-static
-¦   ¦       HISTORY.md
-¦   ¦       index.js
-¦   ¦       LICENSE
-¦   ¦       package.json
-¦   ¦       README.md
-¦   ¦       
-¦   +---setprototypeof
-¦   ¦   ¦   index.d.ts
-¦   ¦   ¦   index.js
-¦   ¦   ¦   LICENSE
-¦   ¦   ¦   package.json
-¦   ¦   ¦   README.md
-¦   ¦   ¦   
-¦   ¦   +---test
-¦   ¦           index.js
-¦   ¦           
-¦   +---side-channel
-¦   ¦   ¦   .editorconfig
-¦   ¦   ¦   .eslintrc
-¦   ¦   ¦   .nycrc
-¦   ¦   ¦   CHANGELOG.md
-¦   ¦   ¦   index.d.ts
-¦   ¦   ¦   index.js
-¦   ¦   ¦   LICENSE
-¦   ¦   ¦   package.json
-¦   ¦   ¦   README.md
-¦   ¦   ¦   tsconfig.json
-¦   ¦   ¦   
-¦   ¦   +---.github
-¦   ¦   ¦       FUNDING.yml
-¦   ¦   ¦       
-¦   ¦   +---test
-¦   ¦           index.js
-¦   ¦           
-¦   +---side-channel-list
-¦   ¦   ¦   .editorconfig
-¦   ¦   ¦   .eslintrc
-¦   ¦   ¦   .nycrc
-¦   ¦   ¦   CHANGELOG.md
-¦   ¦   ¦   index.d.ts
-¦   ¦   ¦   index.js
-¦   ¦   ¦   LICENSE
-¦   ¦   ¦   list.d.ts
-¦   ¦   ¦   package.json
-¦   ¦   ¦   README.md
-¦   ¦   ¦   tsconfig.json
-¦   ¦   ¦   
-¦   ¦   +---.github
-¦   ¦   ¦       FUNDING.yml
-¦   ¦   ¦       
-¦   ¦   +---test
-¦   ¦           index.js
-¦   ¦           
-¦   +---side-channel-map
-¦   ¦   ¦   .editorconfig
-¦   ¦   ¦   .eslintrc
-¦   ¦   ¦   .nycrc
-¦   ¦   ¦   CHANGELOG.md
-¦   ¦   ¦   index.d.ts
-¦   ¦   ¦   index.js
-¦   ¦   ¦   LICENSE
-¦   ¦   ¦   package.json
-¦   ¦   ¦   README.md
-¦   ¦   ¦   tsconfig.json
-¦   ¦   ¦   
-¦   ¦   +---.github
-¦   ¦   ¦       FUNDING.yml
-¦   ¦   ¦       
-¦   ¦   +---test
-¦   ¦           index.js
-¦   ¦           
-¦   +---side-channel-weakmap
-¦   ¦   ¦   .editorconfig
-¦   ¦   ¦   .eslintrc
-¦   ¦   ¦   .nycrc
-¦   ¦   ¦   CHANGELOG.md
-¦   ¦   ¦   index.d.ts
-¦   ¦   ¦   index.js
-¦   ¦   ¦   LICENSE
-¦   ¦   ¦   package.json
-¦   ¦   ¦   README.md
-¦   ¦   ¦   tsconfig.json
-¦   ¦   ¦   
-¦   ¦   +---.github
-¦   ¦   ¦       FUNDING.yml
-¦   ¦   ¦       
-¦   ¦   +---test
-¦   ¦           index.js
-¦   ¦           
-¦   +---sift
-¦   ¦   ¦   index.d.ts
-¦   ¦   ¦   index.js
-¦   ¦   ¦   MIT-LICENSE.txt
-¦   ¦   ¦   package.json
-¦   ¦   ¦   README.md
-¦   ¦   ¦   sift.csp.min.js
-¦   ¦   ¦   sift.csp.min.js.map
-¦   ¦   ¦   sift.min.js
-¦   ¦   ¦   sift.min.js.map
-¦   ¦   ¦   
-¦   ¦   +---es
-¦   ¦   ¦       index.js
-¦   ¦   ¦       index.js.map
-¦   ¦   ¦       
-¦   ¦   +---es5m
-¦   ¦   ¦       index.js
-¦   ¦   ¦       index.js.map
-¦   ¦   ¦       
-¦   ¦   +---lib
-¦   ¦   ¦       core.d.ts
-¦   ¦   ¦       index.d.ts
-¦   ¦   ¦       index.js
-¦   ¦   ¦       index.js.map
-¦   ¦   ¦       operations.d.ts
-¦   ¦   ¦       utils.d.ts
-¦   ¦   ¦       
-¦   ¦   +---src
-¦   ¦           core.ts
-¦   ¦           index.ts
-¦   ¦           operations.ts
-¦   ¦           utils.ts
-¦   ¦           
-¦   +---sparse-bitfield
-¦   ¦       .npmignore
-¦   ¦       .travis.yml
-¦   ¦       index.js
-¦   ¦       LICENSE
-¦   ¦       package.json
-¦   ¦       README.md
-¦   ¦       test.js
-¦   ¦       
-¦   +---statuses
-¦   ¦       codes.json
-¦   ¦       HISTORY.md
-¦   ¦       index.js
-¦   ¦       LICENSE
-¦   ¦       package.json
-¦   ¦       README.md
-¦   ¦       
-¦   +---toidentifier
-¦   ¦       HISTORY.md
-¦   ¦       index.js
-¦   ¦       LICENSE
-¦   ¦       package.json
-¦   ¦       README.md
-¦   ¦       
-¦   +---tr46
-¦   ¦   ¦   index.js
-¦   ¦   ¦   LICENSE.md
-¦   ¦   ¦   package.json
-¦   ¦   ¦   README.md
-¦   ¦   ¦   
-¦   ¦   +---lib
-¦   ¦           mappingTable.json
-¦   ¦           regexes.js
-¦   ¦           statusMapping.js
-¦   ¦           
-¦   +---type-is
-¦   ¦       HISTORY.md
-¦   ¦       index.js
-¦   ¦       LICENSE
-¦   ¦       package.json
-¦   ¦       README.md
-¦   ¦       
-¦   +---unpipe
-¦   ¦       HISTORY.md
-¦   ¦       index.js
-¦   ¦       LICENSE
-¦   ¦       package.json
-¦   ¦       README.md
-¦   ¦       
-¦   +---vary
-¦   ¦       HISTORY.md
-¦   ¦       index.js
-¦   ¦       LICENSE
-¦   ¦       package.json
-¦   ¦       README.md
-¦   ¦       
-¦   +---webidl-conversions
-¦   ¦   ¦   LICENSE.md
-¦   ¦   ¦   package.json
-¦   ¦   ¦   README.md
-¦   ¦   ¦   
-¦   ¦   +---lib
-¦   ¦           index.js
-¦   ¦           
-¦   +---whatwg-url
-¦   ¦   ¦   index.js
-¦   ¦   ¦   LICENSE.txt
-¦   ¦   ¦   package.json
-¦   ¦   ¦   README.md
-¦   ¦   ¦   webidl2js-wrapper.js
-¦   ¦   ¦   
-¦   ¦   +---lib
-¦   ¦           encoding.js
-¦   ¦           Function.js
-¦   ¦           infra.js
-¦   ¦           percent-encoding.js
-¦   ¦           URL-impl.js
-¦   ¦           url-state-machine.js
-¦   ¦           URL.js
-¦   ¦           urlencoded.js
-¦   ¦           URLSearchParams-impl.js
-¦   ¦           URLSearchParams.js
-¦   ¦           utils.js
-¦   ¦           VoidFunction.js
-¦   ¦           
-¦   +---wrappy
-¦           LICENSE
-¦           package.json
-¦           README.md
-¦           wrappy.js
-¦           
+ï¿½   ï¿½   .package-lock.json
+ï¿½   ï¿½   
+ï¿½   +---@mongodb-js
+ï¿½   ï¿½   +---saslprep
+ï¿½   ï¿½       ï¿½   LICENSE
+ï¿½   ï¿½       ï¿½   package.json
+ï¿½   ï¿½       ï¿½   readme.md
+ï¿½   ï¿½       ï¿½   
+ï¿½   ï¿½       +---dist
+ï¿½   ï¿½               .esm-wrapper.mjs
+ï¿½   ï¿½               browser.d.ts
+ï¿½   ï¿½               browser.d.ts.map
+ï¿½   ï¿½               browser.js
+ï¿½   ï¿½               browser.js.map
+ï¿½   ï¿½               code-points-data-browser.d.ts
+ï¿½   ï¿½               code-points-data-browser.d.ts.map
+ï¿½   ï¿½               code-points-data-browser.js
+ï¿½   ï¿½               code-points-data-browser.js.map
+ï¿½   ï¿½               code-points-data.d.ts
+ï¿½   ï¿½               code-points-data.d.ts.map
+ï¿½   ï¿½               code-points-data.js
+ï¿½   ï¿½               code-points-data.js.map
+ï¿½   ï¿½               code-points-src.d.ts
+ï¿½   ï¿½               code-points-src.d.ts.map
+ï¿½   ï¿½               code-points-src.js
+ï¿½   ï¿½               code-points-src.js.map
+ï¿½   ï¿½               generate-code-points.d.ts
+ï¿½   ï¿½               generate-code-points.d.ts.map
+ï¿½   ï¿½               generate-code-points.js
+ï¿½   ï¿½               generate-code-points.js.map
+ï¿½   ï¿½               index.d.ts
+ï¿½   ï¿½               index.d.ts.map
+ï¿½   ï¿½               index.js
+ï¿½   ï¿½               index.js.map
+ï¿½   ï¿½               memory-code-points.d.ts
+ï¿½   ï¿½               memory-code-points.d.ts.map
+ï¿½   ï¿½               memory-code-points.js
+ï¿½   ï¿½               memory-code-points.js.map
+ï¿½   ï¿½               node.d.ts
+ï¿½   ï¿½               node.d.ts.map
+ï¿½   ï¿½               node.js
+ï¿½   ï¿½               node.js.map
+ï¿½   ï¿½               util.d.ts
+ï¿½   ï¿½               util.d.ts.map
+ï¿½   ï¿½               util.js
+ï¿½   ï¿½               util.js.map
+ï¿½   ï¿½               
+ï¿½   +---@types
+ï¿½   ï¿½   +---webidl-conversions
+ï¿½   ï¿½   ï¿½       index.d.ts
+ï¿½   ï¿½   ï¿½       LICENSE
+ï¿½   ï¿½   ï¿½       package.json
+ï¿½   ï¿½   ï¿½       README.md
+ï¿½   ï¿½   ï¿½       
+ï¿½   ï¿½   +---whatwg-url
+ï¿½   ï¿½       ï¿½   index.d.ts
+ï¿½   ï¿½       ï¿½   LICENSE
+ï¿½   ï¿½       ï¿½   package.json
+ï¿½   ï¿½       ï¿½   README.md
+ï¿½   ï¿½       ï¿½   webidl2js-wrapper.d.ts
+ï¿½   ï¿½       ï¿½   
+ï¿½   ï¿½       +---lib
+ï¿½   ï¿½               URL-impl.d.ts
+ï¿½   ï¿½               URL.d.ts
+ï¿½   ï¿½               URLSearchParams-impl.d.ts
+ï¿½   ï¿½               URLSearchParams.d.ts
+ï¿½   ï¿½               
+ï¿½   +---accepts
+ï¿½   ï¿½       HISTORY.md
+ï¿½   ï¿½       index.js
+ï¿½   ï¿½       LICENSE
+ï¿½   ï¿½       package.json
+ï¿½   ï¿½       README.md
+ï¿½   ï¿½       
+ï¿½   +---body-parser
+ï¿½   ï¿½   ï¿½   HISTORY.md
+ï¿½   ï¿½   ï¿½   index.js
+ï¿½   ï¿½   ï¿½   LICENSE
+ï¿½   ï¿½   ï¿½   package.json
+ï¿½   ï¿½   ï¿½   README.md
+ï¿½   ï¿½   ï¿½   
+ï¿½   ï¿½   +---lib
+ï¿½   ï¿½       ï¿½   read.js
+ï¿½   ï¿½       ï¿½   utils.js
+ï¿½   ï¿½       ï¿½   
+ï¿½   ï¿½       +---types
+ï¿½   ï¿½               json.js
+ï¿½   ï¿½               raw.js
+ï¿½   ï¿½               text.js
+ï¿½   ï¿½               urlencoded.js
+ï¿½   ï¿½               
+ï¿½   +---bson
+ï¿½   ï¿½   ï¿½   bson.d.ts
+ï¿½   ï¿½   ï¿½   LICENSE.md
+ï¿½   ï¿½   ï¿½   package.json
+ï¿½   ï¿½   ï¿½   README.md
+ï¿½   ï¿½   ï¿½   
+ï¿½   ï¿½   +---etc
+ï¿½   ï¿½   ï¿½       prepare.js
+ï¿½   ï¿½   ï¿½       
+ï¿½   ï¿½   +---lib
+ï¿½   ï¿½   ï¿½       bson.bundle.js
+ï¿½   ï¿½   ï¿½       bson.bundle.js.map
+ï¿½   ï¿½   ï¿½       bson.cjs
+ï¿½   ï¿½   ï¿½       bson.cjs.map
+ï¿½   ï¿½   ï¿½       bson.mjs
+ï¿½   ï¿½   ï¿½       bson.mjs.map
+ï¿½   ï¿½   ï¿½       bson.node.mjs
+ï¿½   ï¿½   ï¿½       bson.node.mjs.map
+ï¿½   ï¿½   ï¿½       bson.rn.cjs
+ï¿½   ï¿½   ï¿½       bson.rn.cjs.map
+ï¿½   ï¿½   ï¿½       
+ï¿½   ï¿½   +---src
+ï¿½   ï¿½       ï¿½   binary.ts
+ï¿½   ï¿½       ï¿½   bson.ts
+ï¿½   ï¿½       ï¿½   bson_value.ts
+ï¿½   ï¿½       ï¿½   code.ts
+ï¿½   ï¿½       ï¿½   constants.ts
+ï¿½   ï¿½       ï¿½   db_ref.ts
+ï¿½   ï¿½       ï¿½   decimal128.ts
+ï¿½   ï¿½       ï¿½   double.ts
+ï¿½   ï¿½       ï¿½   error.ts
+ï¿½   ï¿½       ï¿½   extended_json.ts
+ï¿½   ï¿½       ï¿½   index.ts
+ï¿½   ï¿½       ï¿½   int_32.ts
+ï¿½   ï¿½       ï¿½   long.ts
+ï¿½   ï¿½       ï¿½   max_key.ts
+ï¿½   ï¿½       ï¿½   min_key.ts
+ï¿½   ï¿½       ï¿½   objectid.ts
+ï¿½   ï¿½       ï¿½   parse_utf8.ts
+ï¿½   ï¿½       ï¿½   regexp.ts
+ï¿½   ï¿½       ï¿½   symbol.ts
+ï¿½   ï¿½       ï¿½   timestamp.ts
+ï¿½   ï¿½       ï¿½   
+ï¿½   ï¿½       +---parser
+ï¿½   ï¿½       ï¿½   ï¿½   calculate_size.ts
+ï¿½   ï¿½       ï¿½   ï¿½   deserializer.ts
+ï¿½   ï¿½       ï¿½   ï¿½   serializer.ts
+ï¿½   ï¿½       ï¿½   ï¿½   utils.ts
+ï¿½   ï¿½       ï¿½   ï¿½   
+ï¿½   ï¿½       ï¿½   +---on_demand
+ï¿½   ï¿½       ï¿½           index.ts
+ï¿½   ï¿½       ï¿½           parse_to_elements.ts
+ï¿½   ï¿½       ï¿½           
+ï¿½   ï¿½       +---utils
+ï¿½   ï¿½               byte_utils.ts
+ï¿½   ï¿½               latin.ts
+ï¿½   ï¿½               node_byte_utils.ts
+ï¿½   ï¿½               number_utils.ts
+ï¿½   ï¿½               string_utils.ts
+ï¿½   ï¿½               web_byte_utils.ts
+ï¿½   ï¿½               
+ï¿½   +---bytes
+ï¿½   ï¿½       History.md
+ï¿½   ï¿½       index.js
+ï¿½   ï¿½       LICENSE
+ï¿½   ï¿½       package.json
+ï¿½   ï¿½       Readme.md
+ï¿½   ï¿½       
+ï¿½   +---call-bind-apply-helpers
+ï¿½   ï¿½   ï¿½   .eslintrc
+ï¿½   ï¿½   ï¿½   .nycrc
+ï¿½   ï¿½   ï¿½   actualApply.d.ts
+ï¿½   ï¿½   ï¿½   actualApply.js
+ï¿½   ï¿½   ï¿½   applyBind.d.ts
+ï¿½   ï¿½   ï¿½   applyBind.js
+ï¿½   ï¿½   ï¿½   CHANGELOG.md
+ï¿½   ï¿½   ï¿½   functionApply.d.ts
+ï¿½   ï¿½   ï¿½   functionApply.js
+ï¿½   ï¿½   ï¿½   functionCall.d.ts
+ï¿½   ï¿½   ï¿½   functionCall.js
+ï¿½   ï¿½   ï¿½   index.d.ts
+ï¿½   ï¿½   ï¿½   index.js
+ï¿½   ï¿½   ï¿½   LICENSE
+ï¿½   ï¿½   ï¿½   package.json
+ï¿½   ï¿½   ï¿½   README.md
+ï¿½   ï¿½   ï¿½   reflectApply.d.ts
+ï¿½   ï¿½   ï¿½   reflectApply.js
+ï¿½   ï¿½   ï¿½   tsconfig.json
+ï¿½   ï¿½   ï¿½   
+ï¿½   ï¿½   +---.github
+ï¿½   ï¿½   ï¿½       FUNDING.yml
+ï¿½   ï¿½   ï¿½       
+ï¿½   ï¿½   +---test
+ï¿½   ï¿½           index.js
+ï¿½   ï¿½           
+ï¿½   +---call-bound
+ï¿½   ï¿½   ï¿½   .eslintrc
+ï¿½   ï¿½   ï¿½   .nycrc
+ï¿½   ï¿½   ï¿½   CHANGELOG.md
+ï¿½   ï¿½   ï¿½   index.d.ts
+ï¿½   ï¿½   ï¿½   index.js
+ï¿½   ï¿½   ï¿½   LICENSE
+ï¿½   ï¿½   ï¿½   package.json
+ï¿½   ï¿½   ï¿½   README.md
+ï¿½   ï¿½   ï¿½   tsconfig.json
+ï¿½   ï¿½   ï¿½   
+ï¿½   ï¿½   +---.github
+ï¿½   ï¿½   ï¿½       FUNDING.yml
+ï¿½   ï¿½   ï¿½       
+ï¿½   ï¿½   +---test
+ï¿½   ï¿½           index.js
+ï¿½   ï¿½           
+ï¿½   +---content-disposition
+ï¿½   ï¿½       HISTORY.md
+ï¿½   ï¿½       index.js
+ï¿½   ï¿½       LICENSE
+ï¿½   ï¿½       package.json
+ï¿½   ï¿½       README.md
+ï¿½   ï¿½       
+ï¿½   +---content-type
+ï¿½   ï¿½       HISTORY.md
+ï¿½   ï¿½       index.js
+ï¿½   ï¿½       LICENSE
+ï¿½   ï¿½       package.json
+ï¿½   ï¿½       README.md
+ï¿½   ï¿½       
+ï¿½   +---cookie
+ï¿½   ï¿½       index.js
+ï¿½   ï¿½       LICENSE
+ï¿½   ï¿½       package.json
+ï¿½   ï¿½       README.md
+ï¿½   ï¿½       SECURITY.md
+ï¿½   ï¿½       
+ï¿½   +---cookie-signature
+ï¿½   ï¿½       History.md
+ï¿½   ï¿½       index.js
+ï¿½   ï¿½       LICENSE
+ï¿½   ï¿½       package.json
+ï¿½   ï¿½       Readme.md
+ï¿½   ï¿½       
+ï¿½   +---debug
+ï¿½   ï¿½   ï¿½   LICENSE
+ï¿½   ï¿½   ï¿½   package.json
+ï¿½   ï¿½   ï¿½   README.md
+ï¿½   ï¿½   ï¿½   
+ï¿½   ï¿½   +---src
+ï¿½   ï¿½           browser.js
+ï¿½   ï¿½           common.js
+ï¿½   ï¿½           index.js
+ï¿½   ï¿½           node.js
+ï¿½   ï¿½           
+ï¿½   +---depd
+ï¿½   ï¿½   ï¿½   History.md
+ï¿½   ï¿½   ï¿½   index.js
+ï¿½   ï¿½   ï¿½   LICENSE
+ï¿½   ï¿½   ï¿½   package.json
+ï¿½   ï¿½   ï¿½   Readme.md
+ï¿½   ï¿½   ï¿½   
+ï¿½   ï¿½   +---lib
+ï¿½   ï¿½       +---browser
+ï¿½   ï¿½               index.js
+ï¿½   ï¿½               
+ï¿½   +---dotenv
+ï¿½   ï¿½   ï¿½   CHANGELOG.md
+ï¿½   ï¿½   ï¿½   config.d.ts
+ï¿½   ï¿½   ï¿½   config.js
+ï¿½   ï¿½   ï¿½   LICENSE
+ï¿½   ï¿½   ï¿½   package.json
+ï¿½   ï¿½   ï¿½   README-es.md
+ï¿½   ï¿½   ï¿½   README.md
+ï¿½   ï¿½   ï¿½   SECURITY.md
+ï¿½   ï¿½   ï¿½   
+ï¿½   ï¿½   +---lib
+ï¿½   ï¿½           cli-options.js
+ï¿½   ï¿½           env-options.js
+ï¿½   ï¿½           main.d.ts
+ï¿½   ï¿½           main.js
+ï¿½   ï¿½           
+ï¿½   +---dunder-proto
+ï¿½   ï¿½   ï¿½   .eslintrc
+ï¿½   ï¿½   ï¿½   .nycrc
+ï¿½   ï¿½   ï¿½   CHANGELOG.md
+ï¿½   ï¿½   ï¿½   get.d.ts
+ï¿½   ï¿½   ï¿½   get.js
+ï¿½   ï¿½   ï¿½   LICENSE
+ï¿½   ï¿½   ï¿½   package.json
+ï¿½   ï¿½   ï¿½   README.md
+ï¿½   ï¿½   ï¿½   set.d.ts
+ï¿½   ï¿½   ï¿½   set.js
+ï¿½   ï¿½   ï¿½   tsconfig.json
+ï¿½   ï¿½   ï¿½   
+ï¿½   ï¿½   +---.github
+ï¿½   ï¿½   ï¿½       FUNDING.yml
+ï¿½   ï¿½   ï¿½       
+ï¿½   ï¿½   +---test
+ï¿½   ï¿½           get.js
+ï¿½   ï¿½           index.js
+ï¿½   ï¿½           set.js
+ï¿½   ï¿½           
+ï¿½   +---ee-first
+ï¿½   ï¿½       index.js
+ï¿½   ï¿½       LICENSE
+ï¿½   ï¿½       package.json
+ï¿½   ï¿½       README.md
+ï¿½   ï¿½       
+ï¿½   +---encodeurl
+ï¿½   ï¿½       index.js
+ï¿½   ï¿½       LICENSE
+ï¿½   ï¿½       package.json
+ï¿½   ï¿½       README.md
+ï¿½   ï¿½       
+ï¿½   +---es-define-property
+ï¿½   ï¿½   ï¿½   .eslintrc
+ï¿½   ï¿½   ï¿½   .nycrc
+ï¿½   ï¿½   ï¿½   CHANGELOG.md
+ï¿½   ï¿½   ï¿½   index.d.ts
+ï¿½   ï¿½   ï¿½   index.js
+ï¿½   ï¿½   ï¿½   LICENSE
+ï¿½   ï¿½   ï¿½   package.json
+ï¿½   ï¿½   ï¿½   README.md
+ï¿½   ï¿½   ï¿½   tsconfig.json
+ï¿½   ï¿½   ï¿½   
+ï¿½   ï¿½   +---.github
+ï¿½   ï¿½   ï¿½       FUNDING.yml
+ï¿½   ï¿½   ï¿½       
+ï¿½   ï¿½   +---test
+ï¿½   ï¿½           index.js
+ï¿½   ï¿½           
+ï¿½   +---es-errors
+ï¿½   ï¿½   ï¿½   .eslintrc
+ï¿½   ï¿½   ï¿½   CHANGELOG.md
+ï¿½   ï¿½   ï¿½   eval.d.ts
+ï¿½   ï¿½   ï¿½   eval.js
+ï¿½   ï¿½   ï¿½   index.d.ts
+ï¿½   ï¿½   ï¿½   index.js
+ï¿½   ï¿½   ï¿½   LICENSE
+ï¿½   ï¿½   ï¿½   package.json
+ï¿½   ï¿½   ï¿½   range.d.ts
+ï¿½   ï¿½   ï¿½   range.js
+ï¿½   ï¿½   ï¿½   README.md
+ï¿½   ï¿½   ï¿½   ref.d.ts
+ï¿½   ï¿½   ï¿½   ref.js
+ï¿½   ï¿½   ï¿½   syntax.d.ts
+ï¿½   ï¿½   ï¿½   syntax.js
+ï¿½   ï¿½   ï¿½   tsconfig.json
+ï¿½   ï¿½   ï¿½   type.d.ts
+ï¿½   ï¿½   ï¿½   type.js
+ï¿½   ï¿½   ï¿½   uri.d.ts
+ï¿½   ï¿½   ï¿½   uri.js
+ï¿½   ï¿½   ï¿½   
+ï¿½   ï¿½   +---.github
+ï¿½   ï¿½   ï¿½       FUNDING.yml
+ï¿½   ï¿½   ï¿½       
+ï¿½   ï¿½   +---test
+ï¿½   ï¿½           index.js
+ï¿½   ï¿½           
+ï¿½   +---es-object-atoms
+ï¿½   ï¿½   ï¿½   .eslintrc
+ï¿½   ï¿½   ï¿½   CHANGELOG.md
+ï¿½   ï¿½   ï¿½   index.d.ts
+ï¿½   ï¿½   ï¿½   index.js
+ï¿½   ï¿½   ï¿½   isObject.d.ts
+ï¿½   ï¿½   ï¿½   isObject.js
+ï¿½   ï¿½   ï¿½   LICENSE
+ï¿½   ï¿½   ï¿½   package.json
+ï¿½   ï¿½   ï¿½   README.md
+ï¿½   ï¿½   ï¿½   RequireObjectCoercible.d.ts
+ï¿½   ï¿½   ï¿½   RequireObjectCoercible.js
+ï¿½   ï¿½   ï¿½   ToObject.d.ts
+ï¿½   ï¿½   ï¿½   ToObject.js
+ï¿½   ï¿½   ï¿½   tsconfig.json
+ï¿½   ï¿½   ï¿½   
+ï¿½   ï¿½   +---.github
+ï¿½   ï¿½   ï¿½       FUNDING.yml
+ï¿½   ï¿½   ï¿½       
+ï¿½   ï¿½   +---test
+ï¿½   ï¿½           index.js
+ï¿½   ï¿½           
+ï¿½   +---escape-html
+ï¿½   ï¿½       index.js
+ï¿½   ï¿½       LICENSE
+ï¿½   ï¿½       package.json
+ï¿½   ï¿½       Readme.md
+ï¿½   ï¿½       
+ï¿½   +---etag
+ï¿½   ï¿½       HISTORY.md
+ï¿½   ï¿½       index.js
+ï¿½   ï¿½       LICENSE
+ï¿½   ï¿½       package.json
+ï¿½   ï¿½       README.md
+ï¿½   ï¿½       
+ï¿½   +---express
+ï¿½   ï¿½   ï¿½   History.md
+ï¿½   ï¿½   ï¿½   index.js
+ï¿½   ï¿½   ï¿½   LICENSE
+ï¿½   ï¿½   ï¿½   package.json
+ï¿½   ï¿½   ï¿½   Readme.md
+ï¿½   ï¿½   ï¿½   
+ï¿½   ï¿½   +---lib
+ï¿½   ï¿½           application.js
+ï¿½   ï¿½           express.js
+ï¿½   ï¿½           request.js
+ï¿½   ï¿½           response.js
+ï¿½   ï¿½           utils.js
+ï¿½   ï¿½           view.js
+ï¿½   ï¿½           
+ï¿½   +---finalhandler
+ï¿½   ï¿½       HISTORY.md
+ï¿½   ï¿½       index.js
+ï¿½   ï¿½       LICENSE
+ï¿½   ï¿½       package.json
+ï¿½   ï¿½       README.md
+ï¿½   ï¿½       
+ï¿½   +---forwarded
+ï¿½   ï¿½       HISTORY.md
+ï¿½   ï¿½       index.js
+ï¿½   ï¿½       LICENSE
+ï¿½   ï¿½       package.json
+ï¿½   ï¿½       README.md
+ï¿½   ï¿½       
+ï¿½   +---fresh
+ï¿½   ï¿½       HISTORY.md
+ï¿½   ï¿½       index.js
+ï¿½   ï¿½       LICENSE
+ï¿½   ï¿½       package.json
+ï¿½   ï¿½       README.md
+ï¿½   ï¿½       
+ï¿½   +---function-bind
+ï¿½   ï¿½   ï¿½   .eslintrc
+ï¿½   ï¿½   ï¿½   .nycrc
+ï¿½   ï¿½   ï¿½   CHANGELOG.md
+ï¿½   ï¿½   ï¿½   implementation.js
+ï¿½   ï¿½   ï¿½   index.js
+ï¿½   ï¿½   ï¿½   LICENSE
+ï¿½   ï¿½   ï¿½   package.json
+ï¿½   ï¿½   ï¿½   README.md
+ï¿½   ï¿½   ï¿½   
+ï¿½   ï¿½   +---.github
+ï¿½   ï¿½   ï¿½       FUNDING.yml
+ï¿½   ï¿½   ï¿½       SECURITY.md
+ï¿½   ï¿½   ï¿½       
+ï¿½   ï¿½   +---test
+ï¿½   ï¿½           .eslintrc
+ï¿½   ï¿½           index.js
+ï¿½   ï¿½           
+ï¿½   +---get-intrinsic
+ï¿½   ï¿½   ï¿½   .eslintrc
+ï¿½   ï¿½   ï¿½   .nycrc
+ï¿½   ï¿½   ï¿½   CHANGELOG.md
+ï¿½   ï¿½   ï¿½   index.js
+ï¿½   ï¿½   ï¿½   LICENSE
+ï¿½   ï¿½   ï¿½   package.json
+ï¿½   ï¿½   ï¿½   README.md
+ï¿½   ï¿½   ï¿½   
+ï¿½   ï¿½   +---.github
+ï¿½   ï¿½   ï¿½       FUNDING.yml
+ï¿½   ï¿½   ï¿½       
+ï¿½   ï¿½   +---test
+ï¿½   ï¿½           GetIntrinsic.js
+ï¿½   ï¿½           
+ï¿½   +---get-proto
+ï¿½   ï¿½   ï¿½   .eslintrc
+ï¿½   ï¿½   ï¿½   .nycrc
+ï¿½   ï¿½   ï¿½   CHANGELOG.md
+ï¿½   ï¿½   ï¿½   index.d.ts
+ï¿½   ï¿½   ï¿½   index.js
+ï¿½   ï¿½   ï¿½   LICENSE
+ï¿½   ï¿½   ï¿½   Object.getPrototypeOf.d.ts
+ï¿½   ï¿½   ï¿½   Object.getPrototypeOf.js
+ï¿½   ï¿½   ï¿½   package.json
+ï¿½   ï¿½   ï¿½   README.md
+ï¿½   ï¿½   ï¿½   Reflect.getPrototypeOf.d.ts
+ï¿½   ï¿½   ï¿½   Reflect.getPrototypeOf.js
+ï¿½   ï¿½   ï¿½   tsconfig.json
+ï¿½   ï¿½   ï¿½   
+ï¿½   ï¿½   +---.github
+ï¿½   ï¿½   ï¿½       FUNDING.yml
+ï¿½   ï¿½   ï¿½       
+ï¿½   ï¿½   +---test
+ï¿½   ï¿½           index.js
+ï¿½   ï¿½           
+ï¿½   +---gopd
+ï¿½   ï¿½   ï¿½   .eslintrc
+ï¿½   ï¿½   ï¿½   CHANGELOG.md
+ï¿½   ï¿½   ï¿½   gOPD.d.ts
+ï¿½   ï¿½   ï¿½   gOPD.js
+ï¿½   ï¿½   ï¿½   index.d.ts
+ï¿½   ï¿½   ï¿½   index.js
+ï¿½   ï¿½   ï¿½   LICENSE
+ï¿½   ï¿½   ï¿½   package.json
+ï¿½   ï¿½   ï¿½   README.md
+ï¿½   ï¿½   ï¿½   tsconfig.json
+ï¿½   ï¿½   ï¿½   
+ï¿½   ï¿½   +---.github
+ï¿½   ï¿½   ï¿½       FUNDING.yml
+ï¿½   ï¿½   ï¿½       
+ï¿½   ï¿½   +---test
+ï¿½   ï¿½           index.js
+ï¿½   ï¿½           
+ï¿½   +---has-symbols
+ï¿½   ï¿½   ï¿½   .eslintrc
+ï¿½   ï¿½   ï¿½   .nycrc
+ï¿½   ï¿½   ï¿½   CHANGELOG.md
+ï¿½   ï¿½   ï¿½   index.d.ts
+ï¿½   ï¿½   ï¿½   index.js
+ï¿½   ï¿½   ï¿½   LICENSE
+ï¿½   ï¿½   ï¿½   package.json
+ï¿½   ï¿½   ï¿½   README.md
+ï¿½   ï¿½   ï¿½   shams.d.ts
+ï¿½   ï¿½   ï¿½   shams.js
+ï¿½   ï¿½   ï¿½   tsconfig.json
+ï¿½   ï¿½   ï¿½   
+ï¿½   ï¿½   +---.github
+ï¿½   ï¿½   ï¿½       FUNDING.yml
+ï¿½   ï¿½   ï¿½       
+ï¿½   ï¿½   +---test
+ï¿½   ï¿½       ï¿½   index.js
+ï¿½   ï¿½       ï¿½   tests.js
+ï¿½   ï¿½       ï¿½   
+ï¿½   ï¿½       +---shams
+ï¿½   ï¿½               core-js.js
+ï¿½   ï¿½               get-own-property-symbols.js
+ï¿½   ï¿½               
+ï¿½   +---hasown
+ï¿½   ï¿½   ï¿½   .eslintrc
+ï¿½   ï¿½   ï¿½   .nycrc
+ï¿½   ï¿½   ï¿½   CHANGELOG.md
+ï¿½   ï¿½   ï¿½   index.d.ts
+ï¿½   ï¿½   ï¿½   index.js
+ï¿½   ï¿½   ï¿½   LICENSE
+ï¿½   ï¿½   ï¿½   package.json
+ï¿½   ï¿½   ï¿½   README.md
+ï¿½   ï¿½   ï¿½   tsconfig.json
+ï¿½   ï¿½   ï¿½   
+ï¿½   ï¿½   +---.github
+ï¿½   ï¿½           FUNDING.yml
+ï¿½   ï¿½           
+ï¿½   +---http-errors
+ï¿½   ï¿½   ï¿½   HISTORY.md
+ï¿½   ï¿½   ï¿½   index.js
+ï¿½   ï¿½   ï¿½   LICENSE
+ï¿½   ï¿½   ï¿½   package.json
+ï¿½   ï¿½   ï¿½   README.md
+ï¿½   ï¿½   ï¿½   
+ï¿½   ï¿½   +---node_modules
+ï¿½   ï¿½       +---statuses
+ï¿½   ï¿½               codes.json
+ï¿½   ï¿½               HISTORY.md
+ï¿½   ï¿½               index.js
+ï¿½   ï¿½               LICENSE
+ï¿½   ï¿½               package.json
+ï¿½   ï¿½               README.md
+ï¿½   ï¿½               
+ï¿½   +---iconv-lite
+ï¿½   ï¿½   ï¿½   Changelog.md
+ï¿½   ï¿½   ï¿½   LICENSE
+ï¿½   ï¿½   ï¿½   package.json
+ï¿½   ï¿½   ï¿½   README.md
+ï¿½   ï¿½   ï¿½   
+ï¿½   ï¿½   +---.github
+ï¿½   ï¿½   ï¿½       dependabot.yml
+ï¿½   ï¿½   ï¿½       
+ï¿½   ï¿½   +---.idea
+ï¿½   ï¿½   ï¿½   ï¿½   iconv-lite.iml
+ï¿½   ï¿½   ï¿½   ï¿½   modules.xml
+ï¿½   ï¿½   ï¿½   ï¿½   vcs.xml
+ï¿½   ï¿½   ï¿½   ï¿½   
+ï¿½   ï¿½   ï¿½   +---codeStyles
+ï¿½   ï¿½   ï¿½   ï¿½       codeStyleConfig.xml
+ï¿½   ï¿½   ï¿½   ï¿½       Project.xml
+ï¿½   ï¿½   ï¿½   ï¿½       
+ï¿½   ï¿½   ï¿½   +---inspectionProfiles
+ï¿½   ï¿½   ï¿½           Project_Default.xml
+ï¿½   ï¿½   ï¿½           
+ï¿½   ï¿½   +---encodings
+ï¿½   ï¿½   ï¿½   ï¿½   dbcs-codec.js
+ï¿½   ï¿½   ï¿½   ï¿½   dbcs-data.js
+ï¿½   ï¿½   ï¿½   ï¿½   index.js
+ï¿½   ï¿½   ï¿½   ï¿½   internal.js
+ï¿½   ï¿½   ï¿½   ï¿½   sbcs-codec.js
+ï¿½   ï¿½   ï¿½   ï¿½   sbcs-data-generated.js
+ï¿½   ï¿½   ï¿½   ï¿½   sbcs-data.js
+ï¿½   ï¿½   ï¿½   ï¿½   utf16.js
+ï¿½   ï¿½   ï¿½   ï¿½   utf32.js
+ï¿½   ï¿½   ï¿½   ï¿½   utf7.js
+ï¿½   ï¿½   ï¿½   ï¿½   
+ï¿½   ï¿½   ï¿½   +---tables
+ï¿½   ï¿½   ï¿½           big5-added.json
+ï¿½   ï¿½   ï¿½           cp936.json
+ï¿½   ï¿½   ï¿½           cp949.json
+ï¿½   ï¿½   ï¿½           cp950.json
+ï¿½   ï¿½   ï¿½           eucjp.json
+ï¿½   ï¿½   ï¿½           gb18030-ranges.json
+ï¿½   ï¿½   ï¿½           gbk-added.json
+ï¿½   ï¿½   ï¿½           shiftjis.json
+ï¿½   ï¿½   ï¿½           
+ï¿½   ï¿½   +---lib
+ï¿½   ï¿½           bom-handling.js
+ï¿½   ï¿½           index.d.ts
+ï¿½   ï¿½           index.js
+ï¿½   ï¿½           streams.js
+ï¿½   ï¿½           
+ï¿½   +---inherits
+ï¿½   ï¿½       inherits.js
+ï¿½   ï¿½       inherits_browser.js
+ï¿½   ï¿½       LICENSE
+ï¿½   ï¿½       package.json
+ï¿½   ï¿½       README.md
+ï¿½   ï¿½       
+ï¿½   +---ipaddr.js
+ï¿½   ï¿½   ï¿½   ipaddr.min.js
+ï¿½   ï¿½   ï¿½   LICENSE
+ï¿½   ï¿½   ï¿½   package.json
+ï¿½   ï¿½   ï¿½   README.md
+ï¿½   ï¿½   ï¿½   
+ï¿½   ï¿½   +---lib
+ï¿½   ï¿½           ipaddr.js
+ï¿½   ï¿½           ipaddr.js.d.ts
+ï¿½   ï¿½           
+ï¿½   +---is-promise
+ï¿½   ï¿½       index.d.ts
+ï¿½   ï¿½       index.js
+ï¿½   ï¿½       index.mjs
+ï¿½   ï¿½       LICENSE
+ï¿½   ï¿½       package.json
+ï¿½   ï¿½       readme.md
+ï¿½   ï¿½       
+ï¿½   +---kareem
+ï¿½   ï¿½       CHANGELOG.md
+ï¿½   ï¿½       index.d.ts
+ï¿½   ï¿½       index.js
+ï¿½   ï¿½       LICENSE
+ï¿½   ï¿½       package.json
+ï¿½   ï¿½       README.md
+ï¿½   ï¿½       SECURITY.md
+ï¿½   ï¿½       
+ï¿½   +---math-intrinsics
+ï¿½   ï¿½   ï¿½   .eslintrc
+ï¿½   ï¿½   ï¿½   abs.d.ts
+ï¿½   ï¿½   ï¿½   abs.js
+ï¿½   ï¿½   ï¿½   CHANGELOG.md
+ï¿½   ï¿½   ï¿½   floor.d.ts
+ï¿½   ï¿½   ï¿½   floor.js
+ï¿½   ï¿½   ï¿½   isFinite.d.ts
+ï¿½   ï¿½   ï¿½   isFinite.js
+ï¿½   ï¿½   ï¿½   isInteger.d.ts
+ï¿½   ï¿½   ï¿½   isInteger.js
+ï¿½   ï¿½   ï¿½   isNaN.d.ts
+ï¿½   ï¿½   ï¿½   isNaN.js
+ï¿½   ï¿½   ï¿½   isNegativeZero.d.ts
+ï¿½   ï¿½   ï¿½   isNegativeZero.js
+ï¿½   ï¿½   ï¿½   LICENSE
+ï¿½   ï¿½   ï¿½   max.d.ts
+ï¿½   ï¿½   ï¿½   max.js
+ï¿½   ï¿½   ï¿½   min.d.ts
+ï¿½   ï¿½   ï¿½   min.js
+ï¿½   ï¿½   ï¿½   mod.d.ts
+ï¿½   ï¿½   ï¿½   mod.js
+ï¿½   ï¿½   ï¿½   package.json
+ï¿½   ï¿½   ï¿½   pow.d.ts
+ï¿½   ï¿½   ï¿½   pow.js
+ï¿½   ï¿½   ï¿½   README.md
+ï¿½   ï¿½   ï¿½   round.d.ts
+ï¿½   ï¿½   ï¿½   round.js
+ï¿½   ï¿½   ï¿½   sign.d.ts
+ï¿½   ï¿½   ï¿½   sign.js
+ï¿½   ï¿½   ï¿½   tsconfig.json
+ï¿½   ï¿½   ï¿½   
+ï¿½   ï¿½   +---.github
+ï¿½   ï¿½   ï¿½       FUNDING.yml
+ï¿½   ï¿½   ï¿½       
+ï¿½   ï¿½   +---constants
+ï¿½   ï¿½   ï¿½       maxArrayLength.d.ts
+ï¿½   ï¿½   ï¿½       maxArrayLength.js
+ï¿½   ï¿½   ï¿½       maxSafeInteger.d.ts
+ï¿½   ï¿½   ï¿½       maxSafeInteger.js
+ï¿½   ï¿½   ï¿½       maxValue.d.ts
+ï¿½   ï¿½   ï¿½       maxValue.js
+ï¿½   ï¿½   ï¿½       
+ï¿½   ï¿½   +---test
+ï¿½   ï¿½           index.js
+ï¿½   ï¿½           
+ï¿½   +---media-typer
+ï¿½   ï¿½       HISTORY.md
+ï¿½   ï¿½       index.js
+ï¿½   ï¿½       LICENSE
+ï¿½   ï¿½       package.json
+ï¿½   ï¿½       README.md
+ï¿½   ï¿½       
+ï¿½   +---memory-pager
+ï¿½   ï¿½       .travis.yml
+ï¿½   ï¿½       index.js
+ï¿½   ï¿½       LICENSE
+ï¿½   ï¿½       package.json
+ï¿½   ï¿½       README.md
+ï¿½   ï¿½       test.js
+ï¿½   ï¿½       
+ï¿½   +---merge-descriptors
+ï¿½   ï¿½       index.d.ts
+ï¿½   ï¿½       index.js
+ï¿½   ï¿½       license
+ï¿½   ï¿½       package.json
+ï¿½   ï¿½       readme.md
+ï¿½   ï¿½       
+ï¿½   +---mime-db
+ï¿½   ï¿½       db.json
+ï¿½   ï¿½       HISTORY.md
+ï¿½   ï¿½       index.js
+ï¿½   ï¿½       LICENSE
+ï¿½   ï¿½       package.json
+ï¿½   ï¿½       README.md
+ï¿½   ï¿½       
+ï¿½   +---mime-types
+ï¿½   ï¿½       HISTORY.md
+ï¿½   ï¿½       index.js
+ï¿½   ï¿½       LICENSE
+ï¿½   ï¿½       mimeScore.js
+ï¿½   ï¿½       package.json
+ï¿½   ï¿½       README.md
+ï¿½   ï¿½       
+ï¿½   +---mongodb
+ï¿½   ï¿½   ï¿½   LICENSE.md
+ï¿½   ï¿½   ï¿½   mongodb.d.ts
+ï¿½   ï¿½   ï¿½   package.json
+ï¿½   ï¿½   ï¿½   README.md
+ï¿½   ï¿½   ï¿½   tsconfig.json
+ï¿½   ï¿½   ï¿½   
+ï¿½   ï¿½   +---etc
+ï¿½   ï¿½   ï¿½       prepare.js
+ï¿½   ï¿½   ï¿½       
+ï¿½   ï¿½   +---lib
+ï¿½   ï¿½   ï¿½   ï¿½   admin.js
+ï¿½   ï¿½   ï¿½   ï¿½   admin.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   bson.js
+ï¿½   ï¿½   ï¿½   ï¿½   bson.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   change_stream.js
+ï¿½   ï¿½   ï¿½   ï¿½   change_stream.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   collection.js
+ï¿½   ï¿½   ï¿½   ï¿½   collection.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   connection_string.js
+ï¿½   ï¿½   ï¿½   ï¿½   connection_string.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   constants.js
+ï¿½   ï¿½   ï¿½   ï¿½   constants.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   db.js
+ï¿½   ï¿½   ï¿½   ï¿½   db.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   deps.js
+ï¿½   ï¿½   ï¿½   ï¿½   deps.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   encrypter.js
+ï¿½   ï¿½   ï¿½   ï¿½   encrypter.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   error.js
+ï¿½   ï¿½   ï¿½   ï¿½   error.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   explain.js
+ï¿½   ï¿½   ï¿½   ï¿½   explain.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   index.js
+ï¿½   ï¿½   ï¿½   ï¿½   index.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   mongo_client.js
+ï¿½   ï¿½   ï¿½   ï¿½   mongo_client.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   mongo_client_auth_providers.js
+ï¿½   ï¿½   ï¿½   ï¿½   mongo_client_auth_providers.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   mongo_logger.js
+ï¿½   ï¿½   ï¿½   ï¿½   mongo_logger.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   mongo_types.js
+ï¿½   ï¿½   ï¿½   ï¿½   mongo_types.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   read_concern.js
+ï¿½   ï¿½   ï¿½   ï¿½   read_concern.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   read_preference.js
+ï¿½   ï¿½   ï¿½   ï¿½   read_preference.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   sessions.js
+ï¿½   ï¿½   ï¿½   ï¿½   sessions.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   sort.js
+ï¿½   ï¿½   ï¿½   ï¿½   sort.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   timeout.js
+ï¿½   ï¿½   ï¿½   ï¿½   timeout.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   transactions.js
+ï¿½   ï¿½   ï¿½   ï¿½   transactions.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   utils.js
+ï¿½   ï¿½   ï¿½   ï¿½   utils.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   write_concern.js
+ï¿½   ï¿½   ï¿½   ï¿½   write_concern.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   
+ï¿½   ï¿½   ï¿½   +---bulk
+ï¿½   ï¿½   ï¿½   ï¿½       common.js
+ï¿½   ï¿½   ï¿½   ï¿½       common.js.map
+ï¿½   ï¿½   ï¿½   ï¿½       ordered.js
+ï¿½   ï¿½   ï¿½   ï¿½       ordered.js.map
+ï¿½   ï¿½   ï¿½   ï¿½       unordered.js
+ï¿½   ï¿½   ï¿½   ï¿½       unordered.js.map
+ï¿½   ï¿½   ï¿½   ï¿½       
+ï¿½   ï¿½   ï¿½   +---client-side-encryption
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   auto_encrypter.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   auto_encrypter.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   client_encryption.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   client_encryption.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   errors.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   errors.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   mongocryptd_manager.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   mongocryptd_manager.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   state_machine.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   state_machine.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   
+ï¿½   ï¿½   ï¿½   ï¿½   +---providers
+ï¿½   ï¿½   ï¿½   ï¿½           aws.js
+ï¿½   ï¿½   ï¿½   ï¿½           aws.js.map
+ï¿½   ï¿½   ï¿½   ï¿½           azure.js
+ï¿½   ï¿½   ï¿½   ï¿½           azure.js.map
+ï¿½   ï¿½   ï¿½   ï¿½           gcp.js
+ï¿½   ï¿½   ï¿½   ï¿½           gcp.js.map
+ï¿½   ï¿½   ï¿½   ï¿½           index.js
+ï¿½   ï¿½   ï¿½   ï¿½           index.js.map
+ï¿½   ï¿½   ï¿½   ï¿½           
+ï¿½   ï¿½   ï¿½   +---cmap
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   commands.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   commands.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   command_monitoring_events.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   command_monitoring_events.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   connect.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   connect.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   connection.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   connection.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   connection_pool.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   connection_pool.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   connection_pool_events.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   connection_pool_events.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   errors.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   errors.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   metrics.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   metrics.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   stream_description.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   stream_description.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   
+ï¿½   ï¿½   ï¿½   ï¿½   +---auth
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   auth_provider.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   auth_provider.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   aws_temporary_credentials.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   aws_temporary_credentials.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   gssapi.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   gssapi.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   mongodb_aws.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   mongodb_aws.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   mongodb_oidc.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   mongodb_oidc.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   mongo_credentials.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   mongo_credentials.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   plain.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   plain.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   providers.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   providers.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   scram.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   scram.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   x509.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   x509.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   +---mongodb_oidc
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½           automated_callback_workflow.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½           automated_callback_workflow.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½           azure_machine_workflow.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½           azure_machine_workflow.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½           callback_workflow.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½           callback_workflow.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½           command_builders.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½           command_builders.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½           gcp_machine_workflow.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½           gcp_machine_workflow.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½           human_callback_workflow.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½           human_callback_workflow.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½           k8s_machine_workflow.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½           k8s_machine_workflow.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½           token_cache.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½           token_cache.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½           token_machine_workflow.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½           token_machine_workflow.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½           
+ï¿½   ï¿½   ï¿½   ï¿½   +---handshake
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       client_metadata.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       client_metadata.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       
+ï¿½   ï¿½   ï¿½   ï¿½   +---wire_protocol
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   compression.js
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   compression.js.map
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   constants.js
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   constants.js.map
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   on_data.js
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   on_data.js.map
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   responses.js
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   responses.js.map
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   shared.js
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   shared.js.map
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   
+ï¿½   ï¿½   ï¿½   ï¿½       +---on_demand
+ï¿½   ï¿½   ï¿½   ï¿½               document.js
+ï¿½   ï¿½   ï¿½   ï¿½               document.js.map
+ï¿½   ï¿½   ï¿½   ï¿½               
+ï¿½   ï¿½   ï¿½   +---cursor
+ï¿½   ï¿½   ï¿½   ï¿½       abstract_cursor.js
+ï¿½   ï¿½   ï¿½   ï¿½       abstract_cursor.js.map
+ï¿½   ï¿½   ï¿½   ï¿½       aggregation_cursor.js
+ï¿½   ï¿½   ï¿½   ï¿½       aggregation_cursor.js.map
+ï¿½   ï¿½   ï¿½   ï¿½       change_stream_cursor.js
+ï¿½   ï¿½   ï¿½   ï¿½       change_stream_cursor.js.map
+ï¿½   ï¿½   ï¿½   ï¿½       client_bulk_write_cursor.js
+ï¿½   ï¿½   ï¿½   ï¿½       client_bulk_write_cursor.js.map
+ï¿½   ï¿½   ï¿½   ï¿½       explainable_cursor.js
+ï¿½   ï¿½   ï¿½   ï¿½       explainable_cursor.js.map
+ï¿½   ï¿½   ï¿½   ï¿½       find_cursor.js
+ï¿½   ï¿½   ï¿½   ï¿½       find_cursor.js.map
+ï¿½   ï¿½   ï¿½   ï¿½       list_collections_cursor.js
+ï¿½   ï¿½   ï¿½   ï¿½       list_collections_cursor.js.map
+ï¿½   ï¿½   ï¿½   ï¿½       list_indexes_cursor.js
+ï¿½   ï¿½   ï¿½   ï¿½       list_indexes_cursor.js.map
+ï¿½   ï¿½   ï¿½   ï¿½       list_search_indexes_cursor.js
+ï¿½   ï¿½   ï¿½   ï¿½       list_search_indexes_cursor.js.map
+ï¿½   ï¿½   ï¿½   ï¿½       run_command_cursor.js
+ï¿½   ï¿½   ï¿½   ï¿½       run_command_cursor.js.map
+ï¿½   ï¿½   ï¿½   ï¿½       
+ï¿½   ï¿½   ï¿½   +---gridfs
+ï¿½   ï¿½   ï¿½   ï¿½       download.js
+ï¿½   ï¿½   ï¿½   ï¿½       download.js.map
+ï¿½   ï¿½   ï¿½   ï¿½       index.js
+ï¿½   ï¿½   ï¿½   ï¿½       index.js.map
+ï¿½   ï¿½   ï¿½   ï¿½       upload.js
+ï¿½   ï¿½   ï¿½   ï¿½       upload.js.map
+ï¿½   ï¿½   ï¿½   ï¿½       
+ï¿½   ï¿½   ï¿½   +---operations
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   aggregate.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   aggregate.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   command.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   command.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   count.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   count.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   create_collection.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   create_collection.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   delete.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   delete.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   distinct.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   distinct.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   drop.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   drop.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   end_sessions.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   end_sessions.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   estimated_document_count.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   estimated_document_count.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   execute_operation.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   execute_operation.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   find.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   find.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   find_and_modify.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   find_and_modify.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   get_more.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   get_more.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   indexes.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   indexes.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   insert.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   insert.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   kill_cursors.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   kill_cursors.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   list_collections.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   list_collections.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   list_databases.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   list_databases.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   operation.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   operation.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   profiling_level.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   profiling_level.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   remove_user.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   remove_user.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   rename.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   rename.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   run_command.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   run_command.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   set_profiling_level.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   set_profiling_level.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   stats.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   stats.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   update.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   update.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   validate_collection.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   validate_collection.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   
+ï¿½   ï¿½   ï¿½   ï¿½   +---client_bulk_write
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       client_bulk_write.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       client_bulk_write.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       command_builder.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       command_builder.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       common.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       common.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       executor.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       executor.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       results_merger.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       results_merger.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       
+ï¿½   ï¿½   ï¿½   ï¿½   +---search_indexes
+ï¿½   ï¿½   ï¿½   ï¿½           create.js
+ï¿½   ï¿½   ï¿½   ï¿½           create.js.map
+ï¿½   ï¿½   ï¿½   ï¿½           drop.js
+ï¿½   ï¿½   ï¿½   ï¿½           drop.js.map
+ï¿½   ï¿½   ï¿½   ï¿½           update.js
+ï¿½   ï¿½   ï¿½   ï¿½           update.js.map
+ï¿½   ï¿½   ï¿½   ï¿½           
+ï¿½   ï¿½   ï¿½   +---sdam
+ï¿½   ï¿½   ï¿½           common.js
+ï¿½   ï¿½   ï¿½           common.js.map
+ï¿½   ï¿½   ï¿½           events.js
+ï¿½   ï¿½   ï¿½           events.js.map
+ï¿½   ï¿½   ï¿½           monitor.js
+ï¿½   ï¿½   ï¿½           monitor.js.map
+ï¿½   ï¿½   ï¿½           server.js
+ï¿½   ï¿½   ï¿½           server.js.map
+ï¿½   ï¿½   ï¿½           server_description.js
+ï¿½   ï¿½   ï¿½           server_description.js.map
+ï¿½   ï¿½   ï¿½           server_selection.js
+ï¿½   ï¿½   ï¿½           server_selection.js.map
+ï¿½   ï¿½   ï¿½           server_selection_events.js
+ï¿½   ï¿½   ï¿½           server_selection_events.js.map
+ï¿½   ï¿½   ï¿½           srv_polling.js
+ï¿½   ï¿½   ï¿½           srv_polling.js.map
+ï¿½   ï¿½   ï¿½           topology.js
+ï¿½   ï¿½   ï¿½           topology.js.map
+ï¿½   ï¿½   ï¿½           topology_description.js
+ï¿½   ï¿½   ï¿½           topology_description.js.map
+ï¿½   ï¿½   ï¿½           
+ï¿½   ï¿½   +---src
+ï¿½   ï¿½       ï¿½   admin.ts
+ï¿½   ï¿½       ï¿½   bson.ts
+ï¿½   ï¿½       ï¿½   change_stream.ts
+ï¿½   ï¿½       ï¿½   collection.ts
+ï¿½   ï¿½       ï¿½   connection_string.ts
+ï¿½   ï¿½       ï¿½   constants.ts
+ï¿½   ï¿½       ï¿½   db.ts
+ï¿½   ï¿½       ï¿½   deps.ts
+ï¿½   ï¿½       ï¿½   encrypter.ts
+ï¿½   ï¿½       ï¿½   error.ts
+ï¿½   ï¿½       ï¿½   explain.ts
+ï¿½   ï¿½       ï¿½   index.ts
+ï¿½   ï¿½       ï¿½   mongo_client.ts
+ï¿½   ï¿½       ï¿½   mongo_client_auth_providers.ts
+ï¿½   ï¿½       ï¿½   mongo_logger.ts
+ï¿½   ï¿½       ï¿½   mongo_types.ts
+ï¿½   ï¿½       ï¿½   read_concern.ts
+ï¿½   ï¿½       ï¿½   read_preference.ts
+ï¿½   ï¿½       ï¿½   sessions.ts
+ï¿½   ï¿½       ï¿½   sort.ts
+ï¿½   ï¿½       ï¿½   timeout.ts
+ï¿½   ï¿½       ï¿½   transactions.ts
+ï¿½   ï¿½       ï¿½   utils.ts
+ï¿½   ï¿½       ï¿½   write_concern.ts
+ï¿½   ï¿½       ï¿½   
+ï¿½   ï¿½       +---bulk
+ï¿½   ï¿½       ï¿½       common.ts
+ï¿½   ï¿½       ï¿½       ordered.ts
+ï¿½   ï¿½       ï¿½       unordered.ts
+ï¿½   ï¿½       ï¿½       
+ï¿½   ï¿½       +---client-side-encryption
+ï¿½   ï¿½       ï¿½   ï¿½   auto_encrypter.ts
+ï¿½   ï¿½       ï¿½   ï¿½   client_encryption.ts
+ï¿½   ï¿½       ï¿½   ï¿½   errors.ts
+ï¿½   ï¿½       ï¿½   ï¿½   mongocryptd_manager.ts
+ï¿½   ï¿½       ï¿½   ï¿½   state_machine.ts
+ï¿½   ï¿½       ï¿½   ï¿½   
+ï¿½   ï¿½       ï¿½   +---providers
+ï¿½   ï¿½       ï¿½           aws.ts
+ï¿½   ï¿½       ï¿½           azure.ts
+ï¿½   ï¿½       ï¿½           gcp.ts
+ï¿½   ï¿½       ï¿½           index.ts
+ï¿½   ï¿½       ï¿½           
+ï¿½   ï¿½       +---cmap
+ï¿½   ï¿½       ï¿½   ï¿½   commands.ts
+ï¿½   ï¿½       ï¿½   ï¿½   command_monitoring_events.ts
+ï¿½   ï¿½       ï¿½   ï¿½   connect.ts
+ï¿½   ï¿½       ï¿½   ï¿½   connection.ts
+ï¿½   ï¿½       ï¿½   ï¿½   connection_pool.ts
+ï¿½   ï¿½       ï¿½   ï¿½   connection_pool_events.ts
+ï¿½   ï¿½       ï¿½   ï¿½   errors.ts
+ï¿½   ï¿½       ï¿½   ï¿½   metrics.ts
+ï¿½   ï¿½       ï¿½   ï¿½   stream_description.ts
+ï¿½   ï¿½       ï¿½   ï¿½   
+ï¿½   ï¿½       ï¿½   +---auth
+ï¿½   ï¿½       ï¿½   ï¿½   ï¿½   auth_provider.ts
+ï¿½   ï¿½       ï¿½   ï¿½   ï¿½   aws_temporary_credentials.ts
+ï¿½   ï¿½       ï¿½   ï¿½   ï¿½   gssapi.ts
+ï¿½   ï¿½       ï¿½   ï¿½   ï¿½   mongodb_aws.ts
+ï¿½   ï¿½       ï¿½   ï¿½   ï¿½   mongodb_oidc.ts
+ï¿½   ï¿½       ï¿½   ï¿½   ï¿½   mongo_credentials.ts
+ï¿½   ï¿½       ï¿½   ï¿½   ï¿½   plain.ts
+ï¿½   ï¿½       ï¿½   ï¿½   ï¿½   providers.ts
+ï¿½   ï¿½       ï¿½   ï¿½   ï¿½   scram.ts
+ï¿½   ï¿½       ï¿½   ï¿½   ï¿½   x509.ts
+ï¿½   ï¿½       ï¿½   ï¿½   ï¿½   
+ï¿½   ï¿½       ï¿½   ï¿½   +---mongodb_oidc
+ï¿½   ï¿½       ï¿½   ï¿½           automated_callback_workflow.ts
+ï¿½   ï¿½       ï¿½   ï¿½           azure_machine_workflow.ts
+ï¿½   ï¿½       ï¿½   ï¿½           callback_workflow.ts
+ï¿½   ï¿½       ï¿½   ï¿½           command_builders.ts
+ï¿½   ï¿½       ï¿½   ï¿½           gcp_machine_workflow.ts
+ï¿½   ï¿½       ï¿½   ï¿½           human_callback_workflow.ts
+ï¿½   ï¿½       ï¿½   ï¿½           k8s_machine_workflow.ts
+ï¿½   ï¿½       ï¿½   ï¿½           token_cache.ts
+ï¿½   ï¿½       ï¿½   ï¿½           token_machine_workflow.ts
+ï¿½   ï¿½       ï¿½   ï¿½           
+ï¿½   ï¿½       ï¿½   +---handshake
+ï¿½   ï¿½       ï¿½   ï¿½       client_metadata.ts
+ï¿½   ï¿½       ï¿½   ï¿½       
+ï¿½   ï¿½       ï¿½   +---wire_protocol
+ï¿½   ï¿½       ï¿½       ï¿½   compression.ts
+ï¿½   ï¿½       ï¿½       ï¿½   constants.ts
+ï¿½   ï¿½       ï¿½       ï¿½   on_data.ts
+ï¿½   ï¿½       ï¿½       ï¿½   responses.ts
+ï¿½   ï¿½       ï¿½       ï¿½   shared.ts
+ï¿½   ï¿½       ï¿½       ï¿½   
+ï¿½   ï¿½       ï¿½       +---on_demand
+ï¿½   ï¿½       ï¿½               document.ts
+ï¿½   ï¿½       ï¿½               
+ï¿½   ï¿½       +---cursor
+ï¿½   ï¿½       ï¿½       abstract_cursor.ts
+ï¿½   ï¿½       ï¿½       aggregation_cursor.ts
+ï¿½   ï¿½       ï¿½       change_stream_cursor.ts
+ï¿½   ï¿½       ï¿½       client_bulk_write_cursor.ts
+ï¿½   ï¿½       ï¿½       explainable_cursor.ts
+ï¿½   ï¿½       ï¿½       find_cursor.ts
+ï¿½   ï¿½       ï¿½       list_collections_cursor.ts
+ï¿½   ï¿½       ï¿½       list_indexes_cursor.ts
+ï¿½   ï¿½       ï¿½       list_search_indexes_cursor.ts
+ï¿½   ï¿½       ï¿½       run_command_cursor.ts
+ï¿½   ï¿½       ï¿½       
+ï¿½   ï¿½       +---gridfs
+ï¿½   ï¿½       ï¿½       download.ts
+ï¿½   ï¿½       ï¿½       index.ts
+ï¿½   ï¿½       ï¿½       upload.ts
+ï¿½   ï¿½       ï¿½       
+ï¿½   ï¿½       +---operations
+ï¿½   ï¿½       ï¿½   ï¿½   aggregate.ts
+ï¿½   ï¿½       ï¿½   ï¿½   command.ts
+ï¿½   ï¿½       ï¿½   ï¿½   count.ts
+ï¿½   ï¿½       ï¿½   ï¿½   create_collection.ts
+ï¿½   ï¿½       ï¿½   ï¿½   delete.ts
+ï¿½   ï¿½       ï¿½   ï¿½   distinct.ts
+ï¿½   ï¿½       ï¿½   ï¿½   drop.ts
+ï¿½   ï¿½       ï¿½   ï¿½   end_sessions.ts
+ï¿½   ï¿½       ï¿½   ï¿½   estimated_document_count.ts
+ï¿½   ï¿½       ï¿½   ï¿½   execute_operation.ts
+ï¿½   ï¿½       ï¿½   ï¿½   find.ts
+ï¿½   ï¿½       ï¿½   ï¿½   find_and_modify.ts
+ï¿½   ï¿½       ï¿½   ï¿½   get_more.ts
+ï¿½   ï¿½       ï¿½   ï¿½   indexes.ts
+ï¿½   ï¿½       ï¿½   ï¿½   insert.ts
+ï¿½   ï¿½       ï¿½   ï¿½   kill_cursors.ts
+ï¿½   ï¿½       ï¿½   ï¿½   list_collections.ts
+ï¿½   ï¿½       ï¿½   ï¿½   list_databases.ts
+ï¿½   ï¿½       ï¿½   ï¿½   operation.ts
+ï¿½   ï¿½       ï¿½   ï¿½   profiling_level.ts
+ï¿½   ï¿½       ï¿½   ï¿½   remove_user.ts
+ï¿½   ï¿½       ï¿½   ï¿½   rename.ts
+ï¿½   ï¿½       ï¿½   ï¿½   run_command.ts
+ï¿½   ï¿½       ï¿½   ï¿½   set_profiling_level.ts
+ï¿½   ï¿½       ï¿½   ï¿½   stats.ts
+ï¿½   ï¿½       ï¿½   ï¿½   update.ts
+ï¿½   ï¿½       ï¿½   ï¿½   validate_collection.ts
+ï¿½   ï¿½       ï¿½   ï¿½   
+ï¿½   ï¿½       ï¿½   +---client_bulk_write
+ï¿½   ï¿½       ï¿½   ï¿½       client_bulk_write.ts
+ï¿½   ï¿½       ï¿½   ï¿½       command_builder.ts
+ï¿½   ï¿½       ï¿½   ï¿½       common.ts
+ï¿½   ï¿½       ï¿½   ï¿½       executor.ts
+ï¿½   ï¿½       ï¿½   ï¿½       results_merger.ts
+ï¿½   ï¿½       ï¿½   ï¿½       
+ï¿½   ï¿½       ï¿½   +---search_indexes
+ï¿½   ï¿½       ï¿½           create.ts
+ï¿½   ï¿½       ï¿½           drop.ts
+ï¿½   ï¿½       ï¿½           update.ts
+ï¿½   ï¿½       ï¿½           
+ï¿½   ï¿½       +---sdam
+ï¿½   ï¿½               common.ts
+ï¿½   ï¿½               events.ts
+ï¿½   ï¿½               monitor.ts
+ï¿½   ï¿½               server.ts
+ï¿½   ï¿½               server_description.ts
+ï¿½   ï¿½               server_selection.ts
+ï¿½   ï¿½               server_selection_events.ts
+ï¿½   ï¿½               srv_polling.ts
+ï¿½   ï¿½               topology.ts
+ï¿½   ï¿½               topology_description.ts
+ï¿½   ï¿½               
+ï¿½   +---mongodb-connection-string-url
+ï¿½   ï¿½   ï¿½   .esm-wrapper.mjs
+ï¿½   ï¿½   ï¿½   LICENSE
+ï¿½   ï¿½   ï¿½   package.json
+ï¿½   ï¿½   ï¿½   README.md
+ï¿½   ï¿½   ï¿½   
+ï¿½   ï¿½   +---lib
+ï¿½   ï¿½           index.d.ts
+ï¿½   ï¿½           index.js
+ï¿½   ï¿½           index.js.map
+ï¿½   ï¿½           redact.d.ts
+ï¿½   ï¿½           redact.js
+ï¿½   ï¿½           redact.js.map
+ï¿½   ï¿½           
+ï¿½   +---mongoose
+ï¿½   ï¿½   ï¿½   browser.js
+ï¿½   ï¿½   ï¿½   index.js
+ï¿½   ï¿½   ï¿½   LICENSE.md
+ï¿½   ï¿½   ï¿½   package.json
+ï¿½   ï¿½   ï¿½   README.md
+ï¿½   ï¿½   ï¿½   SECURITY.md
+ï¿½   ï¿½   ï¿½   
+ï¿½   ï¿½   +---dist
+ï¿½   ï¿½   ï¿½       browser.umd.js
+ï¿½   ï¿½   ï¿½       
+ï¿½   ï¿½   +---lib
+ï¿½   ï¿½   ï¿½   ï¿½   aggregate.js
+ï¿½   ï¿½   ï¿½   ï¿½   browser.js
+ï¿½   ï¿½   ï¿½   ï¿½   browserDocument.js
+ï¿½   ï¿½   ï¿½   ï¿½   cast.js
+ï¿½   ï¿½   ï¿½   ï¿½   collection.js
+ï¿½   ï¿½   ï¿½   ï¿½   connection.js
+ï¿½   ï¿½   ï¿½   ï¿½   connectionState.js
+ï¿½   ï¿½   ï¿½   ï¿½   constants.js
+ï¿½   ï¿½   ï¿½   ï¿½   document.js
+ï¿½   ï¿½   ï¿½   ï¿½   documentProvider.js
+ï¿½   ï¿½   ï¿½   ï¿½   driver.js
+ï¿½   ï¿½   ï¿½   ï¿½   index.js
+ï¿½   ï¿½   ï¿½   ï¿½   internal.js
+ï¿½   ï¿½   ï¿½   ï¿½   model.js
+ï¿½   ï¿½   ï¿½   ï¿½   modifiedPathsSnapshot.js
+ï¿½   ï¿½   ï¿½   ï¿½   mongoose.js
+ï¿½   ï¿½   ï¿½   ï¿½   options.js
+ï¿½   ï¿½   ï¿½   ï¿½   query.js
+ï¿½   ï¿½   ï¿½   ï¿½   queryHelpers.js
+ï¿½   ï¿½   ï¿½   ï¿½   schema.js
+ï¿½   ï¿½   ï¿½   ï¿½   schemaType.js
+ï¿½   ï¿½   ï¿½   ï¿½   stateMachine.js
+ï¿½   ï¿½   ï¿½   ï¿½   utils.js
+ï¿½   ï¿½   ï¿½   ï¿½   validOptions.js
+ï¿½   ï¿½   ï¿½   ï¿½   virtualType.js
+ï¿½   ï¿½   ï¿½   ï¿½   
+ï¿½   ï¿½   ï¿½   +---cast
+ï¿½   ï¿½   ï¿½   ï¿½       bigint.js
+ï¿½   ï¿½   ï¿½   ï¿½       boolean.js
+ï¿½   ï¿½   ï¿½   ï¿½       date.js
+ï¿½   ï¿½   ï¿½   ï¿½       decimal128.js
+ï¿½   ï¿½   ï¿½   ï¿½       double.js
+ï¿½   ï¿½   ï¿½   ï¿½       int32.js
+ï¿½   ï¿½   ï¿½   ï¿½       number.js
+ï¿½   ï¿½   ï¿½   ï¿½       objectid.js
+ï¿½   ï¿½   ï¿½   ï¿½       string.js
+ï¿½   ï¿½   ï¿½   ï¿½       uuid.js
+ï¿½   ï¿½   ï¿½   ï¿½       
+ï¿½   ï¿½   ï¿½   +---cursor
+ï¿½   ï¿½   ï¿½   ï¿½       aggregationCursor.js
+ï¿½   ï¿½   ï¿½   ï¿½       changeStream.js
+ï¿½   ï¿½   ï¿½   ï¿½       queryCursor.js
+ï¿½   ï¿½   ï¿½   ï¿½       
+ï¿½   ï¿½   ï¿½   +---drivers
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   SPEC.md
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   
+ï¿½   ï¿½   ï¿½   ï¿½   +---browser
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       binary.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       decimal128.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       index.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       objectid.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       
+ï¿½   ï¿½   ï¿½   ï¿½   +---node-mongodb-native
+ï¿½   ï¿½   ï¿½   ï¿½           bulkWriteResult.js
+ï¿½   ï¿½   ï¿½   ï¿½           collection.js
+ï¿½   ï¿½   ï¿½   ï¿½           connection.js
+ï¿½   ï¿½   ï¿½   ï¿½           index.js
+ï¿½   ï¿½   ï¿½   ï¿½           
+ï¿½   ï¿½   ï¿½   +---error
+ï¿½   ï¿½   ï¿½   ï¿½       browserMissingSchema.js
+ï¿½   ï¿½   ï¿½   ï¿½       bulkSaveIncompleteError.js
+ï¿½   ï¿½   ï¿½   ï¿½       bulkWriteError.js
+ï¿½   ï¿½   ï¿½   ï¿½       cast.js
+ï¿½   ï¿½   ï¿½   ï¿½       createCollectionsError.js
+ï¿½   ï¿½   ï¿½   ï¿½       divergentArray.js
+ï¿½   ï¿½   ï¿½   ï¿½       eachAsyncMultiError.js
+ï¿½   ï¿½   ï¿½   ï¿½       index.js
+ï¿½   ï¿½   ï¿½   ï¿½       invalidSchemaOption.js
+ï¿½   ï¿½   ï¿½   ï¿½       messages.js
+ï¿½   ï¿½   ï¿½   ï¿½       missingSchema.js
+ï¿½   ï¿½   ï¿½   ï¿½       mongooseError.js
+ï¿½   ï¿½   ï¿½   ï¿½       notFound.js
+ï¿½   ï¿½   ï¿½   ï¿½       objectExpected.js
+ï¿½   ï¿½   ï¿½   ï¿½       objectParameter.js
+ï¿½   ï¿½   ï¿½   ï¿½       overwriteModel.js
+ï¿½   ï¿½   ï¿½   ï¿½       parallelSave.js
+ï¿½   ï¿½   ï¿½   ï¿½       parallelValidate.js
+ï¿½   ï¿½   ï¿½   ï¿½       serverSelection.js
+ï¿½   ï¿½   ï¿½   ï¿½       setOptionError.js
+ï¿½   ï¿½   ï¿½   ï¿½       strict.js
+ï¿½   ï¿½   ï¿½   ï¿½       strictPopulate.js
+ï¿½   ï¿½   ï¿½   ï¿½       syncIndexes.js
+ï¿½   ï¿½   ï¿½   ï¿½       validation.js
+ï¿½   ï¿½   ï¿½   ï¿½       validator.js
+ï¿½   ï¿½   ï¿½   ï¿½       version.js
+ï¿½   ï¿½   ï¿½   ï¿½       
+ï¿½   ï¿½   ï¿½   +---helpers
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   arrayDepth.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   clone.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   common.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   createJSONSchemaTypeDefinition.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   each.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   firstKey.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   get.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   getConstructorName.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   getDefaultBulkwriteResult.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   getFunctionName.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   immediate.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   isAsyncFunction.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   isBsonType.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   isMongooseObject.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   isObject.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   isPOJO.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   isPromise.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   isSimpleValidator.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   minimize.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   omitUndefined.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   once.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   parallelLimit.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   pluralize.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   printJestWarning.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   processConnectionOptions.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   promiseOrCallback.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   setDefaultsOnInsert.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   specialProperties.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   symbols.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   timers.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   updateValidators.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   
+ï¿½   ï¿½   ï¿½   ï¿½   +---aggregate
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       prepareDiscriminatorPipeline.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       stringifyFunctionOperators.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       
+ï¿½   ï¿½   ï¿½   ï¿½   +---cursor
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       eachAsync.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       
+ï¿½   ï¿½   ï¿½   ï¿½   +---discriminator
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       applyEmbeddedDiscriminators.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       areDiscriminatorValuesEqual.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       checkEmbeddedDiscriminatorKeyProjection.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       getConstructor.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       getDiscriminatorByValue.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       getSchemaDiscriminatorByValue.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       mergeDiscriminatorSchema.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       
+ï¿½   ï¿½   ï¿½   ï¿½   +---document
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       applyDefaults.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       applyTimestamps.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       applyVirtuals.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       cleanModifiedSubpaths.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       compile.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       getDeepestSubdocumentForPath.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       getEmbeddedDiscriminatorPath.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       handleSpreadDoc.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       
+ï¿½   ï¿½   ï¿½   ï¿½   +---error
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       combinePathErrors.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       
+ï¿½   ï¿½   ï¿½   ï¿½   +---indexes
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       applySchemaCollation.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       decorateDiscriminatorIndexOptions.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       getRelatedIndexes.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       isDefaultIdIndex.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       isIndexEqual.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       isIndexSpecEqual.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       isTextIndex.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       isTimeseriesIndex.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       
+ï¿½   ï¿½   ï¿½   ï¿½   +---model
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       applyDefaultsToPOJO.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       applyHooks.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       applyMethods.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       applyStaticHooks.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       applyStatics.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       castBulkWrite.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       decorateBulkWriteResult.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       discriminator.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       pushNestedArrayPaths.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       
+ï¿½   ï¿½   ï¿½   ï¿½   +---path
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       parentPaths.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       setDottedPath.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       
+ï¿½   ï¿½   ï¿½   ï¿½   +---populate
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       assignRawDocsToIdStructure.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       assignVals.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       createPopulateQueryFilter.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       getModelsMapForPopulate.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       getSchemaTypes.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       getVirtual.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       leanPopulateMap.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       lookupLocalFields.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       markArraySubdocsPopulated.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       modelNamesFromRefPath.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       removeDeselectedForeignField.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       setPopulatedVirtualValue.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       skipPopulateValue.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       validateRef.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       
+ï¿½   ï¿½   ï¿½   ï¿½   +---projection
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       applyProjection.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       hasIncludedChildren.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       isDefiningProjection.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       isExclusive.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       isInclusive.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       isNestedProjection.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       isPathExcluded.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       isPathSelectedInclusive.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       isSubpath.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       parseProjection.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       
+ï¿½   ï¿½   ï¿½   ï¿½   +---query
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       applyGlobalOption.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       cast$expr.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       castFilterPath.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       castUpdate.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       getEmbeddedDiscriminatorPath.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       handleImmutable.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       handleReadPreferenceAliases.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       hasDollarKeys.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       isOperator.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       sanitizeFilter.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       sanitizeProjection.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       selectPopulatedFields.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       trusted.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       validOps.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       
+ï¿½   ï¿½   ï¿½   ï¿½   +---schema
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       addAutoId.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       applyBuiltinPlugins.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       applyPlugins.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       applyReadConcern.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       applyWriteConcern.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       cleanPositionalOperators.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       getIndexes.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       getKeysInSchemaOrder.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       getPath.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       getSubdocumentStrictValue.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       handleIdOption.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       handleTimestampOption.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       idGetter.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       merge.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       
+ï¿½   ï¿½   ï¿½   ï¿½   +---schematype
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       handleImmutable.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       
+ï¿½   ï¿½   ï¿½   ï¿½   +---timestamps
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       setDocumentTimestamps.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       setupTimestamps.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       
+ï¿½   ï¿½   ï¿½   ï¿½   +---topology
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       allServersUnknown.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       isAtlas.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       isSSLError.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       
+ï¿½   ï¿½   ï¿½   ï¿½   +---update
+ï¿½   ï¿½   ï¿½   ï¿½           applyTimestampsToChildren.js
+ï¿½   ï¿½   ï¿½   ï¿½           applyTimestampsToUpdate.js
+ï¿½   ï¿½   ï¿½   ï¿½           castArrayFilters.js
+ï¿½   ï¿½   ï¿½   ï¿½           decorateUpdateWithVersionKey.js
+ï¿½   ï¿½   ï¿½   ï¿½           modifiedPaths.js
+ï¿½   ï¿½   ï¿½   ï¿½           moveImmutableProperties.js
+ï¿½   ï¿½   ï¿½   ï¿½           removeUnusedArrayFilters.js
+ï¿½   ï¿½   ï¿½   ï¿½           updatedPathsByArrayFilter.js
+ï¿½   ï¿½   ï¿½   ï¿½           
+ï¿½   ï¿½   ï¿½   +---options
+ï¿½   ï¿½   ï¿½   ï¿½       populateOptions.js
+ï¿½   ï¿½   ï¿½   ï¿½       propertyOptions.js
+ï¿½   ï¿½   ï¿½   ï¿½       saveOptions.js
+ï¿½   ï¿½   ï¿½   ï¿½       schemaArrayOptions.js
+ï¿½   ï¿½   ï¿½   ï¿½       schemaBufferOptions.js
+ï¿½   ï¿½   ï¿½   ï¿½       schemaDateOptions.js
+ï¿½   ï¿½   ï¿½   ï¿½       schemaDocumentArrayOptions.js
+ï¿½   ï¿½   ï¿½   ï¿½       schemaMapOptions.js
+ï¿½   ï¿½   ï¿½   ï¿½       schemaNumberOptions.js
+ï¿½   ï¿½   ï¿½   ï¿½       schemaObjectIdOptions.js
+ï¿½   ï¿½   ï¿½   ï¿½       schemaStringOptions.js
+ï¿½   ï¿½   ï¿½   ï¿½       schemaSubdocumentOptions.js
+ï¿½   ï¿½   ï¿½   ï¿½       schemaTypeOptions.js
+ï¿½   ï¿½   ï¿½   ï¿½       schemaUnionOptions.js
+ï¿½   ï¿½   ï¿½   ï¿½       virtualOptions.js
+ï¿½   ï¿½   ï¿½   ï¿½       
+ï¿½   ï¿½   ï¿½   +---plugins
+ï¿½   ï¿½   ï¿½   ï¿½       index.js
+ï¿½   ï¿½   ï¿½   ï¿½       saveSubdocs.js
+ï¿½   ï¿½   ï¿½   ï¿½       sharding.js
+ï¿½   ï¿½   ï¿½   ï¿½       trackTransaction.js
+ï¿½   ï¿½   ï¿½   ï¿½       validateBeforeSave.js
+ï¿½   ï¿½   ï¿½   ï¿½       
+ï¿½   ï¿½   ï¿½   +---schema
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   array.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   bigint.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   boolean.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   buffer.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   date.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   decimal128.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   documentArray.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   documentArrayElement.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   double.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   index.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   int32.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   map.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   mixed.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   number.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   objectId.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   string.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   subdocument.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   symbols.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   union.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   uuid.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   
+ï¿½   ï¿½   ï¿½   ï¿½   +---operators
+ï¿½   ï¿½   ï¿½   ï¿½           bitwise.js
+ï¿½   ï¿½   ï¿½   ï¿½           exists.js
+ï¿½   ï¿½   ï¿½   ï¿½           geospatial.js
+ï¿½   ï¿½   ï¿½   ï¿½           helpers.js
+ï¿½   ï¿½   ï¿½   ï¿½           text.js
+ï¿½   ï¿½   ï¿½   ï¿½           type.js
+ï¿½   ï¿½   ï¿½   ï¿½           
+ï¿½   ï¿½   ï¿½   +---types
+ï¿½   ï¿½   ï¿½       ï¿½   arraySubdocument.js
+ï¿½   ï¿½   ï¿½       ï¿½   buffer.js
+ï¿½   ï¿½   ï¿½       ï¿½   decimal128.js
+ï¿½   ï¿½   ï¿½       ï¿½   double.js
+ï¿½   ï¿½   ï¿½       ï¿½   index.js
+ï¿½   ï¿½   ï¿½       ï¿½   map.js
+ï¿½   ï¿½   ï¿½       ï¿½   objectid.js
+ï¿½   ï¿½   ï¿½       ï¿½   subdocument.js
+ï¿½   ï¿½   ï¿½       ï¿½   uuid.js
+ï¿½   ï¿½   ï¿½       ï¿½   
+ï¿½   ï¿½   ï¿½       +---array
+ï¿½   ï¿½   ï¿½       ï¿½   ï¿½   index.js
+ï¿½   ï¿½   ï¿½       ï¿½   ï¿½   isMongooseArray.js
+ï¿½   ï¿½   ï¿½       ï¿½   ï¿½   
+ï¿½   ï¿½   ï¿½       ï¿½   +---methods
+ï¿½   ï¿½   ï¿½       ï¿½           index.js
+ï¿½   ï¿½   ï¿½       ï¿½           
+ï¿½   ï¿½   ï¿½       +---documentArray
+ï¿½   ï¿½   ï¿½           ï¿½   index.js
+ï¿½   ï¿½   ï¿½           ï¿½   isMongooseDocumentArray.js
+ï¿½   ï¿½   ï¿½           ï¿½   
+ï¿½   ï¿½   ï¿½           +---methods
+ï¿½   ï¿½   ï¿½                   index.js
+ï¿½   ï¿½   ï¿½                   
+ï¿½   ï¿½   +---node_modules
+ï¿½   ï¿½   ï¿½   +---@types
+ï¿½   ï¿½   ï¿½   ï¿½   +---whatwg-url
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   index.d.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   LICENSE
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   package.json
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   README.md
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   webidl2js-wrapper.d.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   
+ï¿½   ï¿½   ï¿½   ï¿½       +---lib
+ï¿½   ï¿½   ï¿½   ï¿½               URL-impl.d.ts
+ï¿½   ï¿½   ï¿½   ï¿½               URL.d.ts
+ï¿½   ï¿½   ï¿½   ï¿½               URLSearchParams-impl.d.ts
+ï¿½   ï¿½   ï¿½   ï¿½               URLSearchParams.d.ts
+ï¿½   ï¿½   ï¿½   ï¿½               
+ï¿½   ï¿½   ï¿½   +---bson
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   bson.d.ts
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   LICENSE.md
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   package.json
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   README.md
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   
+ï¿½   ï¿½   ï¿½   ï¿½   +---etc
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       prepare.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       
+ï¿½   ï¿½   ï¿½   ï¿½   +---lib
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       bson.bundle.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       bson.bundle.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       bson.cjs
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       bson.cjs.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       bson.mjs
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       bson.mjs.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       bson.node.mjs
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       bson.node.mjs.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       bson.rn.cjs
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       bson.rn.cjs.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       
+ï¿½   ï¿½   ï¿½   ï¿½   +---src
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   binary.ts
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   bson.ts
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   bson_value.ts
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   code.ts
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   constants.ts
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   db_ref.ts
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   decimal128.ts
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   double.ts
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   error.ts
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   extended_json.ts
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   index.ts
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   int_32.ts
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   long.ts
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   max_key.ts
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   min_key.ts
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   objectid.ts
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   parse_utf8.ts
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   regexp.ts
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   symbol.ts
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   timestamp.ts
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   +---parser
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   calculate_size.ts
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   deserializer.ts
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   serializer.ts
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   utils.ts
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   +---on_demand
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½           index.ts
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½           parse_to_elements.ts
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½           
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   +---utils
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½           byte_utils.ts
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½           latin.ts
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½           node_byte_utils.ts
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½           number_utils.ts
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½           string_utils.ts
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½           web_byte_utils.ts
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½           
+ï¿½   ï¿½   ï¿½   ï¿½   +---vendor
+ï¿½   ï¿½   ï¿½   ï¿½       +---base64
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½       base64.js
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½       LICENSE-MIT.txt
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½       package.json
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½       README.md
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½       
+ï¿½   ï¿½   ï¿½   ï¿½       +---text-encoding
+ï¿½   ï¿½   ï¿½   ï¿½           ï¿½   index.js
+ï¿½   ï¿½   ï¿½   ï¿½           ï¿½   LICENSE.md
+ï¿½   ï¿½   ï¿½   ï¿½           ï¿½   package.json
+ï¿½   ï¿½   ï¿½   ï¿½           ï¿½   README.md
+ï¿½   ï¿½   ï¿½   ï¿½           ï¿½   
+ï¿½   ï¿½   ï¿½   ï¿½           +---lib
+ï¿½   ï¿½   ï¿½   ï¿½                   encoding-indexes.js
+ï¿½   ï¿½   ï¿½   ï¿½                   encoding.js
+ï¿½   ï¿½   ï¿½   ï¿½                   
+ï¿½   ï¿½   ï¿½   +---mongodb
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   LICENSE.md
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   mongodb.d.ts
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   package.json
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   README.md
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   tsconfig.json
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   
+ï¿½   ï¿½   ï¿½   ï¿½   +---etc
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       prepare.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       
+ï¿½   ï¿½   ï¿½   ï¿½   +---lib
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   admin.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   admin.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   beta.d.ts
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   beta.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   beta.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   bson.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   bson.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   change_stream.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   change_stream.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   collection.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   collection.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   connection_string.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   connection_string.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   constants.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   constants.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   db.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   db.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   deps.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   deps.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   encrypter.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   encrypter.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   error.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   error.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   explain.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   explain.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   index.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   index.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   mongo_client.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   mongo_client.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   mongo_client_auth_providers.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   mongo_client_auth_providers.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   mongo_logger.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   mongo_logger.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   mongo_types.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   mongo_types.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   read_concern.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   read_concern.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   read_preference.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   read_preference.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   resource_management.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   resource_management.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   sessions.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   sessions.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   sort.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   sort.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   timeout.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   timeout.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   transactions.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   transactions.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   utils.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   utils.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   write_concern.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   write_concern.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   +---bulk
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       common.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       common.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       ordered.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       ordered.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       unordered.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       unordered.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   +---client-side-encryption
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   auto_encrypter.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   auto_encrypter.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   client_encryption.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   client_encryption.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   crypto_callbacks.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   crypto_callbacks.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   errors.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   errors.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   mongocryptd_manager.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   mongocryptd_manager.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   state_machine.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   state_machine.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   +---providers
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½           aws.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½           aws.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½           azure.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½           azure.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½           gcp.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½           gcp.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½           index.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½           index.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½           
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   +---cmap
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   commands.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   commands.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   command_monitoring_events.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   command_monitoring_events.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   connect.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   connect.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   connection.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   connection.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   connection_pool.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   connection_pool.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   connection_pool_events.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   connection_pool_events.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   errors.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   errors.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   metrics.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   metrics.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   stream_description.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   stream_description.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   +---auth
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   auth_provider.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   auth_provider.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   aws_temporary_credentials.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   aws_temporary_credentials.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   gssapi.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   gssapi.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   mongodb_aws.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   mongodb_aws.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   mongodb_oidc.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   mongodb_oidc.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   mongo_credentials.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   mongo_credentials.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   plain.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   plain.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   providers.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   providers.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   scram.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   scram.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   x509.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   x509.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   +---mongodb_oidc
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½           automated_callback_workflow.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½           automated_callback_workflow.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½           azure_machine_workflow.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½           azure_machine_workflow.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½           callback_workflow.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½           callback_workflow.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½           command_builders.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½           command_builders.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½           gcp_machine_workflow.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½           gcp_machine_workflow.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½           human_callback_workflow.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½           human_callback_workflow.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½           k8s_machine_workflow.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½           k8s_machine_workflow.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½           token_cache.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½           token_cache.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½           token_machine_workflow.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½           token_machine_workflow.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½           
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   +---handshake
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       client_metadata.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       client_metadata.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   +---wire_protocol
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   compression.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   compression.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   constants.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   constants.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   on_data.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   on_data.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   responses.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   responses.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   shared.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   shared.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       +---on_demand
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½               document.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½               document.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½               
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   +---cursor
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       abstract_cursor.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       abstract_cursor.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       aggregation_cursor.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       aggregation_cursor.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       change_stream_cursor.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       change_stream_cursor.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       client_bulk_write_cursor.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       client_bulk_write_cursor.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       explainable_cursor.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       explainable_cursor.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       find_cursor.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       find_cursor.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       list_collections_cursor.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       list_collections_cursor.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       list_indexes_cursor.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       list_indexes_cursor.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       list_search_indexes_cursor.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       list_search_indexes_cursor.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       run_command_cursor.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       run_command_cursor.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   +---gridfs
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       download.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       download.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       index.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       index.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       upload.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       upload.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   +---operations
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   aggregate.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   aggregate.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   command.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   command.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   count.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   count.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   create_collection.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   create_collection.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   delete.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   delete.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   distinct.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   distinct.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   drop.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   drop.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   estimated_document_count.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   estimated_document_count.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   execute_operation.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   execute_operation.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   find.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   find.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   find_and_modify.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   find_and_modify.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   get_more.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   get_more.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   indexes.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   indexes.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   insert.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   insert.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   kill_cursors.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   kill_cursors.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   list_collections.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   list_collections.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   list_databases.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   list_databases.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   operation.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   operation.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   profiling_level.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   profiling_level.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   remove_user.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   remove_user.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   rename.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   rename.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   run_command.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   run_command.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   set_profiling_level.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   set_profiling_level.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   stats.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   stats.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   update.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   update.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   validate_collection.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   validate_collection.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   +---client_bulk_write
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       client_bulk_write.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       client_bulk_write.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       command_builder.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       command_builder.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       common.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       common.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       executor.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       executor.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       results_merger.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       results_merger.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½       
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   +---search_indexes
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½           create.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½           create.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½           drop.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½           drop.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½           update.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½           update.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   ï¿½           
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½   +---sdam
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½           common.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½           common.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½           events.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½           events.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½           monitor.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½           monitor.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½           server.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½           server.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½           server_description.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½           server_description.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½           server_selection.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½           server_selection.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½           server_selection_events.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½           server_selection_events.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½           srv_polling.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½           srv_polling.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½           topology.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½           topology.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½           topology_description.js
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½           topology_description.js.map
+ï¿½   ï¿½   ï¿½   ï¿½   ï¿½           
+ï¿½   ï¿½   ï¿½   ï¿½   +---src
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   admin.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   beta.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   bson.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   change_stream.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   collection.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   connection_string.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   constants.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   db.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   deps.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   encrypter.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   error.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   explain.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   index.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   mongo_client.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   mongo_client_auth_providers.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   mongo_logger.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   mongo_types.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   read_concern.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   read_preference.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   resource_management.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   sessions.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   sort.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   timeout.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   transactions.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   utils.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   write_concern.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   
+ï¿½   ï¿½   ï¿½   ï¿½       +---bulk
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½       common.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½       ordered.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½       unordered.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½       
+ï¿½   ï¿½   ï¿½   ï¿½       +---client-side-encryption
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   ï¿½   auto_encrypter.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   ï¿½   client_encryption.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   ï¿½   crypto_callbacks.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   ï¿½   errors.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   ï¿½   mongocryptd_manager.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   ï¿½   state_machine.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   ï¿½   
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   +---providers
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½           aws.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½           azure.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½           gcp.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½           index.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½           
+ï¿½   ï¿½   ï¿½   ï¿½       +---cmap
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   ï¿½   commands.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   ï¿½   command_monitoring_events.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   ï¿½   connect.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   ï¿½   connection.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   ï¿½   connection_pool.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   ï¿½   connection_pool_events.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   ï¿½   errors.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   ï¿½   metrics.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   ï¿½   stream_description.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   ï¿½   
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   +---auth
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   ï¿½   ï¿½   auth_provider.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   ï¿½   ï¿½   aws_temporary_credentials.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   ï¿½   ï¿½   gssapi.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   ï¿½   ï¿½   mongodb_aws.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   ï¿½   ï¿½   mongodb_oidc.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   ï¿½   ï¿½   mongo_credentials.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   ï¿½   ï¿½   plain.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   ï¿½   ï¿½   providers.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   ï¿½   ï¿½   scram.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   ï¿½   ï¿½   x509.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   ï¿½   ï¿½   
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   ï¿½   +---mongodb_oidc
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   ï¿½           automated_callback_workflow.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   ï¿½           azure_machine_workflow.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   ï¿½           callback_workflow.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   ï¿½           command_builders.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   ï¿½           gcp_machine_workflow.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   ï¿½           human_callback_workflow.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   ï¿½           k8s_machine_workflow.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   ï¿½           token_cache.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   ï¿½           token_machine_workflow.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   ï¿½           
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   +---handshake
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   ï¿½       client_metadata.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   ï¿½       
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   +---wire_protocol
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½       ï¿½   compression.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½       ï¿½   constants.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½       ï¿½   on_data.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½       ï¿½   responses.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½       ï¿½   shared.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½       ï¿½   
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½       +---on_demand
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½               document.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½               
+ï¿½   ï¿½   ï¿½   ï¿½       +---cursor
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½       abstract_cursor.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½       aggregation_cursor.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½       change_stream_cursor.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½       client_bulk_write_cursor.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½       explainable_cursor.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½       find_cursor.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½       list_collections_cursor.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½       list_indexes_cursor.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½       list_search_indexes_cursor.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½       run_command_cursor.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½       
+ï¿½   ï¿½   ï¿½   ï¿½       +---gridfs
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½       download.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½       index.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½       upload.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½       
+ï¿½   ï¿½   ï¿½   ï¿½       +---operations
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   ï¿½   aggregate.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   ï¿½   command.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   ï¿½   count.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   ï¿½   create_collection.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   ï¿½   delete.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   ï¿½   distinct.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   ï¿½   drop.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   ï¿½   estimated_document_count.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   ï¿½   execute_operation.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   ï¿½   find.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   ï¿½   find_and_modify.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   ï¿½   get_more.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   ï¿½   indexes.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   ï¿½   insert.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   ï¿½   kill_cursors.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   ï¿½   list_collections.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   ï¿½   list_databases.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   ï¿½   operation.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   ï¿½   profiling_level.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   ï¿½   remove_user.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   ï¿½   rename.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   ï¿½   run_command.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   ï¿½   set_profiling_level.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   ï¿½   stats.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   ï¿½   update.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   ï¿½   validate_collection.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   ï¿½   
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   +---client_bulk_write
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   ï¿½       client_bulk_write.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   ï¿½       command_builder.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   ï¿½       common.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   ï¿½       executor.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   ï¿½       results_merger.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   ï¿½       
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½   +---search_indexes
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½           create.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½           drop.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½           update.ts
+ï¿½   ï¿½   ï¿½   ï¿½       ï¿½           
+ï¿½   ï¿½   ï¿½   ï¿½       +---sdam
+ï¿½   ï¿½   ï¿½   ï¿½               common.ts
+ï¿½   ï¿½   ï¿½   ï¿½               events.ts
+ï¿½   ï¿½   ï¿½   ï¿½               monitor.ts
+ï¿½   ï¿½   ï¿½   ï¿½               server.ts
+ï¿½   ï¿½   ï¿½   ï¿½               server_description.ts
+ï¿½   ï¿½   ï¿½   ï¿½               server_selection.ts
+ï¿½   ï¿½   ï¿½   ï¿½               server_selection_events.ts
+ï¿½   ï¿½   ï¿½   ï¿½               srv_polling.ts
+ï¿½   ï¿½   ï¿½   ï¿½               topology.ts
+ï¿½   ï¿½   ï¿½   ï¿½               topology_description.ts
+ï¿½   ï¿½   ï¿½   ï¿½               
+ï¿½   ï¿½   ï¿½   +---mongodb-connection-string-url
+ï¿½   ï¿½   ï¿½       ï¿½   .esm-wrapper.mjs
+ï¿½   ï¿½   ï¿½       ï¿½   LICENSE
+ï¿½   ï¿½   ï¿½       ï¿½   package.json
+ï¿½   ï¿½   ï¿½       ï¿½   README.md
+ï¿½   ï¿½   ï¿½       ï¿½   
+ï¿½   ï¿½   ï¿½       +---lib
+ï¿½   ï¿½   ï¿½               index.d.ts
+ï¿½   ï¿½   ï¿½               index.js
+ï¿½   ï¿½   ï¿½               index.js.map
+ï¿½   ï¿½   ï¿½               redact.d.ts
+ï¿½   ï¿½   ï¿½               redact.js
+ï¿½   ï¿½   ï¿½               redact.js.map
+ï¿½   ï¿½   ï¿½               
+ï¿½   ï¿½   +---types
+ï¿½   ï¿½           aggregate.d.ts
+ï¿½   ï¿½           augmentations.d.ts
+ï¿½   ï¿½           callback.d.ts
+ï¿½   ï¿½           collection.d.ts
+ï¿½   ï¿½           connection.d.ts
+ï¿½   ï¿½           cursor.d.ts
+ï¿½   ï¿½           document.d.ts
+ï¿½   ï¿½           error.d.ts
+ï¿½   ï¿½           expressions.d.ts
+ï¿½   ï¿½           helpers.d.ts
+ï¿½   ï¿½           index.d.ts
+ï¿½   ï¿½           indexes.d.ts
+ï¿½   ï¿½           inferrawdoctype.d.ts
+ï¿½   ï¿½           inferschematype.d.ts
+ï¿½   ï¿½           middlewares.d.ts
+ï¿½   ï¿½           models.d.ts
+ï¿½   ï¿½           mongooseoptions.d.ts
+ï¿½   ï¿½           pipelinestage.d.ts
+ï¿½   ï¿½           populate.d.ts
+ï¿½   ï¿½           query.d.ts
+ï¿½   ï¿½           schemaoptions.d.ts
+ï¿½   ï¿½           schematypes.d.ts
+ï¿½   ï¿½           session.d.ts
+ï¿½   ï¿½           types.d.ts
+ï¿½   ï¿½           utility.d.ts
+ï¿½   ï¿½           validation.d.ts
+ï¿½   ï¿½           virtuals.d.ts
+ï¿½   ï¿½           
+ï¿½   +---mpath
+ï¿½   ï¿½   ï¿½   .travis.yml
+ï¿½   ï¿½   ï¿½   History.md
+ï¿½   ï¿½   ï¿½   index.js
+ï¿½   ï¿½   ï¿½   LICENSE
+ï¿½   ï¿½   ï¿½   package.json
+ï¿½   ï¿½   ï¿½   README.md
+ï¿½   ï¿½   ï¿½   SECURITY.md
+ï¿½   ï¿½   ï¿½   
+ï¿½   ï¿½   +---lib
+ï¿½   ï¿½   ï¿½       index.js
+ï¿½   ï¿½   ï¿½       stringToParts.js
+ï¿½   ï¿½   ï¿½       
+ï¿½   ï¿½   +---test
+ï¿½   ï¿½           .eslintrc.yml
+ï¿½   ï¿½           index.js
+ï¿½   ï¿½           stringToParts.js
+ï¿½   ï¿½           
+ï¿½   +---mquery
+ï¿½   ï¿½   ï¿½   History.md
+ï¿½   ï¿½   ï¿½   LICENSE
+ï¿½   ï¿½   ï¿½   package.json
+ï¿½   ï¿½   ï¿½   README.md
+ï¿½   ï¿½   ï¿½   SECURITY.md
+ï¿½   ï¿½   ï¿½   
+ï¿½   ï¿½   +---.github
+ï¿½   ï¿½   ï¿½       ISSUE_TEMPLATE.md
+ï¿½   ï¿½   ï¿½       PULL_REQUEST_TEMPLATE.md
+ï¿½   ï¿½   ï¿½       
+ï¿½   ï¿½   +---lib
+ï¿½   ï¿½       ï¿½   env.js
+ï¿½   ï¿½       ï¿½   mquery.js
+ï¿½   ï¿½       ï¿½   permissions.js
+ï¿½   ï¿½       ï¿½   utils.js
+ï¿½   ï¿½       ï¿½   
+ï¿½   ï¿½       +---collection
+ï¿½   ï¿½               collection.js
+ï¿½   ï¿½               index.js
+ï¿½   ï¿½               node.js
+ï¿½   ï¿½               
+ï¿½   +---ms
+ï¿½   ï¿½       index.js
+ï¿½   ï¿½       license.md
+ï¿½   ï¿½       package.json
+ï¿½   ï¿½       readme.md
+ï¿½   ï¿½       
+ï¿½   +---negotiator
+ï¿½   ï¿½   ï¿½   HISTORY.md
+ï¿½   ï¿½   ï¿½   index.js
+ï¿½   ï¿½   ï¿½   LICENSE
+ï¿½   ï¿½   ï¿½   package.json
+ï¿½   ï¿½   ï¿½   README.md
+ï¿½   ï¿½   ï¿½   
+ï¿½   ï¿½   +---lib
+ï¿½   ï¿½           charset.js
+ï¿½   ï¿½           encoding.js
+ï¿½   ï¿½           language.js
+ï¿½   ï¿½           mediaType.js
+ï¿½   ï¿½           
+ï¿½   +---object-inspect
+ï¿½   ï¿½   ï¿½   .eslintrc
+ï¿½   ï¿½   ï¿½   .nycrc
+ï¿½   ï¿½   ï¿½   CHANGELOG.md
+ï¿½   ï¿½   ï¿½   index.js
+ï¿½   ï¿½   ï¿½   LICENSE
+ï¿½   ï¿½   ï¿½   package-support.json
+ï¿½   ï¿½   ï¿½   package.json
+ï¿½   ï¿½   ï¿½   readme.markdown
+ï¿½   ï¿½   ï¿½   test-core-js.js
+ï¿½   ï¿½   ï¿½   util.inspect.js
+ï¿½   ï¿½   ï¿½   
+ï¿½   ï¿½   +---.github
+ï¿½   ï¿½   ï¿½       FUNDING.yml
+ï¿½   ï¿½   ï¿½       
+ï¿½   ï¿½   +---example
+ï¿½   ï¿½   ï¿½       all.js
+ï¿½   ï¿½   ï¿½       circular.js
+ï¿½   ï¿½   ï¿½       fn.js
+ï¿½   ï¿½   ï¿½       inspect.js
+ï¿½   ï¿½   ï¿½       
+ï¿½   ï¿½   +---test
+ï¿½   ï¿½       ï¿½   bigint.js
+ï¿½   ï¿½       ï¿½   circular.js
+ï¿½   ï¿½       ï¿½   deep.js
+ï¿½   ï¿½       ï¿½   element.js
+ï¿½   ï¿½       ï¿½   err.js
+ï¿½   ï¿½       ï¿½   fakes.js
+ï¿½   ï¿½       ï¿½   fn.js
+ï¿½   ï¿½       ï¿½   global.js
+ï¿½   ï¿½       ï¿½   has.js
+ï¿½   ï¿½       ï¿½   holes.js
+ï¿½   ï¿½       ï¿½   indent-option.js
+ï¿½   ï¿½       ï¿½   inspect.js
+ï¿½   ï¿½       ï¿½   lowbyte.js
+ï¿½   ï¿½       ï¿½   number.js
+ï¿½   ï¿½       ï¿½   quoteStyle.js
+ï¿½   ï¿½       ï¿½   toStringTag.js
+ï¿½   ï¿½       ï¿½   undef.js
+ï¿½   ï¿½       ï¿½   values.js
+ï¿½   ï¿½       ï¿½   
+ï¿½   ï¿½       +---browser
+ï¿½   ï¿½               dom.js
+ï¿½   ï¿½               
+ï¿½   +---on-finished
+ï¿½   ï¿½       HISTORY.md
+ï¿½   ï¿½       index.js
+ï¿½   ï¿½       LICENSE
+ï¿½   ï¿½       package.json
+ï¿½   ï¿½       README.md
+ï¿½   ï¿½       
+ï¿½   +---once
+ï¿½   ï¿½       LICENSE
+ï¿½   ï¿½       once.js
+ï¿½   ï¿½       package.json
+ï¿½   ï¿½       README.md
+ï¿½   ï¿½       
+ï¿½   +---parseurl
+ï¿½   ï¿½       HISTORY.md
+ï¿½   ï¿½       index.js
+ï¿½   ï¿½       LICENSE
+ï¿½   ï¿½       package.json
+ï¿½   ï¿½       README.md
+ï¿½   ï¿½       
+ï¿½   +---path-to-regexp
+ï¿½   ï¿½   ï¿½   LICENSE
+ï¿½   ï¿½   ï¿½   package.json
+ï¿½   ï¿½   ï¿½   Readme.md
+ï¿½   ï¿½   ï¿½   
+ï¿½   ï¿½   +---dist
+ï¿½   ï¿½           index.d.ts
+ï¿½   ï¿½           index.js
+ï¿½   ï¿½           index.js.map
+ï¿½   ï¿½           
+ï¿½   +---proxy-addr
+ï¿½   ï¿½       HISTORY.md
+ï¿½   ï¿½       index.js
+ï¿½   ï¿½       LICENSE
+ï¿½   ï¿½       package.json
+ï¿½   ï¿½       README.md
+ï¿½   ï¿½       
+ï¿½   +---punycode
+ï¿½   ï¿½       LICENSE-MIT.txt
+ï¿½   ï¿½       package.json
+ï¿½   ï¿½       punycode.es6.js
+ï¿½   ï¿½       punycode.js
+ï¿½   ï¿½       README.md
+ï¿½   ï¿½       
+ï¿½   +---qs
+ï¿½   ï¿½   ï¿½   .editorconfig
+ï¿½   ï¿½   ï¿½   .eslintrc
+ï¿½   ï¿½   ï¿½   .nycrc
+ï¿½   ï¿½   ï¿½   CHANGELOG.md
+ï¿½   ï¿½   ï¿½   LICENSE.md
+ï¿½   ï¿½   ï¿½   package.json
+ï¿½   ï¿½   ï¿½   README.md
+ï¿½   ï¿½   ï¿½   
+ï¿½   ï¿½   +---.github
+ï¿½   ï¿½   ï¿½       FUNDING.yml
+ï¿½   ï¿½   ï¿½       
+ï¿½   ï¿½   +---dist
+ï¿½   ï¿½   ï¿½       qs.js
+ï¿½   ï¿½   ï¿½       
+ï¿½   ï¿½   +---lib
+ï¿½   ï¿½   ï¿½       formats.js
+ï¿½   ï¿½   ï¿½       index.js
+ï¿½   ï¿½   ï¿½       parse.js
+ï¿½   ï¿½   ï¿½       stringify.js
+ï¿½   ï¿½   ï¿½       utils.js
+ï¿½   ï¿½   ï¿½       
+ï¿½   ï¿½   +---test
+ï¿½   ï¿½           empty-keys-cases.js
+ï¿½   ï¿½           parse.js
+ï¿½   ï¿½           stringify.js
+ï¿½   ï¿½           utils.js
+ï¿½   ï¿½           
+ï¿½   +---range-parser
+ï¿½   ï¿½       HISTORY.md
+ï¿½   ï¿½       index.js
+ï¿½   ï¿½       LICENSE
+ï¿½   ï¿½       package.json
+ï¿½   ï¿½       README.md
+ï¿½   ï¿½       
+ï¿½   +---raw-body
+ï¿½   ï¿½   ï¿½   HISTORY.md
+ï¿½   ï¿½   ï¿½   index.d.ts
+ï¿½   ï¿½   ï¿½   index.js
+ï¿½   ï¿½   ï¿½   LICENSE
+ï¿½   ï¿½   ï¿½   package.json
+ï¿½   ï¿½   ï¿½   README.md
+ï¿½   ï¿½   ï¿½   SECURITY.md
+ï¿½   ï¿½   ï¿½   
+ï¿½   ï¿½   +---node_modules
+ï¿½   ï¿½       +---iconv-lite
+ï¿½   ï¿½           ï¿½   Changelog.md
+ï¿½   ï¿½           ï¿½   LICENSE
+ï¿½   ï¿½           ï¿½   package.json
+ï¿½   ï¿½           ï¿½   README.md
+ï¿½   ï¿½           ï¿½   
+ï¿½   ï¿½           +---encodings
+ï¿½   ï¿½           ï¿½   ï¿½   dbcs-codec.js
+ï¿½   ï¿½           ï¿½   ï¿½   dbcs-data.js
+ï¿½   ï¿½           ï¿½   ï¿½   index.js
+ï¿½   ï¿½           ï¿½   ï¿½   internal.js
+ï¿½   ï¿½           ï¿½   ï¿½   sbcs-codec.js
+ï¿½   ï¿½           ï¿½   ï¿½   sbcs-data-generated.js
+ï¿½   ï¿½           ï¿½   ï¿½   sbcs-data.js
+ï¿½   ï¿½           ï¿½   ï¿½   utf16.js
+ï¿½   ï¿½           ï¿½   ï¿½   utf32.js
+ï¿½   ï¿½           ï¿½   ï¿½   utf7.js
+ï¿½   ï¿½           ï¿½   ï¿½   
+ï¿½   ï¿½           ï¿½   +---tables
+ï¿½   ï¿½           ï¿½           big5-added.json
+ï¿½   ï¿½           ï¿½           cp936.json
+ï¿½   ï¿½           ï¿½           cp949.json
+ï¿½   ï¿½           ï¿½           cp950.json
+ï¿½   ï¿½           ï¿½           eucjp.json
+ï¿½   ï¿½           ï¿½           gb18030-ranges.json
+ï¿½   ï¿½           ï¿½           gbk-added.json
+ï¿½   ï¿½           ï¿½           shiftjis.json
+ï¿½   ï¿½           ï¿½           
+ï¿½   ï¿½           +---lib
+ï¿½   ï¿½               ï¿½   bom-handling.js
+ï¿½   ï¿½               ï¿½   index.d.ts
+ï¿½   ï¿½               ï¿½   index.js
+ï¿½   ï¿½               ï¿½   streams.js
+ï¿½   ï¿½               ï¿½   
+ï¿½   ï¿½               +---helpers
+ï¿½   ï¿½                       merge-exports.js
+ï¿½   ï¿½                       
+ï¿½   +---router
+ï¿½   ï¿½   ï¿½   HISTORY.md
+ï¿½   ï¿½   ï¿½   index.js
+ï¿½   ï¿½   ï¿½   LICENSE
+ï¿½   ï¿½   ï¿½   package.json
+ï¿½   ï¿½   ï¿½   README.md
+ï¿½   ï¿½   ï¿½   
+ï¿½   ï¿½   +---lib
+ï¿½   ï¿½           layer.js
+ï¿½   ï¿½           route.js
+ï¿½   ï¿½           
+ï¿½   +---safe-buffer
+ï¿½   ï¿½       index.d.ts
+ï¿½   ï¿½       index.js
+ï¿½   ï¿½       LICENSE
+ï¿½   ï¿½       package.json
+ï¿½   ï¿½       README.md
+ï¿½   ï¿½       
+ï¿½   +---safer-buffer
+ï¿½   ï¿½       dangerous.js
+ï¿½   ï¿½       LICENSE
+ï¿½   ï¿½       package.json
+ï¿½   ï¿½       Porting-Buffer.md
+ï¿½   ï¿½       Readme.md
+ï¿½   ï¿½       safer.js
+ï¿½   ï¿½       tests.js
+ï¿½   ï¿½       
+ï¿½   +---send
+ï¿½   ï¿½       HISTORY.md
+ï¿½   ï¿½       index.js
+ï¿½   ï¿½       LICENSE
+ï¿½   ï¿½       package.json
+ï¿½   ï¿½       README.md
+ï¿½   ï¿½       
+ï¿½   +---serve-static
+ï¿½   ï¿½       HISTORY.md
+ï¿½   ï¿½       index.js
+ï¿½   ï¿½       LICENSE
+ï¿½   ï¿½       package.json
+ï¿½   ï¿½       README.md
+ï¿½   ï¿½       
+ï¿½   +---setprototypeof
+ï¿½   ï¿½   ï¿½   index.d.ts
+ï¿½   ï¿½   ï¿½   index.js
+ï¿½   ï¿½   ï¿½   LICENSE
+ï¿½   ï¿½   ï¿½   package.json
+ï¿½   ï¿½   ï¿½   README.md
+ï¿½   ï¿½   ï¿½   
+ï¿½   ï¿½   +---test
+ï¿½   ï¿½           index.js
+ï¿½   ï¿½           
+ï¿½   +---side-channel
+ï¿½   ï¿½   ï¿½   .editorconfig
+ï¿½   ï¿½   ï¿½   .eslintrc
+ï¿½   ï¿½   ï¿½   .nycrc
+ï¿½   ï¿½   ï¿½   CHANGELOG.md
+ï¿½   ï¿½   ï¿½   index.d.ts
+ï¿½   ï¿½   ï¿½   index.js
+ï¿½   ï¿½   ï¿½   LICENSE
+ï¿½   ï¿½   ï¿½   package.json
+ï¿½   ï¿½   ï¿½   README.md
+ï¿½   ï¿½   ï¿½   tsconfig.json
+ï¿½   ï¿½   ï¿½   
+ï¿½   ï¿½   +---.github
+ï¿½   ï¿½   ï¿½       FUNDING.yml
+ï¿½   ï¿½   ï¿½       
+ï¿½   ï¿½   +---test
+ï¿½   ï¿½           index.js
+ï¿½   ï¿½           
+ï¿½   +---side-channel-list
+ï¿½   ï¿½   ï¿½   .editorconfig
+ï¿½   ï¿½   ï¿½   .eslintrc
+ï¿½   ï¿½   ï¿½   .nycrc
+ï¿½   ï¿½   ï¿½   CHANGELOG.md
+ï¿½   ï¿½   ï¿½   index.d.ts
+ï¿½   ï¿½   ï¿½   index.js
+ï¿½   ï¿½   ï¿½   LICENSE
+ï¿½   ï¿½   ï¿½   list.d.ts
+ï¿½   ï¿½   ï¿½   package.json
+ï¿½   ï¿½   ï¿½   README.md
+ï¿½   ï¿½   ï¿½   tsconfig.json
+ï¿½   ï¿½   ï¿½   
+ï¿½   ï¿½   +---.github
+ï¿½   ï¿½   ï¿½       FUNDING.yml
+ï¿½   ï¿½   ï¿½       
+ï¿½   ï¿½   +---test
+ï¿½   ï¿½           index.js
+ï¿½   ï¿½           
+ï¿½   +---side-channel-map
+ï¿½   ï¿½   ï¿½   .editorconfig
+ï¿½   ï¿½   ï¿½   .eslintrc
+ï¿½   ï¿½   ï¿½   .nycrc
+ï¿½   ï¿½   ï¿½   CHANGELOG.md
+ï¿½   ï¿½   ï¿½   index.d.ts
+ï¿½   ï¿½   ï¿½   index.js
+ï¿½   ï¿½   ï¿½   LICENSE
+ï¿½   ï¿½   ï¿½   package.json
+ï¿½   ï¿½   ï¿½   README.md
+ï¿½   ï¿½   ï¿½   tsconfig.json
+ï¿½   ï¿½   ï¿½   
+ï¿½   ï¿½   +---.github
+ï¿½   ï¿½   ï¿½       FUNDING.yml
+ï¿½   ï¿½   ï¿½       
+ï¿½   ï¿½   +---test
+ï¿½   ï¿½           index.js
+ï¿½   ï¿½           
+ï¿½   +---side-channel-weakmap
+ï¿½   ï¿½   ï¿½   .editorconfig
+ï¿½   ï¿½   ï¿½   .eslintrc
+ï¿½   ï¿½   ï¿½   .nycrc
+ï¿½   ï¿½   ï¿½   CHANGELOG.md
+ï¿½   ï¿½   ï¿½   index.d.ts
+ï¿½   ï¿½   ï¿½   index.js
+ï¿½   ï¿½   ï¿½   LICENSE
+ï¿½   ï¿½   ï¿½   package.json
+ï¿½   ï¿½   ï¿½   README.md
+ï¿½   ï¿½   ï¿½   tsconfig.json
+ï¿½   ï¿½   ï¿½   
+ï¿½   ï¿½   +---.github
+ï¿½   ï¿½   ï¿½       FUNDING.yml
+ï¿½   ï¿½   ï¿½       
+ï¿½   ï¿½   +---test
+ï¿½   ï¿½           index.js
+ï¿½   ï¿½           
+ï¿½   +---sift
+ï¿½   ï¿½   ï¿½   index.d.ts
+ï¿½   ï¿½   ï¿½   index.js
+ï¿½   ï¿½   ï¿½   MIT-LICENSE.txt
+ï¿½   ï¿½   ï¿½   package.json
+ï¿½   ï¿½   ï¿½   README.md
+ï¿½   ï¿½   ï¿½   sift.csp.min.js
+ï¿½   ï¿½   ï¿½   sift.csp.min.js.map
+ï¿½   ï¿½   ï¿½   sift.min.js
+ï¿½   ï¿½   ï¿½   sift.min.js.map
+ï¿½   ï¿½   ï¿½   
+ï¿½   ï¿½   +---es
+ï¿½   ï¿½   ï¿½       index.js
+ï¿½   ï¿½   ï¿½       index.js.map
+ï¿½   ï¿½   ï¿½       
+ï¿½   ï¿½   +---es5m
+ï¿½   ï¿½   ï¿½       index.js
+ï¿½   ï¿½   ï¿½       index.js.map
+ï¿½   ï¿½   ï¿½       
+ï¿½   ï¿½   +---lib
+ï¿½   ï¿½   ï¿½       core.d.ts
+ï¿½   ï¿½   ï¿½       index.d.ts
+ï¿½   ï¿½   ï¿½       index.js
+ï¿½   ï¿½   ï¿½       index.js.map
+ï¿½   ï¿½   ï¿½       operations.d.ts
+ï¿½   ï¿½   ï¿½       utils.d.ts
+ï¿½   ï¿½   ï¿½       
+ï¿½   ï¿½   +---src
+ï¿½   ï¿½           core.ts
+ï¿½   ï¿½           index.ts
+ï¿½   ï¿½           operations.ts
+ï¿½   ï¿½           utils.ts
+ï¿½   ï¿½           
+ï¿½   +---sparse-bitfield
+ï¿½   ï¿½       .npmignore
+ï¿½   ï¿½       .travis.yml
+ï¿½   ï¿½       index.js
+ï¿½   ï¿½       LICENSE
+ï¿½   ï¿½       package.json
+ï¿½   ï¿½       README.md
+ï¿½   ï¿½       test.js
+ï¿½   ï¿½       
+ï¿½   +---statuses
+ï¿½   ï¿½       codes.json
+ï¿½   ï¿½       HISTORY.md
+ï¿½   ï¿½       index.js
+ï¿½   ï¿½       LICENSE
+ï¿½   ï¿½       package.json
+ï¿½   ï¿½       README.md
+ï¿½   ï¿½       
+ï¿½   +---toidentifier
+ï¿½   ï¿½       HISTORY.md
+ï¿½   ï¿½       index.js
+ï¿½   ï¿½       LICENSE
+ï¿½   ï¿½       package.json
+ï¿½   ï¿½       README.md
+ï¿½   ï¿½       
+ï¿½   +---tr46
+ï¿½   ï¿½   ï¿½   index.js
+ï¿½   ï¿½   ï¿½   LICENSE.md
+ï¿½   ï¿½   ï¿½   package.json
+ï¿½   ï¿½   ï¿½   README.md
+ï¿½   ï¿½   ï¿½   
+ï¿½   ï¿½   +---lib
+ï¿½   ï¿½           mappingTable.json
+ï¿½   ï¿½           regexes.js
+ï¿½   ï¿½           statusMapping.js
+ï¿½   ï¿½           
+ï¿½   +---type-is
+ï¿½   ï¿½       HISTORY.md
+ï¿½   ï¿½       index.js
+ï¿½   ï¿½       LICENSE
+ï¿½   ï¿½       package.json
+ï¿½   ï¿½       README.md
+ï¿½   ï¿½       
+ï¿½   +---unpipe
+ï¿½   ï¿½       HISTORY.md
+ï¿½   ï¿½       index.js
+ï¿½   ï¿½       LICENSE
+ï¿½   ï¿½       package.json
+ï¿½   ï¿½       README.md
+ï¿½   ï¿½       
+ï¿½   +---vary
+ï¿½   ï¿½       HISTORY.md
+ï¿½   ï¿½       index.js
+ï¿½   ï¿½       LICENSE
+ï¿½   ï¿½       package.json
+ï¿½   ï¿½       README.md
+ï¿½   ï¿½       
+ï¿½   +---webidl-conversions
+ï¿½   ï¿½   ï¿½   LICENSE.md
+ï¿½   ï¿½   ï¿½   package.json
+ï¿½   ï¿½   ï¿½   README.md
+ï¿½   ï¿½   ï¿½   
+ï¿½   ï¿½   +---lib
+ï¿½   ï¿½           index.js
+ï¿½   ï¿½           
+ï¿½   +---whatwg-url
+ï¿½   ï¿½   ï¿½   index.js
+ï¿½   ï¿½   ï¿½   LICENSE.txt
+ï¿½   ï¿½   ï¿½   package.json
+ï¿½   ï¿½   ï¿½   README.md
+ï¿½   ï¿½   ï¿½   webidl2js-wrapper.js
+ï¿½   ï¿½   ï¿½   
+ï¿½   ï¿½   +---lib
+ï¿½   ï¿½           encoding.js
+ï¿½   ï¿½           Function.js
+ï¿½   ï¿½           infra.js
+ï¿½   ï¿½           percent-encoding.js
+ï¿½   ï¿½           URL-impl.js
+ï¿½   ï¿½           url-state-machine.js
+ï¿½   ï¿½           URL.js
+ï¿½   ï¿½           urlencoded.js
+ï¿½   ï¿½           URLSearchParams-impl.js
+ï¿½   ï¿½           URLSearchParams.js
+ï¿½   ï¿½           utils.js
+ï¿½   ï¿½           VoidFunction.js
+ï¿½   ï¿½           
+ï¿½   +---wrappy
+ï¿½           LICENSE
+ï¿½           package.json
+ï¿½           README.md
+ï¿½           wrappy.js
+ï¿½           
 +---routes
-¦       productRoutes.js
-¦       products.js
-¦       
+ï¿½       productRoutes.js
+ï¿½       products.js
+ï¿½       
 +---utils
         formatDateTime.js
         

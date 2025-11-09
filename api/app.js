@@ -1,7 +1,7 @@
 import express from "express";
 import mongoose from "mongoose";
 import dotenv from "dotenv";
-import productRoutes from "./routes/productRoutes.js";
+import productRoutes from "../routes/productRoutes.js";
 
 /*Sir's Style of Using Middleware ... 
 
@@ -77,7 +77,7 @@ mongoose
   .connect(process.env.MONGODB_URI)
   .then(() => {
     console.log("✅ MongoDB Connected Successfully");
-    app.listen(PORT, () => console.log(`🚀 Server running on http://localhost:${PORT}`));
+    // app.listen(PORT, () => console.log(`🚀 Server running on http://localhost:${PORT}`));
   })
   .catch((err) => console.error("❌ MongoDB Connection Failed:", err));
 
@@ -90,3 +90,6 @@ app.use("/api/products", productRoutes);
 app.use((req, res) => {
   res.status(404).json({ message: "Route not found" });
 });
+
+
+export default app;
